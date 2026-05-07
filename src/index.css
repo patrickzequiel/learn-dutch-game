@@ -1540,8 +1540,19 @@ body::before {
 }
 
 .theme-bundle-card {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  font-family: 'Nunito', inherit;
   animation: cardIn 0.4s cubic-bezier(0.22,1,0.36,1) both;
+  transition: transform 0.2s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.18s, border-color 0.18s;
 }
+.theme-bundle-card:hover {
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--primary);
+}
+.theme-bundle-card:active { transform: scale(0.97); }
 
 .tbc-top {
   display: flex;
@@ -1577,6 +1588,12 @@ body::before {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
+}
+
+.tbc-arrow {
+  font-size: 0.85rem;
+  color: var(--muted);
   flex-shrink: 0;
 }
 

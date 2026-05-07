@@ -6,12 +6,12 @@ import { getAllVocabulary, getAllGrammar } from '../../data';
 type DashTab = 'lessen' | 'themas' | 'grammatica';
 
 const THEME_BUNDLES = [
-  { id: 'stad',          label: 'Stad & Vrije tijd',     emoji: '🏙️', lessonIds: ['les1', 'les3'] },
-  { id: 'tijden',        label: 'Tijden & Verhalen',      emoji: '📖', lessonIds: ['les2', 'les4'] },
-  { id: 'communicatie',  label: 'Communicatie',           emoji: '💬', lessonIds: ['les5', 'conjuncties'] },
-  { id: 'opvoeding',     label: 'Opvoeding',              emoji: '👶', lessonIds: ['les6', 'les7'] },
-  { id: 'zorg',          label: 'Zorg & Samenleving',     emoji: '🤝', lessonIds: ['les8', 'les9', 'les10'] },
-  { id: 'natuur',        label: 'Natuur & Milieu',        emoji: '🌿', lessonIds: ['les11'] },
+  { id: 'uitstap',      label: 'Uitstap & Reizen',       emoji: '✈️', lessonIds: ['les1', 'les3'] },
+  { id: 'tijden',       label: 'Tijden & Verhalen',       emoji: '📖', lessonIds: ['les2', 'les4'] },
+  { id: 'communicatie', label: 'Klachten & Conjuncties',  emoji: '💬', lessonIds: ['les5', 'conjuncties'] },
+  { id: 'opvoeding',    label: 'Kinderen Opvoeden',       emoji: '👶', lessonIds: ['les6', 'les7'] },
+  { id: 'zorg',         label: 'Zorgen voor Elkaar',      emoji: '🤝', lessonIds: ['les8', 'les9', 'les10'] },
+  { id: 'natuur',       label: 'Natuur & Milieu',         emoji: '🌿', lessonIds: ['les11'] },
 ];
 
 const GRAMMAR_CATS = [
@@ -199,29 +199,23 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
               const pct = allVocab.length > 0 ? Math.round((mastered / allVocab.length) * 100) : 0;
 
               return (
-                <div key={bundle.id} className="theme-bundle-card card" style={{ animationDelay: `${i * 0.06}s` }}>
+                <button key={bundle.id} className="theme-bundle-card card"
+                  style={{ animationDelay: `${i * 0.06}s` }}
+                  onClick={() => onStartMix(bundle.lessonIds)}>
                   <div className="tbc-top">
                     <span className="tbc-emoji">{bundle.emoji}</span>
                     <div className="tbc-info">
                       <div className="tbc-label">{bundle.label}</div>
                       <div className="tbc-meta">{allVocab.length} woorden · {pct}% geleerd</div>
                     </div>
-                    {pct === 100 && <span className="tbc-done">✓</span>}
+                    {pct === 100
+                      ? <span className="tbc-done">✓</span>
+                      : <span className="tbc-arrow">▶</span>}
                   </div>
                   <div className="mastery-bar tbc-bar">
                     <div className="mastery-mastered" style={{ width: `${pct}%` }} />
                   </div>
-                  <div className="tbc-actions">
-                    {bundleLessons.map(l => (
-                      <button key={l.id} className="btn btn-secondary btn-sm" onClick={() => onSelectLesson(l.id)}>
-                        {l.number > 0 ? `Les ${l.number}` : 'Extra'}
-                      </button>
-                    ))}
-                    <button className="btn btn-primary btn-sm" onClick={() => onStartMix(bundle.lessonIds)}>
-                      🔀 Mix
-                    </button>
-                  </div>
-                </div>
+                </button>
               );
             })}
           </div>
