@@ -1,13 +1,21 @@
 import { useState } from 'react';
-import { Lesson, LessonTab, GameType } from '../../types';
+import type { Lesson, LessonTab, GameType, AppProgress } from '../../types';
 
 interface Props {
   lesson: Lesson;
+  progress: AppProgress;
   onBack: () => void;
   onStartGame: (type: GameType, lessonId: string) => void;
 }
 
-export function LessonView({ lesson, onBack, onStartGame }: Props) {
+function getMasteryState(id: string, progress: AppProgress): 'unseen' | 'learning' | 'mastered' {
+  const card = progress.cards[id];
+  if (!card || card.repetitions === 0) return 'unseen';
+  if (card.repetitions >= 3 && card.easeFactor >= 2.3) return 'mastered';
+  return 'learning';
+}
+
+export function LessonView({ lesson, progress, onBack, onStartGame }: Props) {
   const [tab, setTab] = useState<LessonTab>('concepten');
   const [showTranslations, setShowTranslations] = useState(true);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -15,6 +23,7 @@ export function LessonView({ lesson, onBack, onStartGame }: Props) {
   const hasMatching = lesson.exercises.some(e => e.type === 'matching');
   const hasMultiple = lesson.exercises.some(e => e.type === 'multiple-choice');
   const hasFillIn = lesson.exercises.some(e => e.type === 'fill-in-blank');
+  const hasWordOrder = lesson.vocabulary.some(v => v.example && v.example.split(/\s+/).length >= 3);
 
   return (
     <div className="screen">
@@ -72,19 +81,25 @@ export function LessonView({ lesson, onBack, onStartGame }: Props) {
             </button>
           </div>
           <div className="vocab-grid">
-            {lesson.vocabulary.map(v => (
-              <div key={v.id} className="vocab-card card">
-                <div className="vocab-dutch">{v.dutch}</div>
-                {showTranslations && (
-                  <>
-                    <div className="vocab-translation">{v.translation}</div>
-                    <div className="vocab-example"><em>{v.example}</em></div>
-                    <div className="vocab-example-tr">{v.exampleTranslation}</div>
-                  </>
-                )}
-                <span className="vocab-category">{v.category}</span>
-              </div>
-            ))}
+            {lesson.vocabulary.map(v => {
+              const state = getMasteryState(v.id, progress);
+              return (
+                <div key={v.id} className="vocab-card card">
+                  <div className="vocab-card-top">
+                    <div className="vocab-dutch">{v.dutch}</div>
+                    <span className={`mastery-dot mastery-dot-${state}`} title={state === 'mastered' ? 'Geleerd' : state === 'learning' ? 'Bezig' : 'Nieuw'} />
+                  </div>
+                  {showTranslations && (
+                    <>
+                      <div className="vocab-translation">{v.translation}</div>
+                      <div className="vocab-example"><em>{v.example}</em></div>
+                      <div className="vocab-example-tr">{v.exampleTranslation}</div>
+                    </>
+                  )}
+                  <span className="vocab-category">{v.category}</span>
+                </div>
+              );
+            })}
           </div>
         </div>
       )}
@@ -99,6 +114,15 @@ export function LessonView({ lesson, onBack, onStartGame }: Props) {
                 <div className="game-desc">Studeer alle {lesson.vocabulary.length} woorden met herhaling</div>
               </div>
             </div>
+            {hasWordOrder && (
+              <div className="game-option card" onClick={() => onStartGame('word-order', lesson.id)}>
+                <div className="game-icon">🔀</div>
+                <div>
+                  <div className="game-name">Woordvolgorde</div>
+                  <div className="game-desc">Bouw zinnen met de juiste woordvolgorde</div>
+                </div>
+              </div>
+            )}
             {hasMultiple && (
               <div className="game-option card" onClick={() => onStartGame('multiple-choice', lesson.id)}>
                 <div className="game-icon">🔤</div>

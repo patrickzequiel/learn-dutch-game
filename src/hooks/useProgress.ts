@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { AppProgress, SRSRating, SRSCard } from '../types';
+import type { AppProgress, SRSRating, SRSCard, VocabularyItem } from '../types';
 import { loadProgress, saveProgress } from '../lib/storage';
 import { createCard, updateCard, getDueCards } from '../lib/srs';
 import { getAllVocabulary, getAllExercises } from '../data';
@@ -20,7 +20,9 @@ export function useProgress() {
       const existing = prev.cards[cardId] ?? createCard(cardId, type);
       const updated = updateCard(existing, rating);
       const xpGain = rating >= 3 ? 10 : 2;
-      return { ...prev, cards: { ...prev.cards, [cardId]: updated }, totalXP: prev.totalXP + xpGain };
+      const today = new Date().toISOString().slice(0, 10);
+      const xpLog = { ...(prev.xpLog ?? {}), [today]: ((prev.xpLog ?? {})[today] ?? 0) + xpGain };
+      return { ...prev, cards: { ...prev.cards, [cardId]: updated }, totalXP: prev.totalXP + xpGain, xpLog };
     });
   }, [updateAndSave]);
 
@@ -56,15 +58,37 @@ export function useProgress() {
     }));
   }, [updateAndSave]);
 
+  // Fixed: only increment streak once per calendar day
   const updateStreak = useCallback(() => {
     updateAndSave(prev => {
-      const today = new Date().setHours(0, 0, 0, 0);
-      const lastDay = new Date(prev.lastSession).setHours(0, 0, 0, 0);
-      const diff = today - lastDay;
-      const newStreak = diff <= 86400000 ? prev.streak + 1 : 1;
+      const todayStr = new Date().toDateString();
+      const lastStr = new Date(prev.lastSession).toDateString();
+      if (todayStr === lastStr) {
+        return { ...prev, lastSession: Date.now() };
+      }
+      const todayMs = new Date().setHours(0, 0, 0, 0);
+      const lastMs = new Date(prev.lastSession).setHours(0, 0, 0, 0);
+      const diffDays = (todayMs - lastMs) / 86400000;
+      const newStreak = diffDays <= 1 ? prev.streak + 1 : 1;
       return { ...prev, streak: newStreak, lastSession: Date.now() };
     });
   }, [updateAndSave]);
 
-  return { progress, rateCard, getDueReviewCards, getCardForItem, initCardsForLesson, completeLesson, updateStreak };
+  const getWeakVocabItems = useCallback((): VocabularyItem[] => {
+    return getAllVocabulary().filter(v => {
+      const card = progress.cards[v.id];
+      return card && (card.lapses >= 2 || card.easeFactor < 2.0);
+    });
+  }, [progress.cards]);
+
+  return {
+    progress,
+    rateCard,
+    getDueReviewCards,
+    getCardForItem,
+    initCardsForLesson,
+    completeLesson,
+    updateStreak,
+    getWeakVocabItems,
+  };
 }

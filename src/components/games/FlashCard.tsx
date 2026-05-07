@@ -1,12 +1,41 @@
 import { useState } from 'react';
-import { VocabularyItem, SRSRating } from '../../types';
+import type { VocabularyItem, SRSRating, SRSCard } from '../../types';
+import { updateCard } from '../../lib/srs';
 
 interface Props {
   item: VocabularyItem;
   onRate: (rating: SRSRating) => void;
+  srsCard?: SRSCard;
 }
 
-export function FlashCard({ item, onRate }: Props) {
+function scheduleLabel(card: SRSCard | undefined, rating: SRSRating): string {
+  if (!card) {
+    return rating <= 2 ? 'Morgen' : rating === 3 ? '6 dagen' : '6 dagen';
+  }
+  const days = updateCard(card, rating).interval;
+  if (days <= 1) return 'Morgen';
+  if (days < 7) return `${days} dagen`;
+  if (days < 30) return `${Math.round(days / 7)} wk`;
+  return `${Math.round(days / 30)} mnd`;
+}
+
+function speak(text: string) {
+  if (!window.speechSynthesis) return;
+  window.speechSynthesis.cancel();
+  const utt = new SpeechSynthesisUtterance(text);
+  utt.lang = 'nl-NL';
+  utt.rate = 0.85;
+  window.speechSynthesis.speak(utt);
+}
+
+const RATING_CONFIG: Array<{ label: string; cls: string; rating: SRSRating }> = [
+  { label: '😰 Weet ik niet', cls: 'btn btn-danger',  rating: 1 },
+  { label: '😕 Moeilijk',     cls: 'btn btn-warning', rating: 2 },
+  { label: '😊 Goed',         cls: 'btn btn-success', rating: 3 },
+  { label: '😄 Makkelijk',    cls: 'btn btn-primary', rating: 4 },
+];
+
+export function FlashCard({ item, onRate, srsCard }: Props) {
   const [flipped, setFlipped] = useState(false);
 
   return (
@@ -15,6 +44,13 @@ export function FlashCard({ item, onRate }: Props) {
         <div className="flashcard-face flashcard-front">
           <div className="flashcard-label">Nederlands</div>
           <div className="flashcard-word">{item.dutch}</div>
+          <button
+            className="audio-btn"
+            onClick={e => { e.stopPropagation(); speak(item.dutch); }}
+            aria-label="Uitspreken"
+          >
+            🔊
+          </button>
           <div className="flashcard-tap">Tik om te omdraaien</div>
         </div>
         <div className="flashcard-face flashcard-back">
@@ -31,10 +67,12 @@ export function FlashCard({ item, onRate }: Props) {
         <div className="rating-buttons">
           <p className="rating-label">Hoe goed kende je dit?</p>
           <div className="rating-grid">
-            <button className="btn btn-danger" onClick={() => onRate(1)}>😰 Weet ik niet</button>
-            <button className="btn btn-warning" onClick={() => onRate(2)}>😕 Moeilijk</button>
-            <button className="btn btn-success" onClick={() => onRate(3)}>😊 Goed</button>
-            <button className="btn btn-primary" onClick={() => onRate(4)}>😄 Makkelijk</button>
+            {RATING_CONFIG.map(({ label, cls, rating }) => (
+              <button key={rating} className={cls} onClick={() => onRate(rating)}>
+                {label}
+                <span className="schedule-hint">{scheduleLabel(srsCard, rating)}</span>
+              </button>
+            ))}
           </div>
         </div>
       )}

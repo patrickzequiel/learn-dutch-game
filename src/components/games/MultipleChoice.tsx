@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { MultipleChoiceExercise } from '../../types';
+import type { MultipleChoiceExercise } from '../../types';
 
 interface Props {
   exercise: MultipleChoiceExercise;
@@ -25,8 +25,9 @@ export function MultipleChoice({ exercise, onComplete }: Props) {
     <div className="game-card">
       <p className="question">{exercise.question}</p>
       <div className="options-grid">
-        {exercise.options.map(opt => (
+        {exercise.options.map((opt, i) => (
           <button key={opt} className={getClass(opt)} onClick={() => handleSelect(opt)}>
+            <span className="option-letter">{String.fromCharCode(65 + i)}</span>
             {opt}
           </button>
         ))}

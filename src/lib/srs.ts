@@ -1,4 +1,4 @@
-import { SRSCard, SRSRating } from '../types';
+import type { SRSCard, SRSRating } from '../types';
 
 export function createCard(id: string, type: 'vocabulary' | 'exercise'): SRSCard {
   return { id, type, interval: 0, easeFactor: 2.5, nextReview: Date.now(), repetitions: 0, lapses: 0 };

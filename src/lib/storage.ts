@@ -1,4 +1,4 @@
-import { AppProgress } from '../types';
+import type { AppProgress } from '../types';
 
 const KEY = 'dutch-game-progress';
 
@@ -8,6 +8,7 @@ const defaultProgress: AppProgress = {
   streak: 0,
   lastSession: 0,
   totalXP: 0,
+  xpLog: {},
 };
 
 export function loadProgress(): AppProgress {

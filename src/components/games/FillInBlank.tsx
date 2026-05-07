@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FillInBlankExercise } from '../../types';
+import type { FillInBlankExercise } from '../../types';
 
 interface Props {
   exercise: FillInBlankExercise;

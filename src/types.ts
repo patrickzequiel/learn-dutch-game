@@ -1,4 +1,4 @@
-export type GameType = 'flashcard' | 'multiple-choice' | 'fill-in-blank' | 'matching';
+export type GameType = 'flashcard' | 'multiple-choice' | 'fill-in-blank' | 'matching' | 'word-order';
 
 export interface VocabularyItem {
   id: string;
@@ -84,6 +84,7 @@ export interface AppProgress {
   streak: number;
   lastSession: number;
   totalXP: number;
+  xpLog: Record<string, number>; // YYYY-MM-DD → XP earned that day
 }
 
 export type LessonTab = 'concepten' | 'woordenschat' | 'oefenen';

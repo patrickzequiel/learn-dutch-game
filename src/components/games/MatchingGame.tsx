@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { MatchingExercise } from '../../types';
+import type { MatchingExercise } from '../../types';
 
 interface Props {
   exercise: MatchingExercise;
