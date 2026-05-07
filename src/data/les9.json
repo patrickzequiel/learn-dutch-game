@@ -1,0 +1,110 @@
+{
+  "id": "les9",
+  "number": 9,
+  "date": "2025-04-23",
+  "dateDisplay": "woensdag 23 april",
+  "theme": "Oud worden & Zorgen voor elkaar",
+  "subtheme": "'Er' als verwijswoord + reflexief werkwoord",
+  "topics": ["'Er' + reflexief werkwoord + prepositie", "Er + prepositie combos (ervoor/ermee/erover/erop)", "Thema oud worden en mantelzorg", "Woordenschat: sociaal isolement & woonzorgcentrum"],
+  "vocabulary": [
+    { "id": "l9-stiekem", "dutch": "stiekem", "translation": "a escondidas / secretly, sneakily", "example": "Hij at stiekem snoep terwijl mama niet keek.", "exampleTranslation": "Comió dulces a escondidas mientras mamá no miraba.", "category": "adjectieven", "lessonId": "les9" },
+    { "id": "l9-verwennen", "dutch": "verwennen", "translation": "mimar / to spoil", "example": "Grootouders verwennen hun kleinkinderen graag.", "exampleTranslation": "Los abuelos les gusta mimar a sus nietos.", "category": "opvoeding", "lessonId": "les9" },
+    { "id": "l9-overdrijven", "dutch": "overdrijven", "translation": "exagerar / to exaggerate", "example": "Je overdrijft! Het is niet zo erg.", "exampleTranslation": "¡Exageras! No es tan grave.", "category": "communicatie", "lessonId": "les9" },
+    { "id": "l9-vermijden", "dutch": "vermijden", "translation": "evitar / to avoid", "example": "Ik probeer conflict te vermijden.", "exampleTranslation": "Intento evitar el conflicto.", "category": "communicatie", "lessonId": "les9" },
+    { "id": "l9-eenzaam", "dutch": "eenzaam", "translation": "solitario / lonely", "example": "Oudere mensen voelen zich vaak eenzaam.", "exampleTranslation": "Las personas mayores a menudo se sienten solas.", "category": "welzijn", "lessonId": "les9" },
+    { "id": "l9-sociaal-isolement", "dutch": "het sociaal isolement", "translation": "el aislamiento social / social isolation", "example": "Sociaal isolement heeft grote gevolgen voor de gezondheid.", "exampleTranslation": "El aislamiento social tiene grandes consecuencias para la salud.", "category": "welzijn", "lessonId": "les9" },
+    { "id": "l9-woonzorgcentrum", "dutch": "het woonzorgcentrum", "translation": "la residencia de mayores / care home", "example": "Mijn opa woont nu in een woonzorgcentrum.", "exampleTranslation": "Mi abuelo vive ahora en una residencia de mayores.", "category": "zorgen", "lessonId": "les9" },
+    { "id": "l9-pensioen", "dutch": "het pensioen", "translation": "la jubilación / pension, retirement", "example": "Ze gaat volgend jaar met pensioen.", "exampleTranslation": "Se jubila el año que viene.", "category": "zorgen", "lessonId": "les9" },
+    { "id": "l9-mantelzorg", "dutch": "de mantelzorg", "translation": "el cuidado informal / informal care", "example": "Mantelzorg = zorgen voor een ziek familielid thuis.", "exampleTranslation": "Mantelzorg = cuidar a un familiar enfermo en casa.", "category": "zorgen", "lessonId": "les9" },
+    { "id": "l9-voorbereiden", "dutch": "zich voorbereiden op", "translation": "prepararse para / to prepare for", "example": "Ze bereidt zich voor op haar pensioen.", "exampleTranslation": "Se prepara para su jubilación.", "category": "reflexief", "lessonId": "les9" },
+    { "id": "l9-zorgen-maken", "dutch": "zich zorgen maken over", "translation": "preocuparse por / to worry about", "example": "Hij maakt zich zorgen over zijn gezondheid.", "exampleTranslation": "Se preocupa por su salud.", "category": "reflexief", "lessonId": "les9" },
+    { "id": "l9-verheugen", "dutch": "zich verheugen op", "translation": "alegrarse de / to look forward to", "example": "Ik verheug me op de vakantie.", "exampleTranslation": "Estoy emocionado por las vacaciones.", "category": "reflexief", "lessonId": "les9" }
+  ],
+  "grammar": [
+    {
+      "id": "g9-er-reflexief",
+      "title": "'Er' + reflexief werkwoord + prepositie",
+      "explanation": "Als een reflexief werkwoord een vaste prepositie heeft, verschuift 'er' naar vóór de prepositie.",
+      "rule": "S + V + reflexief + er + rest + prepositie | 'zich voorbereiden op' → ik bereid me er al op voor | 'zich zorgen maken over' → ik maak me er zorgen over",
+      "examples": [
+        { "dutch": "Ze bereidt zich voor op haar pensioen. → Ze bereidt zich er al op voor.", "translation": "Se prepara para su jubilación. → Ya se prepara para ello.", "highlight": "er + op → verwijst naar 'pensioen'" },
+        { "dutch": "Hij maakt zich zorgen over zijn gezondheid. → Hij maakt zich er zorgen over.", "translation": "Se preocupa por su salud. → Se preocupa por ello.", "highlight": "er + over → verwijst naar 'zijn gezondheid'" },
+        { "dutch": "Ik verheug me op de vakantie. → Ik verheug me er al op.", "translation": "Estoy emocionado por las vacaciones. → Ya estoy emocionado por ello.", "highlight": "er + op → verwijst naar 'de vakantie'" }
+      ],
+      "lessonId": "les9",
+      "category": "grammar"
+    },
+    {
+      "id": "g9-er-prepositie-combos",
+      "title": "Er + prepositie combinaties",
+      "explanation": "'Er' smelt samen met een prepositie om te verwijzen naar iets eerder genoemds.",
+      "rule": "er+voor=ervoor | er+mee=ermee | er+over=erover | er+op=erop | er+aan=eraan | er+in=erin | er+van=ervan | er+tegen=ertegen",
+      "examples": [
+        { "dutch": "Ik hou van muziek. Ik luister er veel naar. (ernaar)", "translation": "Me gusta la música. Escucho mucho.", "highlight": "er + naar = ernaar" },
+        { "dutch": "Heb je een fiets? Ik rijd er graag mee. (ermee)", "translation": "¿Tienes una bici? Me gusta ir en ella.", "highlight": "er + mee = ermee" },
+        { "dutch": "Dat plan is goed. Ik ben ervoor.", "translation": "Ese plan es bueno. Estoy a favor.", "highlight": "er + voor = ervoor" }
+      ],
+      "lessonId": "les9",
+      "category": "grammar"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e9-mc1",
+      "type": "multiple-choice",
+      "question": "Ze bereidt zich voor op haar pensioen. Met 'er': Ze bereidt zich ___ al op voor.",
+      "options": ["het", "er", "daar", "hem"],
+      "answer": "er",
+      "explanation": "'Er' verwijst naar het eerder genoemde (pensioen). Volgorde: bereidt + zich + er + op + voor.",
+      "lessonId": "les9"
+    },
+    {
+      "id": "e9-mc2",
+      "type": "multiple-choice",
+      "question": "Ik heb een probleem. Ik maak me ___ zorgen over.",
+      "options": ["het", "er", "hier", "dat"],
+      "answer": "er",
+      "explanation": "'Er + over' → erover. 'Zich zorgen maken over iets' → 'er...over' als 'iets' al eerder genoemd is.",
+      "lessonId": "les9"
+    },
+    {
+      "id": "e9-mc3",
+      "type": "multiple-choice",
+      "question": "Wat betekent 'mantelzorg'?",
+      "options": ["professionele ziekenhuiszorg", "zorgen voor een ziek familielid thuis", "een woningadaptatie", "verplichte thuiszorg door de overheid"],
+      "answer": "zorgen voor een ziek familielid thuis",
+      "explanation": "Mantelzorg = informele zorg die je geeft aan een naaste (familielid, vriend) die ziek of hulpbehoevend is.",
+      "lessonId": "les9"
+    },
+    {
+      "id": "e9-mc4",
+      "type": "multiple-choice",
+      "question": "Ik hou van koffie. Ik drink ___ elke dag.",
+      "options": ["ervan", "eraan", "ermee", "erop"],
+      "answer": "ervan",
+      "explanation": "'Houden van' → er + van = ervan. 'Ik drink ervan elke dag' = ik drink er elke dag van.",
+      "lessonId": "les9"
+    },
+    {
+      "id": "e9-fib1",
+      "type": "fill-in-blank",
+      "sentence": "Ik verheug me ___ al op. (vakantie — gebruik 'er')",
+      "blank": "er",
+      "hint": "Zich verheugen op iets → zich verheugen er op (met 'er' als verwijswoord)",
+      "explanation": "'Er' verwijst naar eerder genoemde vakantie. Volgorde: verheug + me + er + op.",
+      "lessonId": "les9"
+    },
+    {
+      "id": "e9-matching",
+      "type": "matching",
+      "pairs": [
+        { "left": "ermee", "right": "con eso / with it" },
+        { "left": "erover", "right": "sobre eso / about it" },
+        { "left": "ervoor", "right": "para eso / for it" },
+        { "left": "eenzaam", "right": "solitario / lonely" },
+        { "left": "mantelzorg", "right": "cuidado informal en casa" }
+      ],
+      "lessonId": "les9"
+    }
+  ]
+}

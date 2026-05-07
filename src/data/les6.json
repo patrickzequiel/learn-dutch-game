@@ -1,0 +1,124 @@
+{
+  "id": "les6",
+  "number": 6,
+  "date": "2025-10-09",
+  "dateDisplay": "donderdag 9 oktober",
+  "theme": "Kinderen opvoeden: Vrijheid & Regels",
+  "subtheme": "Laten/mogen/moeten + Als/tenzij + Te laat advies",
+  "topics": ["Laten + infinitief (toelaten of verbieden)", "Mag/mag niet/moet + infinitief", "Als vs tenzij", "Te laat advies: had (niet) moeten/mogen + infinitief2"],
+  "vocabulary": [
+    { "id": "l6-opvoeden", "dutch": "opvoeden", "translation": "educar / to raise (children)", "example": "Kinderen opvoeden is een grote verantwoordelijkheid.", "exampleTranslation": "Educar a los hijos es una gran responsabilidad.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-opgroeien", "dutch": "opgroeien", "translation": "crecer / to grow up", "example": "Ze groeide op in een klein dorp.", "exampleTranslation": "Creció en un pequeño pueblo.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-vrijheid", "dutch": "de vrijheid", "translation": "la libertad / freedom", "example": "Kinderen hebben vrijheid nodig om te leren.", "exampleTranslation": "Los niños necesitan libertad para aprender.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-verantwoordelijk", "dutch": "verantwoordelijk", "translation": "responsable / responsible", "example": "Ouders zijn verantwoordelijk voor hun kinderen.", "exampleTranslation": "Los padres son responsables de sus hijos.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-toelaten", "dutch": "toelaten", "translation": "permitir / to allow", "example": "Ik laat hem zelf kiezen.", "exampleTranslation": "Le permito elegir solo.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-verbieden", "dutch": "verbieden", "translation": "prohibir / to forbid", "example": "Ik laat hem niet op straat spelen.", "exampleTranslation": "No le dejo jugar en la calle.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-straffen", "dutch": "straffen", "translation": "castigar / to punish", "example": "De ouders straffen hun kind na de ruzie.", "exampleTranslation": "Los padres castigan a su hijo después de la pelea.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-straf", "dutch": "de straf", "translation": "el castigo / punishment", "example": "Als straf mag hij een week niet buiten spelen.", "exampleTranslation": "Como castigo, no puede jugar fuera una semana.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-berispen", "dutch": "berispen", "translation": "reprender / to reprimand", "example": "De leraar berisp de leerling voor zijn gedrag.", "exampleTranslation": "El profesor reprende al alumno por su comportamiento.", "category": "opvoeding", "lessonId": "les6" },
+    { "id": "l6-voorzichtig", "dutch": "voorzichtig", "translation": "cuidadoso / careful", "example": "Wees voorzichtig met vuur!", "exampleTranslation": "¡Ten cuidado con el fuego!", "category": "adjectieven", "lessonId": "les6" },
+    { "id": "l6-tenzij", "dutch": "tenzij", "translation": "a menos que / unless", "example": "Je mag gaan, tenzij je huiswerk nog niet klaar is.", "exampleTranslation": "Puedes ir, a menos que no hayas terminado los deberes.", "category": "conjuncties", "lessonId": "les6" },
+    { "id": "l6-snoep", "dutch": "het snoep", "translation": "los dulces / candy, sweets", "example": "Je had niet zoveel snoep mogen eten.", "exampleTranslation": "No deberías haber comido tantos dulces.", "category": "dagelijks", "lessonId": "les6" }
+  ],
+  "grammar": [
+    {
+      "id": "g6-laten",
+      "title": "Laten + infinitief: toelaten of verbieden",
+      "explanation": "'Laten' + infinitief drukt uit dat je iets toelaat OF niet toelaat. De ontkenning 'niet laten' = verbieden.",
+      "rule": "Laten + infinitief = toelaten | Niet laten + infinitief = verbieden | Mag/mag niet/moet + infinitief = toestemming/verplichting",
+      "examples": [
+        { "dutch": "Ik laat hem zelf kiezen.", "translation": "Le dejo elegir solo.", "highlight": "laten = toelaten" },
+        { "dutch": "Ik laat hem niet op straat spelen.", "translation": "No le dejo jugar en la calle.", "highlight": "niet laten = verbieden" },
+        { "dutch": "Hij mag tot 22u buiten zijn.", "translation": "Puede estar fuera hasta las 22h.", "highlight": "mag = toestemming" },
+        { "dutch": "Ze moet voor 22u thuis zijn.", "translation": "Debe estar en casa antes de las 22h.", "highlight": "moet = verplichting" }
+      ],
+      "lessonId": "les6",
+      "category": "grammar"
+    },
+    {
+      "id": "g6-als-tenzij",
+      "title": "Als vs Tenzij",
+      "explanation": "'Als' introduceert een voorwaarde. 'Tenzij' = als...NIET (negatieve voorwaarde = uitzondering).",
+      "rule": "Als + bijzin = in die situatie | Tenzij + bijzin = als...NIET (unless)",
+      "examples": [
+        { "dutch": "Als je huiswerk klaar is, mag je buiten spelen.", "translation": "Si terminas los deberes, puedes jugar fuera.", "highlight": "als = als de voorwaarde geldt" },
+        { "dutch": "Je mag buiten spelen, tenzij je huiswerk nog niet klaar is.", "translation": "Puedes jugar fuera, a menos que no hayas terminado los deberes.", "highlight": "tenzij = als...NIET" },
+        { "dutch": "Tenzij het regent, gaan we fietsen.", "translation": "A menos que llueva, vamos en bici.", "highlight": "tenzij = negatieve uitzondering" }
+      ],
+      "lessonId": "les6",
+      "category": "grammar"
+    },
+    {
+      "id": "g6-te-laat-advies",
+      "title": "Te laat advies / Kritiek op het verleden",
+      "explanation": "Om te zeggen dat iemand iets anders had moeten doen in het verleden gebruik je 'had + (niet) + moeten/mogen + infinitief'.",
+      "rule": "had (niet) + moeten/mogen + infinitief2 (voltooide infinitief) = kritiek/spijt over het verleden",
+      "examples": [
+        { "dutch": "Je had niet zoveel snoep mogen eten.", "translation": "No deberías haber comido tantos dulces.", "highlight": "had niet mogen eten" },
+        { "dutch": "Ze had meer moeten studeren.", "translation": "Debería haber estudiado más.", "highlight": "had moeten studeren" },
+        { "dutch": "Hij had eerder moeten bellen.", "translation": "Debería haber llamado antes.", "highlight": "had moeten bellen" }
+      ],
+      "lessonId": "les6",
+      "category": "tense"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e6-mc1",
+      "type": "multiple-choice",
+      "question": "Welke zin betekent dat je iets VERBIEDT?",
+      "options": ["Ik laat hem gaan.", "Ik laat hem niet gaan.", "Hij mag gaan.", "Hij moet gaan."],
+      "answer": "Ik laat hem niet gaan.",
+      "explanation": "'Laten + niet + infinitief' = verbieden. 'Laten + infinitief' = toelaten.",
+      "lessonId": "les6"
+    },
+    {
+      "id": "e6-mc2",
+      "type": "multiple-choice",
+      "question": "Je mag buiten spelen, ___ het regent. (uitzondering: als het NIET droog is)",
+      "options": ["als", "tenzij", "omdat", "zodra"],
+      "answer": "tenzij",
+      "explanation": "'Tenzij' = als...NIET. Je mag spelen, BEHALVE als het regent.",
+      "lessonId": "les6"
+    },
+    {
+      "id": "e6-mc3",
+      "type": "multiple-choice",
+      "question": "Ze is ziek. Ze ___ naar de dokter gegaan. (kritiek: dat had ze moeten doen)",
+      "options": ["heeft moeten gaan", "had moeten gaan", "moet gaan", "zou gaan"],
+      "answer": "had moeten gaan",
+      "explanation": "Te laat advies = had + moeten/mogen + infinitief.",
+      "lessonId": "les6"
+    },
+    {
+      "id": "e6-mc4",
+      "type": "multiple-choice",
+      "question": "Wat betekent 'opvoeden'?",
+      "options": ["op school leren", "kinderen begeleiden en vormen", "spelen met kinderen", "straffen"],
+      "answer": "kinderen begeleiden en vormen",
+      "explanation": "Opvoeden = kinderen begeleiden, vormen en waarden meegeven.",
+      "lessonId": "les6"
+    },
+    {
+      "id": "e6-fib1",
+      "type": "fill-in-blank",
+      "sentence": "Je had niet zoveel snoep ___ eten. (mogen)",
+      "blank": "mogen",
+      "hint": "Te laat advies: had (niet) + moeten/mogen + infinitief",
+      "explanation": "'Had niet mogen eten' = het was niet toegestaan, maar je deed het toch.",
+      "lessonId": "les6"
+    },
+    {
+      "id": "e6-matching",
+      "type": "matching",
+      "pairs": [
+        { "left": "opvoeden", "right": "educar" },
+        { "left": "verbieden", "right": "prohibir" },
+        { "left": "tenzij", "right": "a menos que" },
+        { "left": "de straf", "right": "el castigo" },
+        { "left": "verantwoordelijk", "right": "responsable" }
+      ],
+      "lessonId": "les6"
+    }
+  ]
+}

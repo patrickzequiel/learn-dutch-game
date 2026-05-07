@@ -1,0 +1,111 @@
+{
+  "id": "les7",
+  "number": 7,
+  "date": "2025-10-16",
+  "dateDisplay": "donderdag 16 oktober",
+  "theme": "Opvoedingstips & Contrast",
+  "subtheme": "Hoewel/ondanks/ook al/maar toch + Opvoedingstips",
+  "topics": ["Contrast: hoewel, ook al, ondanks, maar toch, nochtans", "Opvoedingstips formuleren", "Onregelmatige werkwoorden: slaan/vechten"],
+  "vocabulary": [
+    { "id": "l7-opvoedingstip", "dutch": "de opvoedingstip", "translation": "el consejo de crianza / parenting tip", "example": "Hier zijn mijn beste opvoedingstips voor jonge ouders.", "exampleTranslation": "Aquí están mis mejores consejos de crianza para padres jóvenes.", "category": "opvoeding", "lessonId": "les7" },
+    { "id": "l7-zelfstandig", "dutch": "zelfstandig", "translation": "independiente / independent", "example": "Kinderen moeten leren zelfstandig te zijn.", "exampleTranslation": "Los niños deben aprender a ser independientes.", "category": "adjectieven", "lessonId": "les7" },
+    { "id": "l7-conflictsituatie", "dutch": "de conflictsituatie", "translation": "la situación de conflicto / conflict situation", "example": "In een conflictsituatie moet je kalm blijven.", "exampleTranslation": "En una situación de conflicto hay que mantener la calma.", "category": "opvoeding", "lessonId": "les7" },
+    { "id": "l7-verantwoordelijkheden", "dutch": "de verantwoordelijkheden", "translation": "las responsabilidades / responsibilities", "example": "Kinderen moeten kleine verantwoordelijkheden leren dragen.", "exampleTranslation": "Los niños deben aprender a asumir pequeñas responsabilidades.", "category": "opvoeding", "lessonId": "les7" },
+    { "id": "l7-quality-time", "dutch": "quality time", "translation": "tiempo de calidad / quality time", "example": "Quality time met je kinderen is heel belangrijk.", "exampleTranslation": "El tiempo de calidad con tus hijos es muy importante.", "category": "opvoeding", "lessonId": "les7" },
+    { "id": "l7-slaan", "dutch": "slaan (sloeg / geslagen)", "translation": "pegar, golpear / to hit", "example": "Hij sloeg zijn broer. Dat was niet goed.", "exampleTranslation": "Pegó a su hermano. Eso no estuvo bien.", "category": "onregelmatig", "lessonId": "les7" },
+    { "id": "l7-vechten", "dutch": "vechten (vocht / gevochten)", "translation": "pelear / to fight", "example": "De kinderen vochten over het speelgoed.", "exampleTranslation": "Los niños pelearon por el juguete.", "category": "onregelmatig", "lessonId": "les7" },
+    { "id": "l7-respecteren", "dutch": "respecteren", "translation": "respetar / to respect", "example": "Kinderen moeten anderen leren respecteren.", "exampleTranslation": "Los niños deben aprender a respetar a los demás.", "category": "opvoeding", "lessonId": "les7" },
+    { "id": "l7-vroeger", "dutch": "vroeger", "translation": "antes / in the past, formerly", "example": "Vroeger waren de regels strenger.", "exampleTranslation": "Antes las reglas eran más estrictas.", "category": "tijd", "lessonId": "les7" },
+    { "id": "l7-dienstgericht", "dutch": "dienstgericht", "translation": "orientado al servicio / service-oriented", "example": "Een goede opvoeder is dienstgericht.", "exampleTranslation": "Un buen educador es orientado al servicio.", "category": "adjectieven", "lessonId": "les7" },
+    { "id": "l7-hoewel", "dutch": "hoewel", "translation": "aunque / although", "example": "Hoewel hij moe was, bleef hij studeren.", "exampleTranslation": "Aunque estaba cansado, siguió estudiando.", "category": "conjuncties", "lessonId": "les7" },
+    { "id": "l7-ondanks", "dutch": "ondanks", "translation": "a pesar de / despite", "example": "Ondanks de regen gingen we fietsen.", "exampleTranslation": "A pesar de la lluvia, fuimos en bici.", "category": "conjuncties", "lessonId": "les7" }
+  ],
+  "grammar": [
+    {
+      "id": "g7-contrast",
+      "title": "Contrast: hoewel / ook al / ondanks / maar toch / nochtans",
+      "explanation": "Er zijn meerdere manieren om contrast uit te drukken in het Nederlands. Elke structuur heeft een eigen bouw.",
+      "rule": "HOEWEL + bijzin (werkwoord achteraan) | OOK AL + bijzin of inversie | ONDANKS + substantief (geen bijzin!) | (MAAR) TOCH + inversie | NOCHTANS = formeel, zelfde als 'toch'",
+      "examples": [
+        { "dutch": "Hoewel hij moe was, bleef hij studeren.", "translation": "Aunque estaba cansado, siguió estudiando.", "highlight": "HOEWEL + bijzin → werkwoord achteraan" },
+        { "dutch": "Ook al is hij moe, hij blijft studeren.", "translation": "Aunque está cansado, sigue estudiando.", "highlight": "OOK AL + bijzin / inversie" },
+        { "dutch": "Ondanks zijn vermoeidheid bleef hij studeren.", "translation": "A pesar de su cansancio, siguió estudiando.", "highlight": "ONDANKS + substantief (geen bijzin!)" },
+        { "dutch": "Hij was moe, maar toch bleef hij studeren.", "translation": "Estaba cansado, pero aún así siguió estudiando.", "highlight": "MAAR TOCH + inversie" }
+      ],
+      "lessonId": "les7",
+      "category": "conjunctie"
+    },
+    {
+      "id": "g7-opvoedingstips",
+      "title": "Opvoedingstips formuleren",
+      "explanation": "Voor het geven van adviezen over opvoeding gebruik je specifieke formuleringen.",
+      "rule": "'Let erop dat...' | 'Het is belangrijk dat...' | 'Kinderen zouden moeten leren om...te' | 'Laat je kinderen...nadat...'",
+      "examples": [
+        { "dutch": "Let erop dat je kinderen genoeg slapen.", "translation": "Asegúrate de que tus hijos duerman lo suficiente.", "highlight": "Let erop dat + bijzin" },
+        { "dutch": "Het is belangrijk dat kinderen grenzen leren.", "translation": "Es importante que los niños aprendan los límites.", "highlight": "Het is belangrijk dat + bijzin" },
+        { "dutch": "Kinderen zouden moeten leren om zelfstandig te zijn.", "translation": "Los niños deberían aprender a ser independientes.", "highlight": "zouden moeten leren om...te" }
+      ],
+      "lessonId": "les7",
+      "category": "grammar"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e7-mc1",
+      "type": "multiple-choice",
+      "question": "___ hij moe was, bleef hij studeren. Welk woord past hier? (bijzin met werkwoord achteraan)",
+      "options": ["Ondanks", "Hoewel", "Maar toch", "Nochtans"],
+      "answer": "Hoewel",
+      "explanation": "'Hoewel' leidt een bijzin in. Na hoewel staat het werkwoord achteraan.",
+      "lessonId": "les7"
+    },
+    {
+      "id": "e7-mc2",
+      "type": "multiple-choice",
+      "question": "___ zijn vermoeidheid bleef hij studeren. Welk woord past? (+ substantief, geen bijzin)",
+      "options": ["Hoewel", "Ook al", "Ondanks", "Maar toch"],
+      "answer": "Ondanks",
+      "explanation": "'Ondanks' + substantief (geen bijzin). 'Ondanks zijn vermoeidheid' = a pesar de su cansancio.",
+      "lessonId": "les7"
+    },
+    {
+      "id": "e7-mc3",
+      "type": "multiple-choice",
+      "question": "Imperfectum van 'slaan' is:",
+      "options": ["geslagen", "sloeg", "sloegen", "slaagte"],
+      "answer": "sloeg",
+      "explanation": "'Slaan' is onregelmatig: sloeg (imperfectum) / geslagen (voltooid deelwoord).",
+      "lessonId": "les7"
+    },
+    {
+      "id": "e7-mc4",
+      "type": "multiple-choice",
+      "question": "Welke formule gebruik je voor een opvoedingstip?",
+      "options": ["Ik hoop dat...", "Het is belangrijk dat...", "Ik denk dat...", "Ik wil dat..."],
+      "answer": "Het is belangrijk dat...",
+      "explanation": "'Het is belangrijk dat...' + bijzin is een standaardformule voor adviezen en tips.",
+      "lessonId": "les7"
+    },
+    {
+      "id": "e7-fib1",
+      "type": "fill-in-blank",
+      "sentence": "___ de regen gingen we toch fietsen. (a pesar de)",
+      "blank": "Ondanks",
+      "hint": "A pesar de + substantief = Ondanks + substantief",
+      "explanation": "'Ondanks' + substantief. Let op: geen bijzin na 'ondanks'!",
+      "lessonId": "les7"
+    },
+    {
+      "id": "e7-matching",
+      "type": "matching",
+      "pairs": [
+        { "left": "hoewel", "right": "aunque (+ bijzin)" },
+        { "left": "ondanks", "right": "a pesar de (+ substantief)" },
+        { "left": "ook al", "right": "aunque / even if" },
+        { "left": "maar toch", "right": "pero aún así" },
+        { "left": "zelfstandig", "right": "independiente" }
+      ],
+      "lessonId": "les7"
+    }
+  ]
+}

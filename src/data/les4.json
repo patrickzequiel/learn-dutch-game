@@ -1,0 +1,120 @@
+{
+  "id": "les4",
+  "number": 4,
+  "date": "2025-03-05",
+  "dateDisplay": "donderdag 5 maart",
+  "theme": "Verhalen Vertellen",
+  "subtheme": "Plusquamperfectum + Aan het (tegelijkertijd)",
+  "topics": ["Plusquamperfectum (had/hadden + VD)", "Tegelijkertijd: imperfectum + aan het + infinitief", "Verleden tijden combineren", "Woordenschat: reizen & vertragingen"],
+  "vocabulary": [
+    { "id": "l4-overslapen", "dutch": "overslapen", "translation": "quedarse dormido / to oversleep", "example": "Hij had zich overslapen en miste de trein.", "exampleTranslation": "Se había quedado dormido y perdió el tren.", "category": "dagelijks", "lessonId": "les4" },
+    { "id": "l4-wekker", "dutch": "de wekker", "translation": "el despertador / alarm clock", "example": "Hij had zijn wekker niet gezet.", "exampleTranslation": "No había puesto el despertador.", "category": "dagelijks", "lessonId": "les4" },
+    { "id": "l4-identiteitskaart", "dutch": "de identiteitskaart", "translation": "el documento de identidad / ID card", "example": "Ze had haar identiteitskaart thuis laten liggen.", "exampleTranslation": "Se había dejado el documento de identidad en casa.", "category": "documenten", "lessonId": "les4" },
+    { "id": "l4-rijbewijs", "dutch": "het rijbewijs", "translation": "el carné de conducir / driving licence", "example": "Zonder rijbewijs mag je niet rijden.", "exampleTranslation": "Sin carné de conducir no puedes conducir.", "category": "documenten", "lessonId": "les4" },
+    { "id": "l4-inchecken", "dutch": "inchecken", "translation": "hacer el check-in / to check in", "example": "Sara kon niet inchecken zonder identiteitskaart.", "exampleTranslation": "Sara no podía hacer el check-in sin documento de identidad.", "category": "reizen", "lessonId": "les4" },
+    { "id": "l4-uitleggen", "dutch": "uitleggen", "translation": "explicar / to explain", "example": "Hij legde uit waarom hij te laat was.", "exampleTranslation": "Explicó por qué llegó tarde.", "category": "communicatie", "lessonId": "les4" },
+    { "id": "l4-vergeten", "dutch": "vergeten", "translation": "olvidar / to forget", "example": "Ze had haar sleutels vergeten.", "exampleTranslation": "Había olvidado sus llaves.", "category": "dagelijks", "lessonId": "les4" },
+    { "id": "l4-controleren", "dutch": "controleren", "translation": "controlar / to check", "example": "Je moet je documenten controleren voor de reis.", "exampleTranslation": "Debes comprobar tus documentos antes del viaje.", "category": "reizen", "lessonId": "les4" },
+    { "id": "l4-aankomen", "dutch": "aankomen", "translation": "llegar / to arrive", "example": "We kwamen laat aan op het station.", "exampleTranslation": "Llegamos tarde a la estación.", "category": "reizen", "lessonId": "les4" },
+    { "id": "l4-vertrekken", "dutch": "vertrekken", "translation": "partir / to depart", "example": "De trein was al vertrokken.", "exampleTranslation": "El tren ya había partido.", "category": "reizen", "lessonId": "les4" },
+    { "id": "l4-missen", "dutch": "missen", "translation": "perder / to miss", "example": "Karim miste de trein omdat hij te laat was.", "exampleTranslation": "Karim perdió el tren porque llegó tarde.", "category": "reizen", "lessonId": "les4" },
+    { "id": "l4-vertraging", "dutch": "de vertraging", "translation": "el retraso / delay", "example": "De vlucht had twee uur vertraging.", "exampleTranslation": "El vuelo tuvo dos horas de retraso.", "category": "reizen", "lessonId": "les4" }
+  ],
+  "grammar": [
+    {
+      "id": "g4-plusquamperfectum",
+      "title": "Het Plusquamperfectum",
+      "explanation": "Het plusquamperfectum beschrijft iets dat VÓÓR een ander moment in het verleden plaatsvond — het is een stap verder terug in de tijd.",
+      "rule": "had/hadden + voltooid deelwoord (niet-beweging) | was/waren + voltooid deelwoord (beweging of toestandsverandering)",
+      "examples": [
+        { "dutch": "Karim miste de trein. Hij had zijn wekker niet gezet.", "translation": "Karim perdió el tren. No había puesto el despertador.", "highlight": "had gezet → vóór 'miste'" },
+        { "dutch": "Sara kon niet inchecken. Ze had haar identiteitskaart thuis laten liggen.", "translation": "Sara no podía hacer el check-in. Había dejado el ID en casa.", "highlight": "had laten liggen → vóór 'kon niet'" },
+        { "dutch": "Nadat hij zijn wekker had gezet, sliep hij rustig.", "translation": "Después de haber puesto el despertador, durmió tranquilo.", "highlight": "nadat + plusquamperfectum" },
+        { "dutch": "De trein was al vertrokken toen we aankwamen.", "translation": "El tren ya había partido cuando llegamos.", "highlight": "was vertrokken → beweging" }
+      ],
+      "lessonId": "les4",
+      "category": "tense"
+    },
+    {
+      "id": "g4-tegelijkertijd",
+      "title": "Tegelijkertijd: imperfectum + aan het + infinitief",
+      "explanation": "Om twee acties uit te drukken die tegelijk plaatsvonden in het verleden gebruik je het imperfectum + 'aan het' + infinitief.",
+      "rule": "Imperfectum (was/waren) + aan het + infinitief = gelijktijdige actie in het verleden",
+      "examples": [
+        { "dutch": "Terwijl hij aan het slapen was, vertrok de trein.", "translation": "Mientras estaba durmiendo, el tren partió.", "highlight": "was aan het slapen = tegelijkertijd" },
+        { "dutch": "Ze was aan het wachten toen de telefoon rinkelde.", "translation": "Estaba esperando cuando sonó el teléfono.", "highlight": "was aan het wachten" },
+        { "dutch": "We waren aan het eten toen hij binnenkwam.", "translation": "Estábamos comiendo cuando él entró.", "highlight": "waren aan het eten" }
+      ],
+      "lessonId": "les4",
+      "category": "tense"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "e4-mc1",
+      "type": "multiple-choice",
+      "question": "Karim miste de trein. Hij ___ zijn wekker niet ___ (zetten). Plusquamperfectum:",
+      "options": ["heeft ... gezet", "had ... gezet", "was ... gezet", "heeft ... zetten"],
+      "answer": "had ... gezet",
+      "explanation": "Plusquamperfectum = had/hadden + voltooid deelwoord. 'Zetten' gebruikt 'had', niet 'was' (geen bewegingswerkwoord).",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-mc2",
+      "type": "multiple-choice",
+      "question": "De trein ___ al ___ (vertrekken) toen we aankwamen.",
+      "options": ["had ... vertrokken", "was ... vertrokken", "heeft ... vertrokken", "waren ... vertrokken"],
+      "answer": "was ... vertrokken",
+      "explanation": "'Vertrekken' is een bewegingswerkwoord. Plusquamperfectum = was/waren + vertrokken.",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-mc3",
+      "type": "multiple-choice",
+      "question": "Terwijl hij ___ (slapen), vertrok de trein. (tegelijkertijd)",
+      "options": ["sliep", "aan het slapen was", "had geslapen", "slaapt"],
+      "answer": "aan het slapen was",
+      "explanation": "Tegelijkertijd in het verleden = was/waren + aan het + infinitief.",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-mc4",
+      "type": "multiple-choice",
+      "question": "Wat betekent 'overslapen'?",
+      "options": ["te vroeg wakker worden", "de wekker niet horen en te laat opstaan", "lekker lang slapen", "op vakantie slapen"],
+      "answer": "de wekker niet horen en te laat opstaan",
+      "explanation": "Overslapen = je wekker niet horen en daardoor te laat opstaan.",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-fib1",
+      "type": "fill-in-blank",
+      "sentence": "Nadat ze haar identiteitskaart ___ (vergeten), kon ze niet inchecken.",
+      "blank": "had vergeten",
+      "hint": "Plusquamperfectum na 'nadat': had/hadden + voltooid deelwoord",
+      "explanation": "Na 'nadat' gebruik je altijd het plusquamperfectum.",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-fib2",
+      "type": "fill-in-blank",
+      "sentence": "We ___ aan het wachten ___ toen de trein eindelijk aankwam.",
+      "blank": "waren",
+      "hint": "Tegelijkertijd = waren/was aan het + infinitief",
+      "explanation": "Voor meervoud gebruik je 'waren aan het wachten'.",
+      "lessonId": "les4"
+    },
+    {
+      "id": "e4-matching",
+      "type": "matching",
+      "pairs": [
+        { "left": "overslapen", "right": "quedarse dormido" },
+        { "left": "de wekker", "right": "el despertador" },
+        { "left": "inchecken", "right": "hacer el check-in" },
+        { "left": "vergeten", "right": "olvidar" },
+        { "left": "vertrekken", "right": "partir" }
+      ],
+      "lessonId": "les4"
+    }
+  ]
+}
