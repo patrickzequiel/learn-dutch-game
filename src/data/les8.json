@@ -5,20 +5,109 @@
   "dateDisplay": "woensdag 2 april",
   "theme": "Samengestelde zinnen & Zorgen voor elkaar",
   "subtheme": "Zodat/zolang/voordat/zodra + 'er' als verwijswoord",
-  "topics": ["Conjuncties: zodat, zolang, voordat, zodra", "'Er' als verwijswoord (er + prepositie)", "Contrast herhaling: hoewel/ook al/ondanks/toch/nochtans", "Woonzorgcentrum & mantelzorg"],
+  "topics": [
+    "Conjuncties: zodat, zolang, voordat, zodra",
+    "'Er' als verwijswoord (er + prepositie)",
+    "Contrast herhaling: hoewel/ook al/ondanks/toch/nochtans",
+    "Woonzorgcentrum & mantelzorg"
+  ],
   "vocabulary": [
-    { "id": "l8-aandacht", "dutch": "aandacht geven aan", "translation": "prestar atención a / to pay attention to", "example": "Het is belangrijk om aandacht te geven aan je kinderen.", "exampleTranslation": "Es importante prestar atención a tus hijos.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-knuffel", "dutch": "een knuffel geven", "translation": "dar un abrazo / to give a hug", "example": "Ze geeft haar kind elke dag een knuffel.", "exampleTranslation": "Le da un abrazo a su hijo cada día.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-versterken", "dutch": "versterken", "translation": "fortalecer / to strengthen", "example": "Samen spelen versterkt de band tussen broers en zussen.", "exampleTranslation": "Jugar juntos fortalece el vínculo entre hermanos.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-band", "dutch": "de band", "translation": "el vínculo / the bond", "example": "De band tussen ouder en kind is heel sterk.", "exampleTranslation": "El vínculo entre padre e hijo es muy fuerte.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-prijzen", "dutch": "iemand prijzen", "translation": "elogiar a alguien / to praise someone", "example": "Prijs je kind als het goed doet.", "exampleTranslation": "Elogia a tu hijo cuando hace algo bien.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-gedragen", "dutch": "zich gedragen", "translation": "comportarse / to behave", "example": "Ik verwacht dat je je goed gedraagt.", "exampleTranslation": "Espero que te comportes bien.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-regels", "dutch": "de regels volgen", "translation": "seguir las reglas / to follow the rules", "example": "Kinderen moeten leren de regels te volgen.", "exampleTranslation": "Los niños deben aprender a seguir las reglas.", "category": "opvoeding", "lessonId": "les8" },
-    { "id": "l8-nochtans", "dutch": "nochtans", "translation": "sin embargo / nevertheless (formal)", "example": "Hij heeft hard gestudeerd; nochtans is hij gezakt.", "exampleTranslation": "Estudió mucho; sin embargo, reprobó.", "category": "conjuncties", "lessonId": "les8" },
-    { "id": "l8-woonzorgcentrum", "dutch": "het woonzorgcentrum", "translation": "la residencia de mayores / care home", "example": "Mijn oma woont in een woonzorgcentrum.", "exampleTranslation": "Mi abuela vive en una residencia de mayores.", "category": "zorgen", "lessonId": "les8" },
-    { "id": "l8-zodat", "dutch": "zodat", "translation": "para que / so that", "example": "Ik werk hard zodat mijn kinderen kunnen studeren.", "exampleTranslation": "Trabajo mucho para que mis hijos puedan estudiar.", "category": "conjuncties", "lessonId": "les8" },
-    { "id": "l8-voordat", "dutch": "voordat", "translation": "antes de que / before", "example": "Was je handen voordat je eet.", "exampleTranslation": "Lávate las manos antes de comer.", "category": "conjuncties", "lessonId": "les8" },
-    { "id": "l8-zodra", "dutch": "zodra", "translation": "en cuanto / as soon as", "example": "Zodra je klaar bent, mag je spelen.", "exampleTranslation": "En cuanto termines, puedes jugar.", "category": "conjuncties", "lessonId": "les8" }
+    {
+      "id": "l8-aandacht",
+      "dutch": "aandacht geven aan",
+      "translation": "to pay attention to",
+      "example": "Het is belangrijk om aandacht te geven aan je kinderen.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-knuffel",
+      "dutch": "een knuffel geven",
+      "translation": "to give a hug",
+      "example": "Ze geeft haar kind elke dag een knuffel.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-versterken",
+      "dutch": "versterken",
+      "translation": "to strengthen",
+      "example": "Samen spelen versterkt de band tussen broers en zussen.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-band",
+      "dutch": "de band",
+      "translation": "the bond",
+      "example": "De band tussen ouder en kind is heel sterk.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-prijzen",
+      "dutch": "iemand prijzen",
+      "translation": "to praise someone",
+      "example": "Prijs je kind als het goed doet.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-gedragen",
+      "dutch": "zich gedragen",
+      "translation": "to behave",
+      "example": "Ik verwacht dat je je goed gedraagt.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-regels",
+      "dutch": "de regels volgen",
+      "translation": "to follow the rules",
+      "example": "Kinderen moeten leren de regels te volgen.",
+      "category": "opvoeding",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-nochtans",
+      "dutch": "nochtans",
+      "translation": "nevertheless (formal)",
+      "example": "Hij heeft hard gestudeerd; nochtans is hij gezakt.",
+      "category": "conjuncties",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-woonzorgcentrum",
+      "dutch": "het woonzorgcentrum",
+      "translation": "care home",
+      "example": "Mijn oma woont in een woonzorgcentrum.",
+      "category": "zorgen",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-zodat",
+      "dutch": "zodat",
+      "translation": "so that",
+      "example": "Ik werk hard zodat mijn kinderen kunnen studeren.",
+      "category": "conjuncties",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-voordat",
+      "dutch": "voordat",
+      "translation": "before",
+      "example": "Was je handen voordat je eet.",
+      "category": "conjuncties",
+      "lessonId": "les8"
+    },
+    {
+      "id": "l8-zodra",
+      "dutch": "zodra",
+      "translation": "as soon as",
+      "example": "Zodra je klaar bent, mag je spelen.",
+      "category": "conjuncties",
+      "lessonId": "les8"
+    }
   ],
   "grammar": [
     {
@@ -27,10 +116,26 @@
       "explanation": "Deze conjuncties drukken een doel of een tijdsrelatie uit.",
       "rule": "omdat = reden (why) | zodat = doel (so that) | zolang = tijdens die periode (as long as) | voordat = vóór iets (before) | zodra = direct daarna (as soon as)",
       "examples": [
-        { "dutch": "Ik werk hard zodat mijn kinderen kunnen studeren.", "translation": "Trabajo mucho para que mis hijos puedan estudiar.", "highlight": "zodat = doel / so that" },
-        { "dutch": "Zolang je hier woont, volg je mijn regels.", "translation": "Mientras vivas aquí, sigues mis reglas.", "highlight": "zolang = tijdens die periode" },
-        { "dutch": "Poets je tanden voordat je naar bed gaat.", "translation": "Cepíllate los dientes antes de acostarte.", "highlight": "voordat = vóór de actie" },
-        { "dutch": "Zodra je klaar bent, mag je spelen.", "translation": "En cuanto termines, puedes jugar.", "highlight": "zodra = direct na de actie" }
+        {
+          "dutch": "Ik werk hard zodat mijn kinderen kunnen studeren.",
+          "translation": "Trabajo mucho para que mis hijos puedan estudiar.",
+          "highlight": "zodat = doel / so that"
+        },
+        {
+          "dutch": "Zolang je hier woont, volg je mijn regels.",
+          "translation": "Mientras vivas aquí, sigues mis reglas.",
+          "highlight": "zolang = tijdens die periode"
+        },
+        {
+          "dutch": "Poets je tanden voordat je naar bed gaat.",
+          "translation": "Cepíllate los dientes antes de acostarte.",
+          "highlight": "voordat = vóór de actie"
+        },
+        {
+          "dutch": "Zodra je klaar bent, mag je spelen.",
+          "translation": "En cuanto termines, puedes jugar.",
+          "highlight": "zodra = direct na de actie"
+        }
       ],
       "lessonId": "les8",
       "category": "conjunctie"
@@ -41,9 +146,21 @@
       "explanation": "'Er' kan samen met een prepositie verwijzen naar iets eerder genoemds. De volgorde is: Subject + Verbum + er + rest + prepositie.",
       "rule": "S + V + er + rest + prepositie | er+over=erover | er+mee=ermee | er+op=erop | er+aan=eraan | er+in=erin | er+van=ervan | er+voor=ervoor",
       "examples": [
-        { "dutch": "Dit is een probleem. Ik wil er iets over zeggen.", "translation": "Este es un problema. Quiero decir algo al respecto.", "highlight": "er + over → verwijst naar 'dit probleem'" },
-        { "dutch": "Heb je een pen? Ik schrijf er graag mee.", "translation": "¿Tienes un bolígrafo? Me gusta escribir con él.", "highlight": "er + mee = ermee → verwijst naar 'pen'" },
-        { "dutch": "De tafel is nieuw. Ik ben er blij mee.", "translation": "La mesa es nueva. Estoy contento con ella.", "highlight": "er + mee = ermee → verwijst naar 'tafel'" }
+        {
+          "dutch": "Dit is een probleem. Ik wil er iets over zeggen.",
+          "translation": "Este es un problema. Quiero decir algo al respecto.",
+          "highlight": "er + over → verwijst naar 'dit probleem'"
+        },
+        {
+          "dutch": "Heb je een pen? Ik schrijf er graag mee.",
+          "translation": "¿Tienes un bolígrafo? Me gusta escribir con él.",
+          "highlight": "er + mee = ermee → verwijst naar 'pen'"
+        },
+        {
+          "dutch": "De tafel is nieuw. Ik ben er blij mee.",
+          "translation": "La mesa es nueva. Estoy contento con ella.",
+          "highlight": "er + mee = ermee → verwijst naar 'tafel'"
+        }
       ],
       "lessonId": "les8",
       "category": "grammar"
@@ -54,7 +171,12 @@
       "id": "e8-mc1",
       "type": "multiple-choice",
       "question": "Ik zet de wekker ___ ik niet overslaap. (doel: zodat ik het kan vermijden)",
-      "options": ["omdat", "zodat", "zolang", "voordat"],
+      "options": [
+        "omdat",
+        "zodat",
+        "zolang",
+        "voordat"
+      ],
       "answer": "zodat",
       "explanation": "'Zodat' = doel (so that). Je doet iets MET een bepaald doel.",
       "lessonId": "les8"
@@ -63,7 +185,12 @@
       "id": "e8-mc2",
       "type": "multiple-choice",
       "question": "Was je handen ___ je eet. (vóór die actie)",
-      "options": ["zodra", "zolang", "voordat", "zodat"],
+      "options": [
+        "zodra",
+        "zolang",
+        "voordat",
+        "zodat"
+      ],
       "answer": "voordat",
       "explanation": "'Voordat' = voor iets (before). De handenwas komt VOOR het eten.",
       "lessonId": "les8"
@@ -72,7 +199,12 @@
       "id": "e8-mc3",
       "type": "multiple-choice",
       "question": "Dit is interessant. Ik wil ___ iets over zeggen.",
-      "options": ["er", "het", "daar", "hem"],
+      "options": [
+        "er",
+        "het",
+        "daar",
+        "hem"
+      ],
       "answer": "er",
       "explanation": "'Er' als verwijswoord + prepositie: 'er iets over zeggen' = iets zeggen OVER dat onderwerp.",
       "lessonId": "les8"
@@ -81,7 +213,12 @@
       "id": "e8-mc4",
       "type": "multiple-choice",
       "question": "___ je hier woont, volg je mijn regels. (tijdens die volledige periode)",
-      "options": ["Zodra", "Voordat", "Zodat", "Zolang"],
+      "options": [
+        "Zodra",
+        "Voordat",
+        "Zodat",
+        "Zolang"
+      ],
       "answer": "Zolang",
       "explanation": "'Zolang' = gedurende die periode / as long as.",
       "lessonId": "les8"
@@ -99,11 +236,26 @@
       "id": "e8-matching",
       "type": "matching",
       "pairs": [
-        { "left": "zodat", "right": "para que / so that" },
-        { "left": "voordat", "right": "antes de / before" },
-        { "left": "zodra", "right": "en cuanto / as soon as" },
-        { "left": "zolang", "right": "mientras / as long as" },
-        { "left": "de band", "right": "el vínculo / bond" }
+        {
+          "left": "zodat",
+          "right": "para que / so that"
+        },
+        {
+          "left": "voordat",
+          "right": "antes de / before"
+        },
+        {
+          "left": "zodra",
+          "right": "en cuanto / as soon as"
+        },
+        {
+          "left": "zolang",
+          "right": "mientras / as long as"
+        },
+        {
+          "left": "de band",
+          "right": "el vínculo / bond"
+        }
       ],
       "lessonId": "les8"
     }

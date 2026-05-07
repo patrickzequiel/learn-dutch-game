@@ -5,23 +5,132 @@
   "dateDisplay": "donderdag 7 mei",
   "theme": "Natuur, milieu en omgeving",
   "subtheme": "Relatieve bijzinnen met preposities + 'er' als verwijswoord",
-  "topics": ["Relatieve bijzinnen met preposities: waar+prep (dingen) en prep+wie (personen)", "'Er' als verwijswoord: er + hoeveelheid, er + prepositie (scheidbaar werkwoord)", "Thema: natuur, natuurrampen, milieu & duurzaamheid"],
+  "topics": [
+    "Relatieve bijzinnen met preposities: waar+prep (dingen) en prep+wie (personen)",
+    "'Er' als verwijswoord: er + hoeveelheid, er + prepositie (scheidbaar werkwoord)",
+    "Thema: natuur, natuurrampen, milieu & duurzaamheid"
+  ],
   "vocabulary": [
-    { "id": "l11-relaxen", "dutch": "relaxen / zich ontspannen", "translation": "relajarse / to relax", "example": "Ik hou van de natuur, want ik voel me er ontspannen.", "exampleTranslation": "Me gusta la naturaleza porque me siento relajado en ella.", "category": "welzijn", "lessonId": "les11" },
-    { "id": "l11-huisdier", "dutch": "het huisdier", "translation": "la mascota / pet", "example": "Heb je huisdieren? Ik heb een hond.", "exampleTranslation": "¿Tienes mascotas? Tengo un perro.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-kamerplant", "dutch": "de kamerplant", "translation": "la planta de interior / houseplant", "example": "Ik heb er enkele kamerplanten in mijn appartement.", "exampleTranslation": "Tengo algunas plantas de interior en mi apartamento.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-terechtkomen", "dutch": "terechtkomen / belanden", "translation": "acabar en / to end up (somewhere)", "example": "Hoe ben jij in onze school terechtgekomen?", "exampleTranslation": "¿Cómo acabaste en nuestra escuela?", "category": "verbs", "lessonId": "les11" },
-    { "id": "l11-aanbeveling", "dutch": "de aanbeveling", "translation": "la recomendación / recommendation", "example": "Ik ben hier terechtgekomen via een aanbeveling van een vriendin.", "exampleTranslation": "Llegué aquí gracias a la recomendación de una amiga.", "category": "communicatie", "lessonId": "les11" },
-    { "id": "l11-aanbevelen", "dutch": "aanbevelen / aanraden", "translation": "recomendar / to recommend", "example": "Ik beveel dit initiatief ten zeerste aan.", "exampleTranslation": "Recomiendo encarecidamente esta iniciativa.", "category": "communicatie", "lessonId": "les11" },
-    { "id": "l11-deelnemen", "dutch": "deelnemen aan", "translation": "participar en / to participate in", "example": "Zou je graag deelnemen aan 'Buur en natuur'?", "exampleTranslation": "¿Te gustaría participar en 'Buur en natuur'?", "category": "verbs", "lessonId": "les11" },
-    { "id": "l11-initiatief", "dutch": "het initiatief", "translation": "la iniciativa / initiative", "example": "'Buur en natuur' is een mooi initiatief om samen te wandelen.", "exampleTranslation": "'Buur en natuur' es una bonita iniciativa para caminar juntos.", "category": "maatschappij", "lessonId": "les11" },
-    { "id": "l11-natuurramp", "dutch": "de natuurramp", "translation": "el desastre natural / natural disaster", "example": "Overstromingen zijn een gevaarlijke natuurramp.", "exampleTranslation": "Las inundaciones son un peligroso desastre natural.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-overstroming", "dutch": "de overstroming", "translation": "la inundación / flood", "example": "Ze werden getroffen door overstromingen.", "exampleTranslation": "Fueron afectados por inundaciones.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-slachtoffer", "dutch": "het slachtoffer", "translation": "la víctima / victim", "example": "Er vielen veel slachtoffers bij de aardbeving.", "exampleTranslation": "Hubo muchas víctimas en el terremoto.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-verwoesten", "dutch": "verwoesten / vernielen", "translation": "destruir / to destroy", "example": "De storm heeft een totaal verwoest dorp achtergelaten.", "exampleTranslation": "La tormenta dejó un pueblo completamente destruido.", "category": "natuur", "lessonId": "les11" },
-    { "id": "l11-omvangrijk", "dutch": "omvangrijk", "translation": "de gran magnitud / extensive, large-scale", "example": "De schade was omvangrijk: honderden huizen werden beschadigd.", "exampleTranslation": "Los daños fueron de gran magnitud: cientos de casas resultaron dañadas.", "category": "adjectieven", "lessonId": "les11" },
-    { "id": "l11-duurzaam", "dutch": "duurzaam", "translation": "sostenible / sustainable", "example": "Duurzaam winkelen betekent minder verpakking gebruiken.", "exampleTranslation": "Comprar de forma sostenible significa usar menos embalaje.", "category": "milieu", "lessonId": "les11" },
-    { "id": "l11-uitkijken-naar", "dutch": "uitkijken naar", "translation": "esperar con ilusión / to look forward to", "example": "Ik kijk ernaar uit om deze zomer in de natuur te wandelen.", "exampleTranslation": "Tengo muchas ganas de caminar en la naturaleza este verano.", "category": "verbs", "lessonId": "les11" }
+    {
+      "id": "l11-relaxen",
+      "dutch": "relaxen / zich ontspannen",
+      "translation": "to relax",
+      "example": "Ik hou van de natuur, want ik voel me er ontspannen.",
+      "category": "welzijn",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-huisdier",
+      "dutch": "het huisdier",
+      "translation": "pet",
+      "example": "Heb je huisdieren? Ik heb een hond.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-kamerplant",
+      "dutch": "de kamerplant",
+      "translation": "houseplant",
+      "example": "Ik heb er enkele kamerplanten in mijn appartement.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-terechtkomen",
+      "dutch": "terechtkomen / belanden",
+      "translation": "to end up (somewhere)",
+      "example": "Hoe ben jij in onze school terechtgekomen?",
+      "category": "verbs",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-aanbeveling",
+      "dutch": "de aanbeveling",
+      "translation": "recommendation",
+      "example": "Ik ben hier terechtgekomen via een aanbeveling van een vriendin.",
+      "category": "communicatie",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-aanbevelen",
+      "dutch": "aanbevelen / aanraden",
+      "translation": "to recommend",
+      "example": "Ik beveel dit initiatief ten zeerste aan.",
+      "category": "communicatie",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-deelnemen",
+      "dutch": "deelnemen aan",
+      "translation": "to participate in",
+      "example": "Zou je graag deelnemen aan 'Buur en natuur'?",
+      "category": "verbs",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-initiatief",
+      "dutch": "het initiatief",
+      "translation": "initiative",
+      "example": "'Buur en natuur' is een mooi initiatief om samen te wandelen.",
+      "category": "maatschappij",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-natuurramp",
+      "dutch": "de natuurramp",
+      "translation": "natural disaster",
+      "example": "Overstromingen zijn een gevaarlijke natuurramp.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-overstroming",
+      "dutch": "de overstroming",
+      "translation": "flood",
+      "example": "Ze werden getroffen door overstromingen.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-slachtoffer",
+      "dutch": "het slachtoffer",
+      "translation": "victim",
+      "example": "Er vielen veel slachtoffers bij de aardbeving.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-verwoesten",
+      "dutch": "verwoesten / vernielen",
+      "translation": "to destroy",
+      "example": "De storm heeft een totaal verwoest dorp achtergelaten.",
+      "category": "natuur",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-omvangrijk",
+      "dutch": "omvangrijk",
+      "translation": "extensive, large-scale",
+      "example": "De schade was omvangrijk: honderden huizen werden beschadigd.",
+      "category": "adjectieven",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-duurzaam",
+      "dutch": "duurzaam",
+      "translation": "sustainable",
+      "example": "Duurzaam winkelen betekent minder verpakking gebruiken.",
+      "category": "milieu",
+      "lessonId": "les11"
+    },
+    {
+      "id": "l11-uitkijken-naar",
+      "dutch": "uitkijken naar",
+      "translation": "to look forward to",
+      "example": "Ik kijk ernaar uit om deze zomer in de natuur te wandelen.",
+      "category": "verbs",
+      "lessonId": "les11"
+    }
   ],
   "grammar": [
     {
@@ -30,10 +139,26 @@
       "explanation": "Als een relatief pronomen SAMEN met een prepositie gebruikt wordt, mag je NOOIT 'die' of 'dat' gebruiken. Je kiest naargelang het antecedent een persoon of een ding is.",
       "rule": "DINGEN: waar + prepositie (waarvan, waarmee, waarop, waarover, waarvoor, waarnaar) | PERSONEN: prepositie + wie (van wie, aan wie, naar wie, op wie) | NOOIT: die/dat + prepositie!",
       "examples": [
-        { "dutch": "Mijn enige band met de natuur waren de safaridocumentaires waarvan ik hield.", "translation": "Mi único vínculo con la naturaleza eran los documentales de safari de los que disfrutaba.", "highlight": "waarvan = van + ding (documentaires)" },
-        { "dutch": "Lia is de vrouw van wie hij hield.", "translation": "Lia es la mujer de quien él estaba enamorado.", "highlight": "van wie = van + persoon (vrouw)" },
-        { "dutch": "Dit is het initiatief waaraan ik deelneem.", "translation": "Esta es la iniciativa en la que participo.", "highlight": "waaraan = aan + ding (initiatief)" },
-        { "dutch": "De vriend aan wie ik alles vertel, is heel betrouwbaar.", "translation": "El amigo a quien le cuento todo es muy fiable.", "highlight": "aan wie = aan + persoon (vriend)" }
+        {
+          "dutch": "Mijn enige band met de natuur waren de safaridocumentaires waarvan ik hield.",
+          "translation": "Mi único vínculo con la naturaleza eran los documentales de safari de los que disfrutaba.",
+          "highlight": "waarvan = van + ding (documentaires)"
+        },
+        {
+          "dutch": "Lia is de vrouw van wie hij hield.",
+          "translation": "Lia es la mujer de quien él estaba enamorado.",
+          "highlight": "van wie = van + persoon (vrouw)"
+        },
+        {
+          "dutch": "Dit is het initiatief waaraan ik deelneem.",
+          "translation": "Esta es la iniciativa en la que participo.",
+          "highlight": "waaraan = aan + ding (initiatief)"
+        },
+        {
+          "dutch": "De vriend aan wie ik alles vertel, is heel betrouwbaar.",
+          "translation": "El amigo a quien le cuento todo es muy fiable.",
+          "highlight": "aan wie = aan + persoon (vriend)"
+        }
       ],
       "lessonId": "les11",
       "category": "grammar"
@@ -44,10 +169,26 @@
       "explanation": "'Er' als verwijswoord staat altijd direct na het subject en verbum (3de positie). Het kan verwijzen naar een hoeveelheid of gecombineerd worden met een vaste prepositie van een scheidbaar werkwoord.",
       "rule": "Er + hoeveelheid: 'Ik heb er enkele / er geen / er veel' | Er + prepositie (scheidbaar): 'uitkijken naar' → 'Ik kijk ernaar uit' | Positie: direct na Subject + Verbum",
       "examples": [
-        { "dutch": "Heb je kamerplanten? Ja, ik heb er enkele.", "translation": "¿Tienes plantas de interior? Sí, tengo algunas.", "highlight": "er + enkele → hoeveelheid" },
-        { "dutch": "Heb je een hond? Nee, ik heb er geen.", "translation": "¿Tienes un perro? No, no tengo.", "highlight": "er + geen → hoeveelheid (ontkenning)" },
-        { "dutch": "Ik kijk ernaar uit om te wandelen.", "translation": "Tengo muchas ganas de caminar.", "highlight": "uitkijken naar → Ik kijk er + naar + uit" },
-        { "dutch": "Ik geniet er elke keer van. (= van het wandelen met 'Buur en natuur')", "translation": "Lo disfruto cada vez.", "highlight": "er + van → direct na subject+verbum (3de positie)" }
+        {
+          "dutch": "Heb je kamerplanten? Ja, ik heb er enkele.",
+          "translation": "¿Tienes plantas de interior? Sí, tengo algunas.",
+          "highlight": "er + enkele → hoeveelheid"
+        },
+        {
+          "dutch": "Heb je een hond? Nee, ik heb er geen.",
+          "translation": "¿Tienes un perro? No, no tengo.",
+          "highlight": "er + geen → hoeveelheid (ontkenning)"
+        },
+        {
+          "dutch": "Ik kijk ernaar uit om te wandelen.",
+          "translation": "Tengo muchas ganas de caminar.",
+          "highlight": "uitkijken naar → Ik kijk er + naar + uit"
+        },
+        {
+          "dutch": "Ik geniet er elke keer van. (= van het wandelen met 'Buur en natuur')",
+          "translation": "Lo disfruto cada vez.",
+          "highlight": "er + van → direct na subject+verbum (3de positie)"
+        }
       ],
       "lessonId": "les11",
       "category": "grammar"
@@ -58,7 +199,12 @@
       "id": "e11-mc1",
       "type": "multiple-choice",
       "question": "De safaridocumentaires ___ ik hield, waren geweldig. (houden van = vaste prepositie 'van' + DING)",
-      "options": ["die", "dat", "waarvan", "van wie"],
+      "options": [
+        "die",
+        "dat",
+        "waarvan",
+        "van wie"
+      ],
       "answer": "waarvan",
       "explanation": "Prepositie 'van' + ding (documentaires) → 'waar + van' = waarvan. NOOIT 'van die'!",
       "lessonId": "les11"
@@ -67,7 +213,12 @@
       "id": "e11-mc2",
       "type": "multiple-choice",
       "question": "Lia is de vrouw ___ hij hield. (houden van + PERSOON)",
-      "options": ["waarvan", "die", "dat", "van wie"],
+      "options": [
+        "waarvan",
+        "die",
+        "dat",
+        "van wie"
+      ],
       "answer": "van wie",
       "explanation": "Prepositie 'van' + persoon (vrouw) → 'prepositie + wie' = van wie.",
       "lessonId": "les11"
@@ -76,7 +227,12 @@
       "id": "e11-mc3",
       "type": "multiple-choice",
       "question": "Het initiatief ___ ik deelneem, is heel interessant. (deelnemen AAN + DING)",
-      "options": ["die", "waaraan", "aan wie", "dat"],
+      "options": [
+        "die",
+        "waaraan",
+        "aan wie",
+        "dat"
+      ],
       "answer": "waaraan",
       "explanation": "Prepositie 'aan' + ding (initiatief) → 'waar + aan' = waaraan.",
       "lessonId": "les11"
@@ -85,7 +241,12 @@
       "id": "e11-mc4",
       "type": "multiple-choice",
       "question": "Heb je kamerplanten? Ja, ik heb ___ enkele.",
-      "options": ["er", "het", "ze", "daar"],
+      "options": [
+        "er",
+        "het",
+        "ze",
+        "daar"
+      ],
       "answer": "er",
       "explanation": "'Er' + hoeveelheid: 'Ik heb er enkele.' 'Er' staat direct na subject + verbum.",
       "lessonId": "les11"
@@ -94,7 +255,12 @@
       "id": "e11-mc5",
       "type": "multiple-choice",
       "question": "Ik kijk ___ uit om te wandelen in de natuur. (uitkijken naar = scheidbaar werkwoord)",
-      "options": ["ervoor", "eraan", "ernaar", "erover"],
+      "options": [
+        "ervoor",
+        "eraan",
+        "ernaar",
+        "erover"
+      ],
       "answer": "ernaar",
       "explanation": "'Uitkijken naar' → er + naar = ernaar. Het werkwoord is scheidbaar: kijk + ernaar + uit.",
       "lessonId": "les11"
@@ -121,11 +287,26 @@
       "id": "e11-matching",
       "type": "matching",
       "pairs": [
-        { "left": "waarvan", "right": "van + ding (thing)" },
-        { "left": "van wie", "right": "van + persoon (person)" },
-        { "left": "waaraan", "right": "aan + ding (thing)" },
-        { "left": "de overstroming", "right": "la inundación / flood" },
-        { "left": "duurzaam", "right": "sostenible / sustainable" }
+        {
+          "left": "waarvan",
+          "right": "van + ding (thing)"
+        },
+        {
+          "left": "van wie",
+          "right": "van + persoon (person)"
+        },
+        {
+          "left": "waaraan",
+          "right": "aan + ding (thing)"
+        },
+        {
+          "left": "de overstroming",
+          "right": "la inundación / flood"
+        },
+        {
+          "left": "duurzaam",
+          "right": "sostenible / sustainable"
+        }
       ],
       "lessonId": "les11"
     }

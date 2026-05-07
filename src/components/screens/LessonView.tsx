@@ -93,7 +93,6 @@ export function LessonView({ lesson, progress, onBack, onStartGame }: Props) {
                     <>
                       <div className="vocab-translation">{v.translation}</div>
                       <div className="vocab-example"><em>{v.example}</em></div>
-                      <div className="vocab-example-tr">{v.exampleTranslation}</div>
                     </>
                   )}
                   <span className="vocab-category">{v.category}</span>

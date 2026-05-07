@@ -5,7 +5,7 @@ export interface VocabularyItem {
   dutch: string;
   translation: string;
   example: string;
-  exampleTranslation: string;
+  exampleTranslation?: string;
   category: string;
   lessonId: string;
 }

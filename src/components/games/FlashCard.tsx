@@ -58,7 +58,6 @@ export function FlashCard({ item, onRate, srsCard }: Props) {
           <div className="flashcard-translation">{item.translation}</div>
           <div className="flashcard-example">
             <em>{item.example}</em>
-            <span className="flashcard-example-tr">{item.exampleTranslation}</span>
           </div>
         </div>
       </div>

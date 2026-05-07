@@ -241,7 +241,7 @@ Vocab: relaxen/ontspannen, huisdier, kamerplant, terechtkomen/belanden, aanbevel
 
 ## Pedagogy notes
 
-- Always include a Spanish translation for every vocabulary item
+- Always include an English translation for every vocabulary item (no Spanish)
 - Include at least one example sentence per word
 - Grammar rules need: explanation (why) + rule (formula) + 2-3 examples with highlights
 - Exercises should progress: recognition (MC) → production (fill-in) → connections (matching)

@@ -5,20 +5,109 @@
   "dateDisplay": "woensdag 30 april",
   "theme": "Dankbaarheid & Relatieve pronomina",
   "subtheme": "Die/aan wie/naar wie + Dankzij",
-  "topics": ["Relatieve pronomina: die / dat / wie + prepositie", "'Dankzij' + object + inversie", "Thema: dankbaarheid en opvoeding", "Opvoedingslijn (advies via telefoon/chat)"],
+  "topics": [
+    "Relatieve pronomina: die / dat / wie + prepositie",
+    "'Dankzij' + object + inversie",
+    "Thema: dankbaarheid en opvoeding",
+    "Opvoedingslijn (advies via telefoon/chat)"
+  ],
   "vocabulary": [
-    { "id": "l10-dankbaar", "dutch": "dankbaar", "translation": "agradecido / grateful", "example": "Ik ben dankbaar voor alles wat mijn ouders voor me hebben gedaan.", "exampleTranslation": "Estoy agradecido por todo lo que mis padres han hecho por mí.", "category": "gevoelens", "lessonId": "les10" },
-    { "id": "l10-dankzij", "dutch": "dankzij", "translation": "gracias a / thanks to", "example": "Dankzij haar heb ik autorijden geleerd.", "exampleTranslation": "Gracias a ella aprendí a conducir.", "category": "conjuncties", "lessonId": "les10" },
-    { "id": "l10-opkijken-naar", "dutch": "opkijken naar", "translation": "admirar / to look up to", "example": "Ik kijk op naar mijn leraar.", "exampleTranslation": "Admiro a mi profesor.", "category": "gevoelens", "lessonId": "les10" },
-    { "id": "l10-onafhankelijk", "dutch": "onafhankelijk", "translation": "independiente / independent", "example": "Ze heeft me geholpen om onafhankelijk te worden.", "exampleTranslation": "Me ayudó a volverme independiente.", "category": "adjectieven", "lessonId": "les10" },
-    { "id": "l10-vaardigheden", "dutch": "de vaardigheden", "translation": "las habilidades / skills", "example": "Ze heeft me veel vaardigheden bijgebracht.", "exampleTranslation": "Me enseñó muchas habilidades.", "category": "opvoeding", "lessonId": "les10" },
-    { "id": "l10-contacteren", "dutch": "contacteren", "translation": "contactar / to contact", "example": "Je kan de opvoedingslijn contacteren voor advies.", "exampleTranslation": "Puedes contactar la línea de crianza para pedir consejo.", "category": "communicatie", "lessonId": "les10" },
-    { "id": "l10-bespreken", "dutch": "bespreken", "translation": "discutir / to discuss", "example": "We bespreken het probleem met de specialist.", "exampleTranslation": "Discutimos el problema con el especialista.", "category": "communicatie", "lessonId": "les10" },
-    { "id": "l10-zindelijk", "dutch": "zindelijk zijn", "translation": "estar limpio / to be toilet-trained", "example": "Wanneer wordt een kind zindelijk?", "exampleTranslation": "¿Cuándo aprende un niño a ir al baño solo?", "category": "opvoeding", "lessonId": "les10" },
-    { "id": "l10-luier", "dutch": "de luier", "translation": "el pañal / diaper, nappy", "example": "Het kind draagt 's nachts nog een luier.", "exampleTranslation": "El niño todavía lleva pañal por la noche.", "category": "opvoeding", "lessonId": "les10" },
-    { "id": "l10-opvoedingslijn", "dutch": "de opvoedingslijn", "translation": "la línea de crianza / parenting helpline", "example": "De opvoedingslijn geeft gratis advies aan ouders.", "exampleTranslation": "La línea de crianza da consejos gratuitos a los padres.", "category": "opvoeding", "lessonId": "les10" },
-    { "id": "l10-die", "dutch": "die / dat", "translation": "que / quien / which (relativo)", "example": "De persoon die me heeft geholpen, is mijn leraar.", "exampleTranslation": "La persona que me ayudó es mi profesor.", "category": "grammatica", "lessonId": "les10" },
-    { "id": "l10-aan-wie", "dutch": "aan wie / naar wie / op wie", "translation": "a quien / hacia quien / en quien", "example": "De persoon aan wie ik alles vertel, is mijn beste vriend.", "exampleTranslation": "La persona a quien le cuento todo es mi mejor amigo.", "category": "grammatica", "lessonId": "les10" }
+    {
+      "id": "l10-dankbaar",
+      "dutch": "dankbaar",
+      "translation": "grateful",
+      "example": "Ik ben dankbaar voor alles wat mijn ouders voor me hebben gedaan.",
+      "category": "gevoelens",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-dankzij",
+      "dutch": "dankzij",
+      "translation": "thanks to",
+      "example": "Dankzij haar heb ik autorijden geleerd.",
+      "category": "conjuncties",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-opkijken-naar",
+      "dutch": "opkijken naar",
+      "translation": "to look up to",
+      "example": "Ik kijk op naar mijn leraar.",
+      "category": "gevoelens",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-onafhankelijk",
+      "dutch": "onafhankelijk",
+      "translation": "independent",
+      "example": "Ze heeft me geholpen om onafhankelijk te worden.",
+      "category": "adjectieven",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-vaardigheden",
+      "dutch": "de vaardigheden",
+      "translation": "skills",
+      "example": "Ze heeft me veel vaardigheden bijgebracht.",
+      "category": "opvoeding",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-contacteren",
+      "dutch": "contacteren",
+      "translation": "to contact",
+      "example": "Je kan de opvoedingslijn contacteren voor advies.",
+      "category": "communicatie",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-bespreken",
+      "dutch": "bespreken",
+      "translation": "to discuss",
+      "example": "We bespreken het probleem met de specialist.",
+      "category": "communicatie",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-zindelijk",
+      "dutch": "zindelijk zijn",
+      "translation": "to be toilet-trained",
+      "example": "Wanneer wordt een kind zindelijk?",
+      "category": "opvoeding",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-luier",
+      "dutch": "de luier",
+      "translation": "diaper, nappy",
+      "example": "Het kind draagt 's nachts nog een luier.",
+      "category": "opvoeding",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-opvoedingslijn",
+      "dutch": "de opvoedingslijn",
+      "translation": "parenting helpline",
+      "example": "De opvoedingslijn geeft gratis advies aan ouders.",
+      "category": "opvoeding",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-die",
+      "dutch": "die / dat",
+      "translation": "quien / which (relativo)",
+      "example": "De persoon die me heeft geholpen, is mijn leraar.",
+      "category": "grammatica",
+      "lessonId": "les10"
+    },
+    {
+      "id": "l10-aan-wie",
+      "dutch": "aan wie / naar wie / op wie",
+      "translation": "hacia quien / en quien",
+      "example": "De persoon aan wie ik alles vertel, is mijn beste vriend.",
+      "category": "grammatica",
+      "lessonId": "les10"
+    }
   ],
   "grammar": [
     {
@@ -27,10 +116,26 @@
       "explanation": "Een relatief pronomen verbindt een zin met een eerder naamwoord. Zonder prepositie: 'die' (de-woord of persoon) of 'dat' (het-woord). Met prepositie voor een PERSOON: prepositie + 'wie'.",
       "rule": "Zonder prepositie: de + substantief → die | het + substantief → dat | Met prepositie + persoon: aan wie / naar wie / op wie / voor wie (ENKEL voor personen!)",
       "examples": [
-        { "dutch": "De persoon die me heeft geholpen, is mijn leraar.", "translation": "La persona que me ayudó es mi profesor.", "highlight": "die = zonder prepositie, de-woord/persoon" },
-        { "dutch": "Het boek dat ik lees, is interessant.", "translation": "El libro que leo es interesante.", "highlight": "dat = zonder prepositie, het-woord" },
-        { "dutch": "De persoon aan wie ik alles vertel, is mijn beste vriend.", "translation": "La persona a quien le cuento todo es mi mejor amigo.", "highlight": "aan wie = prepositie + persoon" },
-        { "dutch": "De vriend naar wie ik luister, is heel wijs.", "translation": "El amigo a quien escucho es muy sabio.", "highlight": "naar wie = luisteren naar + persoon" }
+        {
+          "dutch": "De persoon die me heeft geholpen, is mijn leraar.",
+          "translation": "La persona que me ayudó es mi profesor.",
+          "highlight": "die = zonder prepositie, de-woord/persoon"
+        },
+        {
+          "dutch": "Het boek dat ik lees, is interessant.",
+          "translation": "El libro que leo es interesante.",
+          "highlight": "dat = zonder prepositie, het-woord"
+        },
+        {
+          "dutch": "De persoon aan wie ik alles vertel, is mijn beste vriend.",
+          "translation": "La persona a quien le cuento todo es mi mejor amigo.",
+          "highlight": "aan wie = prepositie + persoon"
+        },
+        {
+          "dutch": "De vriend naar wie ik luister, is heel wijs.",
+          "translation": "El amigo a quien escucho es muy sabio.",
+          "highlight": "naar wie = luisteren naar + persoon"
+        }
       ],
       "lessonId": "les10",
       "category": "grammar"
@@ -41,9 +146,21 @@
       "explanation": "'Dankzij' heeft altijd een POSITIEVE betekenis. Het betekent 'door, maar dan positief'. Na 'dankzij' + naamwoord volgt inversie (werkwoord voor subject).",
       "rule": "Dankzij + object + inversie (V + S + rest) | Altijd positief! Nooit negatief gebruiken | Verschil: 'door' = neutraal/negatief | 'dankzij' = positief",
       "examples": [
-        { "dutch": "Dankzij haar heb ik autorijden geleerd.", "translation": "Gracias a ella aprendí a conducir.", "highlight": "Dankzij + haar → inversie: heb ik" },
-        { "dutch": "Dankzij zijn hulp is het project geslaagd.", "translation": "Gracias a su ayuda el proyecto tuvo éxito.", "highlight": "Dankzij + zijn hulp → inversie: is het" },
-        { "dutch": "Dankzij de training ben ik sterker geworden.", "translation": "Gracias al entrenamiento me he vuelto más fuerte.", "highlight": "Dankzij + de training → inversie: ben ik" }
+        {
+          "dutch": "Dankzij haar heb ik autorijden geleerd.",
+          "translation": "Gracias a ella aprendí a conducir.",
+          "highlight": "Dankzij + haar → inversie: heb ik"
+        },
+        {
+          "dutch": "Dankzij zijn hulp is het project geslaagd.",
+          "translation": "Gracias a su ayuda el proyecto tuvo éxito.",
+          "highlight": "Dankzij + zijn hulp → inversie: is het"
+        },
+        {
+          "dutch": "Dankzij de training ben ik sterker geworden.",
+          "translation": "Gracias al entrenamiento me he vuelto más fuerte.",
+          "highlight": "Dankzij + de training → inversie: ben ik"
+        }
       ],
       "lessonId": "les10",
       "category": "grammar"
@@ -54,7 +171,12 @@
       "id": "e10-mc1",
       "type": "multiple-choice",
       "question": "De persoon ___ me heeft geholpen, is mijn leraar. (geen prepositie, persoon)",
-      "options": ["dat", "die", "aan wie", "naar wie"],
+      "options": [
+        "dat",
+        "die",
+        "aan wie",
+        "naar wie"
+      ],
       "answer": "die",
       "explanation": "Zonder prepositie + persoon (of de-woord) → 'die'. 'Die me heeft geholpen' = relatieve bijzin.",
       "lessonId": "les10"
@@ -63,7 +185,12 @@
       "id": "e10-mc2",
       "type": "multiple-choice",
       "question": "De vriend ___ ik alles vertel, is heel betrouwbaar. (aan = prepositie)",
-      "options": ["die", "dat", "aan wie", "naar wie"],
+      "options": [
+        "die",
+        "dat",
+        "aan wie",
+        "naar wie"
+      ],
       "answer": "aan wie",
       "explanation": "'Vertellen aan iemand' + persoon → 'aan wie'. Met prepositie + persoon: prepositie + wie.",
       "lessonId": "les10"
@@ -72,7 +199,12 @@
       "id": "e10-mc3",
       "type": "multiple-choice",
       "question": "___ mijn leraar spreek ik nu vloeiend Nederlands. (positief resultaat)",
-      "options": ["Door", "Dankzij", "Omdat", "Hoewel"],
+      "options": [
+        "Door",
+        "Dankzij",
+        "Omdat",
+        "Hoewel"
+      ],
       "answer": "Dankzij",
       "explanation": "'Dankzij' = door, maar altijd POSITIEF. Je hebt iets bereikt dankzij de hulp van iemand.",
       "lessonId": "les10"
@@ -81,7 +213,12 @@
       "id": "e10-mc4",
       "type": "multiple-choice",
       "question": "Dankzij haar ___ ik autorijden ___. Wat is de correcte volgorde?",
-      "options": ["ik heb ... geleerd", "heb ik ... geleerd", "ik geleerd ... heb", "geleerd heb ik"],
+      "options": [
+        "ik heb ... geleerd",
+        "heb ik ... geleerd",
+        "ik geleerd ... heb",
+        "geleerd heb ik"
+      ],
       "answer": "heb ik ... geleerd",
       "explanation": "Na 'dankzij + object' volgt inversie: werkwoord vóór subject. 'Dankzij haar HEB IK autorijden geleerd.'",
       "lessonId": "les10"
@@ -99,11 +236,26 @@
       "id": "e10-matching",
       "type": "matching",
       "pairs": [
-        { "left": "die", "right": "que / relativo (de-woord of persoon)" },
-        { "left": "dat", "right": "que / relativo (het-woord)" },
-        { "left": "aan wie", "right": "a quien (met prepositie)" },
-        { "left": "dankzij", "right": "gracias a (altijd positief)" },
-        { "left": "opkijken naar", "right": "admirar / look up to" }
+        {
+          "left": "die",
+          "right": "que / relativo (de-woord of persoon)"
+        },
+        {
+          "left": "dat",
+          "right": "que / relativo (het-woord)"
+        },
+        {
+          "left": "aan wie",
+          "right": "a quien (met prepositie)"
+        },
+        {
+          "left": "dankzij",
+          "right": "gracias a (altijd positief)"
+        },
+        {
+          "left": "opkijken naar",
+          "right": "admirar / look up to"
+        }
       ],
       "lessonId": "les10"
     }

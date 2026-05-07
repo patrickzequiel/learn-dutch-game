@@ -5,18 +5,92 @@
   "dateDisplay": "Extra: Conjuncties",
   "theme": "Grammatica",
   "subtheme": "Reden & oorzaak + Tijd",
-  "topics": ["Conjuncties van reden: omdat, aangezien, doordat", "Conjuncties van tijd: voor(dat), terwijl, nadat, sinds, zodra, zolang", "Zinsconstructie met conjunctie"],
+  "topics": [
+    "Conjuncties van reden: omdat, aangezien, doordat",
+    "Conjuncties van tijd: voor(dat), terwijl, nadat, sinds, zodra, zolang",
+    "Zinsconstructie met conjunctie"
+  ],
   "vocabulary": [
-    { "id": "c-omdat", "dutch": "omdat", "translation": "porque / because", "example": "Ik ga niet mee omdat ik geen zin heb.", "exampleTranslation": "No voy porque no tengo ganas.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-aangezien", "dutch": "aangezien", "translation": "dado que / since (formal)", "example": "Aangezien hij moe is, gaat hij slapen.", "exampleTranslation": "Dado que está cansado, se va a dormir.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-doordat", "dutch": "doordat", "translation": "debido a que / because (cause)", "example": "De trein had vertraging doordat er een ongeval was.", "exampleTranslation": "El tren se retrasó debido a un accidente.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-voordat", "dutch": "voor(dat)", "translation": "antes de (que) / before", "example": "Voordat hij ging slapen, dronk hij thee.", "exampleTranslation": "Antes de dormir, tomó té.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-terwijl", "dutch": "terwijl", "translation": "mientras / while", "example": "Terwijl ik kook, luister ik naar muziek.", "exampleTranslation": "Mientras cocino, escucho música.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-nadat", "dutch": "nadat", "translation": "después de que / after", "example": "Nadat hij gegeten had, ging hij wandelen.", "exampleTranslation": "Después de comer, fue a caminar.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-sinds", "dutch": "sinds", "translation": "desde que / since", "example": "Sinds ik Nederlands leer, spreek ik beter.", "exampleTranslation": "Desde que aprendo neerlandés, hablo mejor.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-zodra", "dutch": "zodra", "translation": "en cuanto / as soon as", "example": "Zodra de les gedaan is, ga ik naar huis.", "exampleTranslation": "En cuanto termine la clase, me voy a casa.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-zolang", "dutch": "zolang", "translation": "mientras (condición) / as long as", "example": "Zolang ik geen werk heb, studeer ik.", "exampleTranslation": "Mientras no tengo trabajo, estudio.", "category": "conjuncties", "lessonId": "conjuncties" },
-    { "id": "c-als", "dutch": "als", "translation": "cuando / si / when / if", "example": "Als je geen rijbewijs hebt, mag je niet rijden.", "exampleTranslation": "Si no tienes carné, no puedes conducir.", "category": "conjuncties", "lessonId": "conjuncties" }
+    {
+      "id": "c-omdat",
+      "dutch": "omdat",
+      "translation": "because",
+      "example": "Ik ga niet mee omdat ik geen zin heb.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-aangezien",
+      "dutch": "aangezien",
+      "translation": "since (formal)",
+      "example": "Aangezien hij moe is, gaat hij slapen.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-doordat",
+      "dutch": "doordat",
+      "translation": "because (cause)",
+      "example": "De trein had vertraging doordat er een ongeval was.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-voordat",
+      "dutch": "voor(dat)",
+      "translation": "before",
+      "example": "Voordat hij ging slapen, dronk hij thee.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-terwijl",
+      "dutch": "terwijl",
+      "translation": "while",
+      "example": "Terwijl ik kook, luister ik naar muziek.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-nadat",
+      "dutch": "nadat",
+      "translation": "after",
+      "example": "Nadat hij gegeten had, ging hij wandelen.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-sinds",
+      "dutch": "sinds",
+      "translation": "since",
+      "example": "Sinds ik Nederlands leer, spreek ik beter.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-zodra",
+      "dutch": "zodra",
+      "translation": "as soon as",
+      "example": "Zodra de les gedaan is, ga ik naar huis.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-zolang",
+      "dutch": "zolang",
+      "translation": "as long as",
+      "example": "Zolang ik geen werk heb, studeer ik.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    },
+    {
+      "id": "c-als",
+      "dutch": "als",
+      "translation": "si / when / if",
+      "example": "Als je geen rijbewijs hebt, mag je niet rijden.",
+      "category": "conjuncties",
+      "lessonId": "conjuncties"
+    }
   ],
   "grammar": [
     {
@@ -25,9 +99,21 @@
       "explanation": "Een conjunctie leidt een bijzin in. In de bijzin staat het werkwoord ACHTERAAN (S + R + V1 + V2).",
       "rule": "Bijzin: Subject + Rest + Verbum1 + Verbum2 | Conjunctie kan aan het begin of midden staan | Bijzin eerst → komma → hoofdzin",
       "examples": [
-        { "dutch": "Ik ga niet mee omdat ik geen zin heb.", "translation": "No voy porque no tengo ganas.", "highlight": "heb (V1 achteraan)" },
-        { "dutch": "Omdat ik geen zin heb, ga ik niet mee.", "translation": "Como no tengo ganas, no voy.", "highlight": "Bijzin eerst → komma → hoofdzin" },
-        { "dutch": "Nadat hij gegeten had, ging hij naar huis.", "translation": "Después de comer, fue a casa.", "highlight": "nadat + plusquamperfectum" }
+        {
+          "dutch": "Ik ga niet mee omdat ik geen zin heb.",
+          "translation": "No voy porque no tengo ganas.",
+          "highlight": "heb (V1 achteraan)"
+        },
+        {
+          "dutch": "Omdat ik geen zin heb, ga ik niet mee.",
+          "translation": "Como no tengo ganas, no voy.",
+          "highlight": "Bijzin eerst → komma → hoofdzin"
+        },
+        {
+          "dutch": "Nadat hij gegeten had, ging hij naar huis.",
+          "translation": "Después de comer, fue a casa.",
+          "highlight": "nadat + plusquamperfectum"
+        }
       ],
       "lessonId": "conjuncties",
       "category": "conjunctie"
@@ -38,7 +124,12 @@
       "id": "ec-mc1",
       "type": "multiple-choice",
       "question": "De trein had vertraging ___ er een ongeval was. (oorzaak)",
-      "options": ["omdat", "aangezien", "doordat", "terwijl"],
+      "options": [
+        "omdat",
+        "aangezien",
+        "doordat",
+        "terwijl"
+      ],
       "answer": "doordat",
       "explanation": "'Doordat' = oorzaak (objectief feit). 'Omdat' = reden (jouw motivatie).",
       "lessonId": "conjuncties"
@@ -47,7 +138,12 @@
       "id": "ec-mc2",
       "type": "multiple-choice",
       "question": "___ de les gedaan is, ga ik naar huis. (direct daarna)",
-      "options": ["Terwijl", "Zolang", "Zodra", "Nadat"],
+      "options": [
+        "Terwijl",
+        "Zolang",
+        "Zodra",
+        "Nadat"
+      ],
       "answer": "Zodra",
       "explanation": "'Zodra' = onmiddellijk als iets gebeurt (as soon as).",
       "lessonId": "conjuncties"
@@ -56,7 +152,12 @@
       "id": "ec-mc3",
       "type": "multiple-choice",
       "question": "___ ik geen werk heb, blijf ik studeren. (gedurende die periode)",
-      "options": ["Terwijl", "Zolang", "Zodra", "Sinds"],
+      "options": [
+        "Terwijl",
+        "Zolang",
+        "Zodra",
+        "Sinds"
+      ],
       "answer": "Zolang",
       "explanation": "'Zolang' = gedurende een bepaalde periode (as long as).",
       "lessonId": "conjuncties"
@@ -65,7 +166,12 @@
       "id": "ec-mc4",
       "type": "multiple-choice",
       "question": "___ hij zijn diploma had gehaald, ging hij op wereldreis. (daarna)",
-      "options": ["Voordat", "Terwijl", "Nadat", "Zodra"],
+      "options": [
+        "Voordat",
+        "Terwijl",
+        "Nadat",
+        "Zodra"
+      ],
       "answer": "Nadat",
       "explanation": "'Nadat' = iets is klaar, dan pas begint het volgende. Gebruik plusquamperfectum na 'nadat'.",
       "lessonId": "conjuncties"
@@ -83,12 +189,30 @@
       "id": "ec-matching",
       "type": "matching",
       "pairs": [
-        { "left": "omdat", "right": "reden (because)" },
-        { "left": "doordat", "right": "oorzaak (due to)" },
-        { "left": "terwijl", "right": "tegelijkertijd (while)" },
-        { "left": "zodra", "right": "direct daarna (as soon as)" },
-        { "left": "zolang", "right": "gedurende die periode (as long as)" },
-        { "left": "nadat", "right": "na + plusquamperfectum (after)" }
+        {
+          "left": "omdat",
+          "right": "reden (because)"
+        },
+        {
+          "left": "doordat",
+          "right": "oorzaak (due to)"
+        },
+        {
+          "left": "terwijl",
+          "right": "tegelijkertijd (while)"
+        },
+        {
+          "left": "zodra",
+          "right": "direct daarna (as soon as)"
+        },
+        {
+          "left": "zolang",
+          "right": "gedurende die periode (as long as)"
+        },
+        {
+          "left": "nadat",
+          "right": "na + plusquamperfectum (after)"
+        }
       ],
       "lessonId": "conjuncties"
     }

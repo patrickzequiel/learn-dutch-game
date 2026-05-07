@@ -31,7 +31,7 @@ export function ProductionCard({ item, onRate }: Props) {
 
       {!submitted ? (
         <form onSubmit={handleSubmit} className="production-form">
-          <p className="production-prompt">Type de vertaling (Spaans of Engels):</p>
+          <p className="production-prompt">Type de vertaling (Engels):</p>
           <input
             className="fill-input"
             type="text"

@@ -5,20 +5,109 @@
   "dateDisplay": "donderdag 26 februari",
   "theme": "Reizen & Toerisme",
   "subtheme": "Ik hou van vs ik hou ervan om te",
-  "topics": ["'Ik hou van' vs 'ik hou ervan om te'", "Verwijzen naar een plaats (het/er)", "Uitdrukkingen voor voorkeur", "Soorten uitstappen"],
+  "topics": [
+    "'Ik hou van' vs 'ik hou ervan om te'",
+    "Verwijzen naar een plaats (het/er)",
+    "Uitdrukkingen voor voorkeur",
+    "Soorten uitstappen"
+  ],
   "vocabulary": [
-    { "id": "l3-verkiezen", "dutch": "verkiezen", "translation": "preferir / to prefer", "example": "Ik verkies een ontspannend weekend aan het strand.", "exampleTranslation": "Prefiero un fin de semana relajante en la playa.", "category": "voorkeur", "lessonId": "les3" },
-    { "id": "l3-voorkeur", "dutch": "de voorkeur geven aan", "translation": "dar preferencia a / to prefer", "example": "Ik geef de voorkeur aan een weekend aan het strand.", "exampleTranslation": "Doy preferencia a un fin de semana en la playa.", "category": "voorkeur", "lessonId": "les3" },
-    { "id": "l3-avontuurlijk", "dutch": "avontuurlijk", "translation": "aventurero / adventurous", "example": "Hij houdt van avontuurlijke reizen in de bergen.", "exampleTranslation": "Le gustan los viajes aventureros en las montañas.", "category": "adjectieven", "lessonId": "les3" },
-    { "id": "l3-sportief", "dutch": "sportief", "translation": "deportivo / sporty, active", "example": "Ze is erg sportief: ze fietst en wandelt elke week.", "exampleTranslation": "Es muy deportiva: va en bici y camina cada semana.", "category": "adjectieven", "lessonId": "les3" },
-    { "id": "l3-pittoresk", "dutch": "pittoresk", "translation": "pintoresco / picturesque", "example": "Het kleine stadje is erg pittoresk.", "exampleTranslation": "El pequeño pueblo es muy pintoresco.", "category": "adjectieven", "lessonId": "les3" },
-    { "id": "l3-cultuurliefhebber", "dutch": "de cultuurliefhebber", "translation": "el amante de la cultura / culture lover", "example": "Als cultuurliefhebber bezoek ik graag musea en kerken.", "exampleTranslation": "Como amante de la cultura, me gusta visitar museos e iglesias.", "category": "toerisme", "lessonId": "les3" },
-    { "id": "l3-trektocht", "dutch": "de trektocht", "translation": "la caminata larga / the trek, hike", "example": "We maakten een trektocht van 10 dagen in de Pyreneeën.", "exampleTranslation": "Hicimos una caminata de 10 días en los Pirineos.", "category": "toerisme", "lessonId": "les3" },
-    { "id": "l3-strandvakantie", "dutch": "de strandvakantie", "translation": "las vacaciones en la playa / beach holiday", "example": "Ze droomt van een strandvakantie aan de Côte d'Azur.", "exampleTranslation": "Sueña con unas vacaciones en la playa en la Costa Azul.", "category": "toerisme", "lessonId": "les3" },
-    { "id": "l3-avontuur", "dutch": "het avontuur", "translation": "la aventura / adventure", "example": "Hoe spannender, hoe liever — hij houdt van avontuur.", "exampleTranslation": "Cuanto más emocionante, mejor: le encanta la aventura.", "category": "toerisme", "lessonId": "les3" },
-    { "id": "l3-citytrip", "dutch": "de citytrip", "translation": "el viaje cultural a una ciudad / city trip", "example": "We plannen een citytrip naar Parijs voor het weekend.", "exampleTranslation": "Planeamos un viaje cultural a París para el fin de semana.", "category": "toerisme", "lessonId": "les3" },
-    { "id": "l3-ontspanning", "dutch": "de ontspanning", "translation": "la relajación / relaxation", "example": "Ik heb nood aan rust en ontspanning na een drukke week.", "exampleTranslation": "Necesito descanso y relajación después de una semana ajetreada.", "category": "welzijn", "lessonId": "les3" },
-    { "id": "l3-frisse-lucht", "dutch": "de frisse lucht", "translation": "el aire fresco / fresh air", "example": "In de Ardennen geniet je van de frisse lucht en de natuur.", "exampleTranslation": "En las Ardenas disfrutas del aire fresco y la naturaleza.", "category": "natuur", "lessonId": "les3" }
+    {
+      "id": "l3-verkiezen",
+      "dutch": "verkiezen",
+      "translation": "to prefer",
+      "example": "Ik verkies een ontspannend weekend aan het strand.",
+      "category": "voorkeur",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-voorkeur",
+      "dutch": "de voorkeur geven aan",
+      "translation": "to prefer",
+      "example": "Ik geef de voorkeur aan een weekend aan het strand.",
+      "category": "voorkeur",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-avontuurlijk",
+      "dutch": "avontuurlijk",
+      "translation": "adventurous",
+      "example": "Hij houdt van avontuurlijke reizen in de bergen.",
+      "category": "adjectieven",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-sportief",
+      "dutch": "sportief",
+      "translation": "sporty, active",
+      "example": "Ze is erg sportief: ze fietst en wandelt elke week.",
+      "category": "adjectieven",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-pittoresk",
+      "dutch": "pittoresk",
+      "translation": "picturesque",
+      "example": "Het kleine stadje is erg pittoresk.",
+      "category": "adjectieven",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-cultuurliefhebber",
+      "dutch": "de cultuurliefhebber",
+      "translation": "culture lover",
+      "example": "Als cultuurliefhebber bezoek ik graag musea en kerken.",
+      "category": "toerisme",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-trektocht",
+      "dutch": "de trektocht",
+      "translation": "the trek, hike",
+      "example": "We maakten een trektocht van 10 dagen in de Pyreneeën.",
+      "category": "toerisme",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-strandvakantie",
+      "dutch": "de strandvakantie",
+      "translation": "beach holiday",
+      "example": "Ze droomt van een strandvakantie aan de Côte d'Azur.",
+      "category": "toerisme",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-avontuur",
+      "dutch": "het avontuur",
+      "translation": "adventure",
+      "example": "Hoe spannender, hoe liever — hij houdt van avontuur.",
+      "category": "toerisme",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-citytrip",
+      "dutch": "de citytrip",
+      "translation": "city trip",
+      "example": "We plannen een citytrip naar Parijs voor het weekend.",
+      "category": "toerisme",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-ontspanning",
+      "dutch": "de ontspanning",
+      "translation": "relaxation",
+      "example": "Ik heb nood aan rust en ontspanning na een drukke week.",
+      "category": "welzijn",
+      "lessonId": "les3"
+    },
+    {
+      "id": "l3-frisse-lucht",
+      "dutch": "de frisse lucht",
+      "translation": "fresh air",
+      "example": "In de Ardennen geniet je van de frisse lucht en de natuur.",
+      "category": "natuur",
+      "lessonId": "les3"
+    }
   ],
   "grammar": [
     {
@@ -27,10 +116,26 @@
       "explanation": "Met een substantief gebruik je ENKEL 'ik hou van'. Met een werkwoord of groep kan je BEIDE gebruiken.",
       "rule": "Substantief → ik hou van (GEEN ervan om te) | Werkwoord/groep → ik hou van... = ik hou ervan om te...",
       "examples": [
-        { "dutch": "Ik hou van rockmuziek.", "translation": "Me gusta la música rock.", "highlight": "van + substantief (GEEN ervan om te)" },
-        { "dutch": "Ik hou van fietsen.", "translation": "Me gusta ir en bicicleta.", "highlight": "van + werkwoord" },
-        { "dutch": "Ik hou ervan om te fietsen.", "translation": "Me gusta (lo de) ir en bicicleta.", "highlight": "ervan om te + werkwoord" },
-        { "dutch": "Ik hou ervan om met het hele gezin te kamperen.", "translation": "Me gusta ir de camping con toda la familia.", "highlight": "ervan om ... te + lange groep" }
+        {
+          "dutch": "Ik hou van rockmuziek.",
+          "translation": "Me gusta la música rock.",
+          "highlight": "van + substantief (GEEN ervan om te)"
+        },
+        {
+          "dutch": "Ik hou van fietsen.",
+          "translation": "Me gusta ir en bicicleta.",
+          "highlight": "van + werkwoord"
+        },
+        {
+          "dutch": "Ik hou ervan om te fietsen.",
+          "translation": "Me gusta (lo de) ir en bicicleta.",
+          "highlight": "ervan om te + werkwoord"
+        },
+        {
+          "dutch": "Ik hou ervan om met het hele gezin te kamperen.",
+          "translation": "Me gusta ir de camping con toda la familia.",
+          "highlight": "ervan om ... te + lange groep"
+        }
       ],
       "lessonId": "les3",
       "category": "grammar"
@@ -41,10 +146,26 @@
       "explanation": "Na het noemen van een stad gebruik je 'het' als vervanging voor de stad (object/subject) en 'er' voor 'in/naar die stad'.",
       "rule": "het = de plaats als object/subject | er = in/naar die plaats | NOOIT 'er' op positie 1 → gebruik 'daar'",
       "examples": [
-        { "dutch": "Mijn favoriete stad is Parijs. Het is de hoofdstad van Frankrijk.", "translation": "Mi ciudad favorita es París. Es la capital de Francia.", "highlight": "het = Parijs" },
-        { "dutch": "Je kan er de Eiffeltoren bezoeken.", "translation": "Puedes visitar allí la Torre Eiffel.", "highlight": "er = in Parijs" },
-        { "dutch": "Ik vind het een prachtige stad.", "translation": "La encuentro una ciudad preciosa.", "highlight": "het = Parijs (object)" },
-        { "dutch": "Daar wil ik naartoe gaan. (NIET: Er wil ik naartoe gaan.)", "translation": "Allí quiero ir. (NO: Er wil ik...)", "highlight": "NOOIT er op positie 1" }
+        {
+          "dutch": "Mijn favoriete stad is Parijs. Het is de hoofdstad van Frankrijk.",
+          "translation": "Mi ciudad favorita es París. Es la capital de Francia.",
+          "highlight": "het = Parijs"
+        },
+        {
+          "dutch": "Je kan er de Eiffeltoren bezoeken.",
+          "translation": "Puedes visitar allí la Torre Eiffel.",
+          "highlight": "er = in Parijs"
+        },
+        {
+          "dutch": "Ik vind het een prachtige stad.",
+          "translation": "La encuentro una ciudad preciosa.",
+          "highlight": "het = Parijs (object)"
+        },
+        {
+          "dutch": "Daar wil ik naartoe gaan. (NIET: Er wil ik naartoe gaan.)",
+          "translation": "Allí quiero ir. (NO: Er wil ik...)",
+          "highlight": "NOOIT er op positie 1"
+        }
       ],
       "lessonId": "les3",
       "category": "grammar"
@@ -55,7 +176,12 @@
       "id": "e3-mc1",
       "type": "multiple-choice",
       "question": "Welke zin is CORRECT?",
-      "options": ["Ik hou ervan om van rockmuziek.", "Ik hou ervan om rockmuziek.", "Ik hou van rockmuziek.", "Ik hou van om te rockmuziek."],
+      "options": [
+        "Ik hou ervan om van rockmuziek.",
+        "Ik hou ervan om rockmuziek.",
+        "Ik hou van rockmuziek.",
+        "Ik hou van om te rockmuziek."
+      ],
       "answer": "Ik hou van rockmuziek.",
       "explanation": "Met een substantief (rockmuziek) gebruik je ENKEL 'ik hou van'. 'Ervan om te' gebruik je enkel met werkwoorden.",
       "lessonId": "les3"
@@ -64,7 +190,12 @@
       "id": "e3-mc2",
       "type": "multiple-choice",
       "question": "Welke zin gebruikt 'er' als verwijzer naar een stad CORRECT?",
-      "options": ["Er wil ik naartoe gaan.", "Je kan er de Eiffeltoren bezoeken.", "Er is een mooie stad.", "Ik ga er van."],
+      "options": [
+        "Er wil ik naartoe gaan.",
+        "Je kan er de Eiffeltoren bezoeken.",
+        "Er is een mooie stad.",
+        "Ik ga er van."
+      ],
       "answer": "Je kan er de Eiffeltoren bezoeken.",
       "explanation": "'Er' van plaats staat NOOIT op positie 1. 'Je kan er de Eiffeltoren bezoeken' = in die stad.",
       "lessonId": "les3"
@@ -73,7 +204,12 @@
       "id": "e3-mc3",
       "type": "multiple-choice",
       "question": "Wat is een 'trektocht'?",
-      "options": ["een vakantie aan het strand", "een lange wandeling in de natuur", "een stedelijk cultureel tripje", "een relaxing weekendje weg"],
+      "options": [
+        "een vakantie aan het strand",
+        "een lange wandeling in de natuur",
+        "een stedelijk cultureel tripje",
+        "een relaxing weekendje weg"
+      ],
       "answer": "een lange wandeling in de natuur",
       "explanation": "Een trektocht = een lange wandeling, bv. meerdere dagen in de bergen.",
       "lessonId": "les3"
@@ -91,11 +227,26 @@
       "id": "e3-matching",
       "type": "matching",
       "pairs": [
-        { "left": "de trektocht", "right": "la caminata larga" },
-        { "left": "de strandvakantie", "right": "las vacaciones en la playa" },
-        { "left": "de citytrip", "right": "el viaje cultural" },
-        { "left": "avontuurlijk", "right": "aventurero" },
-        { "left": "verkiezen", "right": "preferir" }
+        {
+          "left": "de trektocht",
+          "right": "la caminata larga"
+        },
+        {
+          "left": "de strandvakantie",
+          "right": "las vacaciones en la playa"
+        },
+        {
+          "left": "de citytrip",
+          "right": "el viaje cultural"
+        },
+        {
+          "left": "avontuurlijk",
+          "right": "aventurero"
+        },
+        {
+          "left": "verkiezen",
+          "right": "preferir"
+        }
       ],
       "lessonId": "les3"
     }
