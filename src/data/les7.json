@@ -117,22 +117,22 @@
       "examples": [
         {
           "dutch": "Hoewel hij moe was, bleef hij studeren.",
-          "translation": "Aunque estaba cansado, siguió estudiando.",
+          "translation": "Although he was tired, he kept studying.",
           "highlight": "HOEWEL + bijzin → werkwoord achteraan"
         },
         {
           "dutch": "Ook al is hij moe, hij blijft studeren.",
-          "translation": "Aunque está cansado, sigue estudiando.",
+          "translation": "Although he is tired, he keeps studying.",
           "highlight": "OOK AL + bijzin / inversie"
         },
         {
           "dutch": "Ondanks zijn vermoeidheid bleef hij studeren.",
-          "translation": "A pesar de su cansancio, siguió estudiando.",
+          "translation": "Despite his tiredness, he kept studying.",
           "highlight": "ONDANKS + substantief (geen bijzin!)"
         },
         {
           "dutch": "Hij was moe, maar toch bleef hij studeren.",
-          "translation": "Estaba cansado, pero aún así siguió estudiando.",
+          "translation": "He was tired, but still kept studying.",
           "highlight": "MAAR TOCH + inversie"
         }
       ],
@@ -147,17 +147,17 @@
       "examples": [
         {
           "dutch": "Let erop dat je kinderen genoeg slapen.",
-          "translation": "Asegúrate de que tus hijos duerman lo suficiente.",
+          "translation": "Make sure your children get enough sleep.",
           "highlight": "Let erop dat + bijzin"
         },
         {
           "dutch": "Het is belangrijk dat kinderen grenzen leren.",
-          "translation": "Es importante que los niños aprendan los límites.",
+          "translation": "It is important that children learn boundaries.",
           "highlight": "Het is belangrijk dat + bijzin"
         },
         {
           "dutch": "Kinderen zouden moeten leren om zelfstandig te zijn.",
-          "translation": "Los niños deberían aprender a ser independientes.",
+          "translation": "Children should learn to be independent.",
           "highlight": "zouden moeten leren om...te"
         }
       ],
@@ -191,7 +191,7 @@
         "Maar toch"
       ],
       "answer": "Ondanks",
-      "explanation": "'Ondanks' + substantief (geen bijzin). 'Ondanks zijn vermoeidheid' = a pesar de su cansancio.",
+      "explanation": "'Ondanks' + substantief (geen bijzin). 'Ondanks zijn vermoeidheid' = despite his tiredness.",
       "lessonId": "les7"
     },
     {
@@ -227,7 +227,7 @@
       "type": "fill-in-blank",
       "sentence": "___ de regen gingen we toch fietsen. (a pesar de)",
       "blank": "Ondanks",
-      "hint": "A pesar de + substantief = Ondanks + substantief",
+      "hint": "Despite + substantief = Ondanks + substantief",
       "explanation": "'Ondanks' + substantief. Let op: geen bijzin na 'ondanks'!",
       "lessonId": "les7"
     },
@@ -237,23 +237,23 @@
       "pairs": [
         {
           "left": "hoewel",
-          "right": "aunque (+ bijzin)"
+          "right": "although (+ bijzin)"
         },
         {
           "left": "ondanks",
-          "right": "a pesar de (+ substantief)"
+          "right": "despite (+ substantief)"
         },
         {
           "left": "ook al",
-          "right": "aunque / even if"
+          "right": "although / even if"
         },
         {
           "left": "maar toch",
-          "right": "pero aún así"
+          "right": "but still"
         },
         {
           "left": "zelfstandig",
-          "right": "independiente"
+          "right": "independent"
         }
       ],
       "lessonId": "les7"

@@ -1,0 +1,203 @@
+{
+  "lastUpdated": "2026-05-08",
+  "course": "Nederlands 2.4 schriftelijk — CVO Groeipunt",
+  "teacher": "Astrid De Beukelaer",
+  "period": "05/02/2026 – 25/06/2026",
+  "lessonTime": "18u15 – 21u00",
+  "currentLesson": 11,
+  "nextLesson": {
+    "number": 12,
+    "date": "2026-05-21",
+    "dateDisplay": "donderdag 21 mei",
+    "noClassBefore": "donderdag 14 mei (GEEN LES)",
+    "homework": [
+      {
+        "id": "hw-12-1",
+        "description": "Thema 3 p. 8-9: Lees het artikel en schrijf de juiste tip boven elke paragraaf. Gebruik een imperatief. Wat vind jij van het artikel? Beantwoord de vragen op p. 9.",
+        "type": "reading+writing",
+        "done": false
+      },
+      {
+        "id": "hw-12-2",
+        "description": "Thema 3 p. 6 oef. a-f: Lees het artikel op p. 7 en vul de zinnen aan.",
+        "type": "writing",
+        "done": false
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "number": 1,
+      "date": "2026-02-05",
+      "dateDisplay": "do 5/02",
+      "topics": ["Kennismaking", "Thema 1 – Op uitstap", "Dictee 'Veilig zwemmen'", "'er' als subject", "p. 3-4: perfectum, imperfectum, presens"],
+      "homework": [
+        "Persoonlijke fiche invullen.",
+        "Studeer de woordenschat (toeristische activiteiten + bezienswaardigheden) en schrijf 8 zinnen (Ik hou van… / Ik heb al eens… / Ik heb nog nooit… / Ik zou graag eens…).",
+        "Vul de verba in op p. 3-4 in de cursus."
+      ],
+      "lessonId": "les1"
+    },
+    {
+      "number": 2,
+      "date": "2026-02-12",
+      "dateDisplay": "do 12/02",
+      "topics": ["'er' als verwijswoord", "perfectum, imperfectum, presens", "Woordenschat quiz", "p. 7+10: Wat een adembenemende stad"],
+      "homework": [
+        "Schrijfoefening: Schrijf een tekst (min. 10 zinnen) waarin je jouw favoriete plaats aanprijst. Gebruik 'er' van plaats en nieuwe woorden.",
+        "Studeer het perfectum via het leerpad op Moodle."
+      ],
+      "lessonId": "les2"
+    },
+    {
+      "number": 3,
+      "date": "2026-02-26",
+      "dateDisplay": "do 26/02",
+      "topics": ["Herhaling woordenschat + spelling", "p. 8-10: Wat een adembenemende stad", "p. 11-13: Welk soort uitstap doe je graag?"],
+      "homework": [
+        "Studeer de woorden van thema 1 voor de leestest van volgende week.",
+        "Schrijf een korte tekst (5-6 zinnen) over Gent: welke plaats heb je al bezocht? Welke nog niet maar zou je graag bezoeken? (Gebruik adjectieven + 'Ik zou graag eens…')"
+      ],
+      "lessonId": "les3"
+    },
+    {
+      "number": 4,
+      "date": "2026-03-05",
+      "dateDisplay": "do 5/03",
+      "topics": ["Leestest thema 1", "Herhaling woordenschat", "dictee p. 9-10", "p. 14-16: Wat was er gebeurd? (plusquamperfectum)"],
+      "homework": [
+        "Bekijk de video en beantwoord de vragen op p. 16.",
+        "Lees de klachtenbrief en maak de oefeningen op p. 17-18.",
+        "Maak min. 2 online oefeningen op de tijden (Moodle → Grammatica → Verba)."
+      ],
+      "lessonId": "les4"
+    },
+    {
+      "number": 5,
+      "date": "2026-03-12",
+      "dateDisplay": "do 12/03",
+      "topics": ["p. 16: plusquamperfectum (huiswerk)", "p. 17-18: klagen over een hotel", "p. 19: zinsconstructies advies geven", "Thema 2 intro: p. 1-2"],
+      "homework": [
+        "Studeer voor de schrijftest van thema 1 (woordenschat + grammatica: 'er' als subject, 'er' voor plaats, tijden, zinsconstructies).",
+        "Schrijf een klachtenmail naar Hotel National (zie lesnotities of bundel p. 19)."
+      ],
+      "lessonId": "les5"
+    },
+    {
+      "number": 6,
+      "date": "2026-03-19",
+      "dateDisplay": "do 19/03",
+      "topics": ["Schrijftest thema 1", "Thema 2 – Zorgen voor elkaar", "p. 3: reageren op een boos berichtje", "p. 8: Hoeveel vrijheid geef jij je kind?", "p. 4-5: Je had moeten… / Je had niet mogen…"],
+      "homework": [
+        "Maak p. 6 oefening a, b en c. Kies 2 favoriete opvoedingstips en schrijf ze uit het artikel.",
+        "Schrijf op p. 9 onder elke foto een zin in het imperfectum. Schrijf een verschil tussen vroeger en nu."
+      ],
+      "lessonId": "les6"
+    },
+    {
+      "number": 7,
+      "date": "2026-03-26",
+      "dateDisplay": "do 26/03",
+      "topics": ["p. 6-7: Je kinderen goed opvoeden", "p. 9: Was het vroeger beter?", "A/B-dictee", "p. 13-14: signaalwoorden van contrast"],
+      "homework": [
+        "Studeer de signaalwoorden van contrast (presentatie + oefeningen p. 14).",
+        "Maak de oefeningen op Moodle (Grammatica → signaalwoorden van contrast, oefeningen 1, 2, 3)."
+      ],
+      "lessonId": "les7"
+    },
+    {
+      "number": 8,
+      "date": "2026-04-02",
+      "dateDisplay": "do 2/04",
+      "topics": ["p. 13-14: signaalwoorden van contrast", "Grammatica: 'er' als verwijswoord", "p. 19: samengestelde zinnen + conjuncties", "p. 19: een gelukkige oude dag"],
+      "homework": [
+        "Moodle: antwoord op de vragen met 'er'.",
+        "Vul de zinnen aan op p. 19.",
+        "Schrijfoefening: Schrijf een tekst (min. 10 zinnen) over jouw ideale oude dag. Gebruik conjuncties."
+      ],
+      "lessonId": "les8"
+    },
+    {
+      "number": 9,
+      "date": "2026-04-23",
+      "dateDisplay": "do 23/04",
+      "topics": ["'er' als verwijswoord: A/B-oefening", "p. 19: samengestelde zinnen", "Flitsdictee", "p. 12: samenvatting schrijven"],
+      "homework": [
+        "Schrijfoefening (EVALUATIE): Schrijf een samenvatting (~100 woorden) van het interview met Bieke over mantelzorg. Gebruik connectoren.",
+        "Studeer voor de leestest: woordenschat van thema 2."
+      ],
+      "lessonId": "les9"
+    },
+    {
+      "number": 10,
+      "date": "2026-04-30",
+      "dateDisplay": "do 30/04",
+      "topics": ["Herhaling woordenschat: loopoefening", "p. 10: De opvoedingslijn", "p. 17: Dankzij…", "p. 15: relatieve pronomina", "Leestest thema 2"],
+      "homework": [
+        "Optioneel: Vul de zinnen aan op de laatste slide van de presentatie over de relatieve bijzin.",
+        "Thema 3: Schrijf de namen van de natuurrampen en milieuproblemen bij de foto's op p. 4-5."
+      ],
+      "lessonId": "les10"
+    },
+    {
+      "number": 11,
+      "date": "2026-05-07",
+      "dateDisplay": "do 7/05",
+      "topics": ["Herhaling relatieve pronomina", "Thema 3 – Natuur, milieu en omgeving", "p. 2-3: Wat betekent natuur voor jou? + herhaling 'er'", "p. 4-5: natuurrampen en natuurfenomenen", "p. 5: milieu en milieuproblemen"],
+      "homework": [
+        "Thema 3 p. 8-9: Lees het artikel en schrijf de juiste tip boven elke paragraaf (gebruik imperatief). Beantwoord de vragen op p. 9.",
+        "Thema 3 p. 6 oef. a-f: Lees het artikel op p. 7 en vul de zinnen aan."
+      ],
+      "lessonId": "les11"
+    },
+    {
+      "number": 12,
+      "date": "2026-05-21",
+      "dateDisplay": "do 21/05",
+      "topics": ["Thema 3 – Natuur, milieu en omgeving", "p. 8-9: duurzaam naar de supermarkt"],
+      "homework": [],
+      "lessonId": null
+    },
+    {
+      "number": 13,
+      "date": "2026-05-28",
+      "dateDisplay": "do 28/05",
+      "topics": ["Thema 3 – Natuur, milieu en omgeving"],
+      "homework": [],
+      "lessonId": null
+    },
+    {
+      "number": 14,
+      "date": "2026-06-04",
+      "dateDisplay": "do 4/06",
+      "topics": ["Schrijftest thema 3", "Thema 4 – De weg en de wet"],
+      "homework": [],
+      "lessonId": null
+    },
+    {
+      "number": 15,
+      "date": "2026-06-11",
+      "dateDisplay": "do 11/06",
+      "topics": ["Thema 4 – De weg en de wet", "Info schriftelijk examen"],
+      "homework": [],
+      "lessonId": null
+    },
+    {
+      "number": 16,
+      "date": "2026-06-18",
+      "dateDisplay": "do 18/06",
+      "topics": ["Examen lezen en schrijven"],
+      "homework": [],
+      "lessonId": null
+    },
+    {
+      "number": 17,
+      "date": "2026-06-25",
+      "dateDisplay": "do 25/06",
+      "topics": ["Feedback en inschrijven", "Wat kan je doen na 2.4?"],
+      "homework": [],
+      "lessonId": null
+    }
+  ],
+  "noclassDates": ["2026-02-17", "2026-02-21", "2026-05-14"]
+}

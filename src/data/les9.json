@@ -118,17 +118,17 @@
       "examples": [
         {
           "dutch": "Ze bereidt zich voor op haar pensioen. → Ze bereidt zich er al op voor.",
-          "translation": "Se prepara para su jubilación. → Ya se prepara para ello.",
+          "translation": "She prepares for her retirement. → She is already preparing for it.",
           "highlight": "er + op → verwijst naar 'pensioen'"
         },
         {
           "dutch": "Hij maakt zich zorgen over zijn gezondheid. → Hij maakt zich er zorgen over.",
-          "translation": "Se preocupa por su salud. → Se preocupa por ello.",
+          "translation": "He worries about his health. → He worries about it.",
           "highlight": "er + over → verwijst naar 'zijn gezondheid'"
         },
         {
           "dutch": "Ik verheug me op de vakantie. → Ik verheug me er al op.",
-          "translation": "Estoy emocionado por las vacaciones. → Ya estoy emocionado por ello.",
+          "translation": "I am excited about the holiday. → I am already excited about it.",
           "highlight": "er + op → verwijst naar 'de vakantie'"
         }
       ],
@@ -143,17 +143,17 @@
       "examples": [
         {
           "dutch": "Ik hou van muziek. Ik luister er veel naar. (ernaar)",
-          "translation": "Me gusta la música. Escucho mucho.",
+          "translation": "I love music. I listen to it often.",
           "highlight": "er + naar = ernaar"
         },
         {
           "dutch": "Heb je een fiets? Ik rijd er graag mee. (ermee)",
-          "translation": "¿Tienes una bici? Me gusta ir en ella.",
+          "translation": "Do you have a bike? I like riding it.",
           "highlight": "er + mee = ermee"
         },
         {
           "dutch": "Dat plan is goed. Ik ben ervoor.",
-          "translation": "Ese plan es bueno. Estoy a favor.",
+          "translation": "That plan is good. I am in favour.",
           "highlight": "er + voor = ervoor"
         }
       ],
@@ -233,23 +233,23 @@
       "pairs": [
         {
           "left": "ermee",
-          "right": "con eso / with it"
+          "right": "with it"
         },
         {
           "left": "erover",
-          "right": "sobre eso / about it"
+          "right": "about it"
         },
         {
           "left": "ervoor",
-          "right": "para eso / for it"
+          "right": "for it"
         },
         {
           "left": "eenzaam",
-          "right": "solitario / lonely"
+          "right": "lonely"
         },
         {
           "left": "mantelzorg",
-          "right": "cuidado informal en casa"
+          "right": "informal home care"
         }
       ],
       "lessonId": "les9"

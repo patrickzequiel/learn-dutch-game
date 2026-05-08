@@ -118,22 +118,22 @@
       "examples": [
         {
           "dutch": "Karim miste de trein. Hij had zijn wekker niet gezet.",
-          "translation": "Karim perdió el tren. No había puesto el despertador.",
+          "translation": "Karim missed the train. He had not set his alarm.",
           "highlight": "had gezet → vóór 'miste'"
         },
         {
           "dutch": "Sara kon niet inchecken. Ze had haar identiteitskaart thuis laten liggen.",
-          "translation": "Sara no podía hacer el check-in. Había dejado el ID en casa.",
+          "translation": "Sara couldn't check in. She had left her ID at home.",
           "highlight": "had laten liggen → vóór 'kon niet'"
         },
         {
           "dutch": "Nadat hij zijn wekker had gezet, sliep hij rustig.",
-          "translation": "Después de haber puesto el despertador, durmió tranquilo.",
+          "translation": "After setting his alarm, he slept peacefully.",
           "highlight": "nadat + plusquamperfectum"
         },
         {
           "dutch": "De trein was al vertrokken toen we aankwamen.",
-          "translation": "El tren ya había partido cuando llegamos.",
+          "translation": "The train had already left when we arrived.",
           "highlight": "was vertrokken → beweging"
         }
       ],
@@ -148,17 +148,17 @@
       "examples": [
         {
           "dutch": "Terwijl hij aan het slapen was, vertrok de trein.",
-          "translation": "Mientras estaba durmiendo, el tren partió.",
+          "translation": "While he was sleeping, the train left.",
           "highlight": "was aan het slapen = tegelijkertijd"
         },
         {
           "dutch": "Ze was aan het wachten toen de telefoon rinkelde.",
-          "translation": "Estaba esperando cuando sonó el teléfono.",
+          "translation": "She was waiting when the phone rang.",
           "highlight": "was aan het wachten"
         },
         {
           "dutch": "We waren aan het eten toen hij binnenkwam.",
-          "translation": "Estábamos comiendo cuando él entró.",
+          "translation": "We were eating when he came in.",
           "highlight": "waren aan het eten"
         }
       ],
@@ -247,23 +247,23 @@
       "pairs": [
         {
           "left": "overslapen",
-          "right": "quedarse dormido"
+          "right": "to oversleep"
         },
         {
           "left": "de wekker",
-          "right": "el despertador"
+          "right": "alarm clock"
         },
         {
           "left": "inchecken",
-          "right": "hacer el check-in"
+          "right": "to check in"
         },
         {
           "left": "vergeten",
-          "right": "olvidar"
+          "right": "to forget"
         },
         {
           "left": "vertrekken",
-          "right": "partir"
+          "right": "to depart"
         }
       ],
       "lessonId": "les4"

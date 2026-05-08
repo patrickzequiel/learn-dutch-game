@@ -344,6 +344,43 @@ body::before {
   flex-shrink: 0;
 }
 
+/* ─── HOMEWORK CARD ──────────────────────────────────────────── */
+.homework-card {
+  background: linear-gradient(135deg, #fff8e1 0%, #fff3cd 100%);
+  border: 1.5px solid #f6c90e44;
+  animation: cardIn 0.4s cubic-bezier(0.22,1,0.36,1) both;
+}
+.hw-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+.hw-icon { font-size: 1.4rem; flex-shrink: 0; }
+.hw-title {
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: var(--text);
+}
+.hw-notice {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--warning);
+  margin-top: 0.15rem;
+}
+.hw-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.hw-item {
+  font-size: 0.78rem;
+  color: var(--text);
+  line-height: 1.4;
+}
+
 .section-title {
   font-size: 0.78rem;
   font-weight: 900;
@@ -1513,6 +1550,14 @@ body::before {
   color: var(--success-dark);
 }
 
+.lcc-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  width: 100%;
+}
+
 .lcc-theme {
   font-size: 0.75rem;
   font-weight: 800;
@@ -1523,6 +1568,13 @@ body::before {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+
+.lcc-date {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
 }
 
 .lcc-bar {

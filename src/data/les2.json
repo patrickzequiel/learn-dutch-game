@@ -120,17 +120,17 @@
       "examples": [
         {
           "dutch": "We zijn naar Dinant gegaan.",
-          "translation": "Fuimos a Dinant.",
+          "translation": "We went to Dinant.",
           "highlight": "Perfectum: losse activiteit"
         },
         {
           "dutch": "Het was echt de moeite.",
-          "translation": "Valió la pena.",
+          "translation": "It was really worth it.",
           "highlight": "Imperfectum: jouw emotie"
         },
         {
           "dutch": "De stad ligt aan de rivier de Maas.",
-          "translation": "La ciudad está junto al río Mosa.",
+          "translation": "The city is along the Meuse river.",
           "highlight": "Praesens: algemene info"
         }
       ],
@@ -145,22 +145,22 @@
       "examples": [
         {
           "dutch": "We zijn naar Dinant gegaan.",
-          "translation": "Fuimos a Dinant.",
+          "translation": "We went to Dinant.",
           "highlight": "zijn + gegaan"
         },
         {
           "dutch": "Hij is verhuisd naar Brussel.",
-          "translation": "Se mudó a Bruselas.",
+          "translation": "He moved to Brussels.",
           "highlight": "zijn + verhuisd"
         },
         {
           "dutch": "We hebben de kerk bezocht.",
-          "translation": "Visitamos la iglesia.",
+          "translation": "We visited the church.",
           "highlight": "hebben + bezocht"
         },
         {
           "dutch": "Ze hebben gegeten in een restaurant.",
-          "translation": "Comieron en un restaurante.",
+          "translation": "They ate in a restaurant.",
           "highlight": "hebben + gegeten"
         }
       ],
@@ -175,22 +175,22 @@
       "examples": [
         {
           "dutch": "de mooie stad",
-          "translation": "la ciudad bonita",
+          "translation": "the nice city",
           "highlight": "+e: de-woord"
         },
         {
           "dutch": "een mooie stad",
-          "translation": "una ciudad bonita",
+          "translation": "a nice city",
           "highlight": "+e: de-woord met een"
         },
         {
           "dutch": "het mooie land",
-          "translation": "el país bonito",
+          "translation": "the nice country",
           "highlight": "+e: het-woord met het"
         },
         {
           "dutch": "een mooi land",
-          "translation": "un país bonito",
+          "translation": "a nice country",
           "highlight": "GEEN -e: een + het-woord"
         }
       ],
@@ -205,22 +205,22 @@
       "examples": [
         {
           "dutch": "tas, bank (korte klank, 1 syllabe)",
-          "translation": "bolso, banco → 1 vocaal",
+          "translation": "bag, bench → 1 vowel",
           "highlight": "korte klank"
         },
         {
           "dutch": "gaan, boom (lange klank, 1 syllabe)",
-          "translation": "ir, árbol → 2 vocalen",
+          "translation": "go, tree → 2 vowels",
           "highlight": "lange klank"
         },
         {
           "dutch": "let-ter (korte klank, 2 syllaben)",
-          "translation": "letra → 1 vocaal + 2 consonanten",
+          "translation": "letter → 1 vowel + 2 consonants",
           "highlight": "korte klank"
         },
         {
           "dutch": "ta-fel (lange klank, 2 syllaben)",
-          "translation": "mesa → 1 vocaal + 1 consonant",
+          "translation": "table → 1 vowel + 1 consonant",
           "highlight": "lange klank"
         }
       ],

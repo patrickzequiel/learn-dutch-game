@@ -95,7 +95,7 @@
     {
       "id": "l10-die",
       "dutch": "die / dat",
-      "translation": "quien / which (relativo)",
+      "translation": "who / which (relative)",
       "example": "De persoon die me heeft geholpen, is mijn leraar.",
       "category": "grammatica",
       "lessonId": "les10"
@@ -103,7 +103,7 @@
     {
       "id": "l10-aan-wie",
       "dutch": "aan wie / naar wie / op wie",
-      "translation": "hacia quien / en quien",
+      "translation": "to whom / on whom",
       "example": "De persoon aan wie ik alles vertel, is mijn beste vriend.",
       "category": "grammatica",
       "lessonId": "les10"
@@ -118,22 +118,22 @@
       "examples": [
         {
           "dutch": "De persoon die me heeft geholpen, is mijn leraar.",
-          "translation": "La persona que me ayudó es mi profesor.",
+          "translation": "The person who helped me is my teacher.",
           "highlight": "die = zonder prepositie, de-woord/persoon"
         },
         {
           "dutch": "Het boek dat ik lees, is interessant.",
-          "translation": "El libro que leo es interesante.",
+          "translation": "The book that I'm reading is interesting.",
           "highlight": "dat = zonder prepositie, het-woord"
         },
         {
           "dutch": "De persoon aan wie ik alles vertel, is mijn beste vriend.",
-          "translation": "La persona a quien le cuento todo es mi mejor amigo.",
+          "translation": "The person I tell everything to is my best friend.",
           "highlight": "aan wie = prepositie + persoon"
         },
         {
           "dutch": "De vriend naar wie ik luister, is heel wijs.",
-          "translation": "El amigo a quien escucho es muy sabio.",
+          "translation": "The friend I listen to is very wise.",
           "highlight": "naar wie = luisteren naar + persoon"
         }
       ],
@@ -148,17 +148,17 @@
       "examples": [
         {
           "dutch": "Dankzij haar heb ik autorijden geleerd.",
-          "translation": "Gracias a ella aprendí a conducir.",
+          "translation": "Thanks to her I learned to drive.",
           "highlight": "Dankzij + haar → inversie: heb ik"
         },
         {
           "dutch": "Dankzij zijn hulp is het project geslaagd.",
-          "translation": "Gracias a su ayuda el proyecto tuvo éxito.",
+          "translation": "Thanks to his help the project succeeded.",
           "highlight": "Dankzij + zijn hulp → inversie: is het"
         },
         {
           "dutch": "Dankzij de training ben ik sterker geworden.",
-          "translation": "Gracias al entrenamiento me he vuelto más fuerte.",
+          "translation": "Thanks to the training I have become stronger.",
           "highlight": "Dankzij + de training → inversie: ben ik"
         }
       ],
@@ -238,19 +238,19 @@
       "pairs": [
         {
           "left": "die",
-          "right": "que / relativo (de-woord of persoon)"
+          "right": "who/that (relative, de-word or person)"
         },
         {
           "left": "dat",
-          "right": "que / relativo (het-woord)"
+          "right": "that (relative, het-word)"
         },
         {
           "left": "aan wie",
-          "right": "a quien (met prepositie)"
+          "right": "whom (with preposition)"
         },
         {
           "left": "dankzij",
-          "right": "gracias a (altijd positief)"
+          "right": "thanks to (always positive)"
         },
         {
           "left": "opkijken naar",

@@ -118,22 +118,22 @@
       "examples": [
         {
           "dutch": "Ik laat hem zelf kiezen.",
-          "translation": "Le dejo elegir solo.",
+          "translation": "I let him choose on his own.",
           "highlight": "laten = toelaten"
         },
         {
           "dutch": "Ik laat hem niet op straat spelen.",
-          "translation": "No le dejo jugar en la calle.",
+          "translation": "I don't let him play in the street.",
           "highlight": "niet laten = verbieden"
         },
         {
           "dutch": "Hij mag tot 22u buiten zijn.",
-          "translation": "Puede estar fuera hasta las 22h.",
+          "translation": "He may stay out until 10 pm.",
           "highlight": "mag = toestemming"
         },
         {
           "dutch": "Ze moet voor 22u thuis zijn.",
-          "translation": "Debe estar en casa antes de las 22h.",
+          "translation": "She must be home before 10 pm.",
           "highlight": "moet = verplichting"
         }
       ],
@@ -148,17 +148,17 @@
       "examples": [
         {
           "dutch": "Als je huiswerk klaar is, mag je buiten spelen.",
-          "translation": "Si terminas los deberes, puedes jugar fuera.",
+          "translation": "If you finish your homework, you can play outside.",
           "highlight": "als = als de voorwaarde geldt"
         },
         {
           "dutch": "Je mag buiten spelen, tenzij je huiswerk nog niet klaar is.",
-          "translation": "Puedes jugar fuera, a menos que no hayas terminado los deberes.",
+          "translation": "You can play outside, unless you haven't finished your homework.",
           "highlight": "tenzij = als...NIET"
         },
         {
           "dutch": "Tenzij het regent, gaan we fietsen.",
-          "translation": "A menos que llueva, vamos en bici.",
+          "translation": "Unless it rains, we'll go cycling.",
           "highlight": "tenzij = negatieve uitzondering"
         }
       ],
@@ -173,17 +173,17 @@
       "examples": [
         {
           "dutch": "Je had niet zoveel snoep mogen eten.",
-          "translation": "No deberías haber comido tantos dulces.",
+          "translation": "You shouldn't have eaten so many sweets.",
           "highlight": "had niet mogen eten"
         },
         {
           "dutch": "Ze had meer moeten studeren.",
-          "translation": "Debería haber estudiado más.",
+          "translation": "She should have studied more.",
           "highlight": "had moeten studeren"
         },
         {
           "dutch": "Hij had eerder moeten bellen.",
-          "translation": "Debería haber llamado antes.",
+          "translation": "He should have called earlier.",
           "highlight": "had moeten bellen"
         }
       ],
@@ -263,23 +263,23 @@
       "pairs": [
         {
           "left": "opvoeden",
-          "right": "educar"
+          "right": "to raise (children)"
         },
         {
           "left": "verbieden",
-          "right": "prohibir"
+          "right": "to forbid"
         },
         {
           "left": "tenzij",
-          "right": "a menos que"
+          "right": "unless"
         },
         {
           "left": "de straf",
-          "right": "el castigo"
+          "right": "punishment"
         },
         {
           "left": "verantwoordelijk",
-          "right": "responsable"
+          "right": "responsible"
         }
       ],
       "lessonId": "les6"

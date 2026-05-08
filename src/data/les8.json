@@ -118,22 +118,22 @@
       "examples": [
         {
           "dutch": "Ik werk hard zodat mijn kinderen kunnen studeren.",
-          "translation": "Trabajo mucho para que mis hijos puedan estudiar.",
+          "translation": "I work hard so that my children can study.",
           "highlight": "zodat = doel / so that"
         },
         {
           "dutch": "Zolang je hier woont, volg je mijn regels.",
-          "translation": "Mientras vivas aquí, sigues mis reglas.",
+          "translation": "As long as you live here, you follow my rules.",
           "highlight": "zolang = tijdens die periode"
         },
         {
           "dutch": "Poets je tanden voordat je naar bed gaat.",
-          "translation": "Cepíllate los dientes antes de acostarte.",
+          "translation": "Brush your teeth before going to bed.",
           "highlight": "voordat = vóór de actie"
         },
         {
           "dutch": "Zodra je klaar bent, mag je spelen.",
-          "translation": "En cuanto termines, puedes jugar.",
+          "translation": "As soon as you're done, you can play.",
           "highlight": "zodra = direct na de actie"
         }
       ],
@@ -148,17 +148,17 @@
       "examples": [
         {
           "dutch": "Dit is een probleem. Ik wil er iets over zeggen.",
-          "translation": "Este es un problema. Quiero decir algo al respecto.",
+          "translation": "This is a problem. I want to say something about it.",
           "highlight": "er + over → verwijst naar 'dit probleem'"
         },
         {
           "dutch": "Heb je een pen? Ik schrijf er graag mee.",
-          "translation": "¿Tienes un bolígrafo? Me gusta escribir con él.",
+          "translation": "Do you have a pen? I like writing with it.",
           "highlight": "er + mee = ermee → verwijst naar 'pen'"
         },
         {
           "dutch": "De tafel is nieuw. Ik ben er blij mee.",
-          "translation": "La mesa es nueva. Estoy contento con ella.",
+          "translation": "The table is new. I am happy with it.",
           "highlight": "er + mee = ermee → verwijst naar 'tafel'"
         }
       ],
@@ -238,23 +238,23 @@
       "pairs": [
         {
           "left": "zodat",
-          "right": "para que / so that"
+          "right": "so that"
         },
         {
           "left": "voordat",
-          "right": "antes de / before"
+          "right": "before"
         },
         {
           "left": "zodra",
-          "right": "en cuanto / as soon as"
+          "right": "as soon as"
         },
         {
           "left": "zolang",
-          "right": "mientras / as long as"
+          "right": "as long as"
         },
         {
           "left": "de band",
-          "right": "el vínculo / bond"
+          "right": "bond"
         }
       ],
       "lessonId": "les8"

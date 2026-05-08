@@ -86,7 +86,7 @@
     {
       "id": "c-als",
       "dutch": "als",
-      "translation": "si / when / if",
+      "translation": "if / when",
       "example": "Als je geen rijbewijs hebt, mag je niet rijden.",
       "category": "conjuncties",
       "lessonId": "conjuncties"
@@ -101,17 +101,17 @@
       "examples": [
         {
           "dutch": "Ik ga niet mee omdat ik geen zin heb.",
-          "translation": "No voy porque no tengo ganas.",
+          "translation": "I'm not going because I don't feel like it.",
           "highlight": "heb (V1 achteraan)"
         },
         {
           "dutch": "Omdat ik geen zin heb, ga ik niet mee.",
-          "translation": "Como no tengo ganas, no voy.",
+          "translation": "Because I don't feel like it, I'm not going.",
           "highlight": "Bijzin eerst → komma → hoofdzin"
         },
         {
           "dutch": "Nadat hij gegeten had, ging hij naar huis.",
-          "translation": "Después de comer, fue a casa.",
+          "translation": "After eating, he went home.",
           "highlight": "nadat + plusquamperfectum"
         }
       ],

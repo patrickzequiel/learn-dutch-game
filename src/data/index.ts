@@ -18,13 +18,13 @@ export const ALL_LESSONS: Lesson[] = [
   les3 as unknown as Lesson,
   les4 as unknown as Lesson,
   les5 as unknown as Lesson,
-  conjuncties as unknown as Lesson,
   les6 as unknown as Lesson,
   les7 as unknown as Lesson,
   les8 as unknown as Lesson,
   les9 as unknown as Lesson,
   les10 as unknown as Lesson,
   les11 as unknown as Lesson,
+  conjuncties as unknown as Lesson,
 ];
 
 export function getLessonById(id: string): Lesson | undefined {

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import type { Lesson, AppProgress } from '../../types';
 import { getDueCards } from '../../lib/srs';
 import { getAllVocabulary, getAllGrammar } from '../../data';
+import agendaData from '../../data/agenda.json';
 
 type DashTab = 'lessen' | 'themas' | 'grammatica';
 
@@ -140,6 +141,25 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
           </div>
         )}
 
+        {agendaData.nextLesson && agendaData.nextLesson.homework.length > 0 && (
+          <div className="homework-card card">
+            <div className="hw-header">
+              <span className="hw-icon">📝</span>
+              <div>
+                <div className="hw-title">Huiswerk — {agendaData.nextLesson.dateDisplay}</div>
+                {agendaData.nextLesson.noClassBefore && (
+                  <div className="hw-notice">{agendaData.nextLesson.noClassBefore}</div>
+                )}
+              </div>
+            </div>
+            <ul className="hw-list">
+              {agendaData.nextLesson.homework.map((hw) => (
+                <li key={hw.id} className="hw-item">{hw.description}</li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         <div className="tabs">
           <button className={`tab ${tab === 'lessen' ? 'tab-active' : ''}`} onClick={() => setTab('lessen')}>📚 Lessen</button>
           <button className={`tab ${tab === 'themas' ? 'tab-active' : ''}`} onClick={() => setTab('themas')}>🗂️ Thema's</button>
@@ -160,7 +180,11 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
           </div>
 
           <div className="lessons-grid">
-            {lessons.map((lesson, i) => {
+            {[...lessons].sort((a, b) => {
+              if (a.number === 0 && b.number !== 0) return 1;
+              if (b.number === 0 && a.number !== 0) return -1;
+              return a.number - b.number;
+            }).map((lesson, i) => {
               const { total, mastered, learning } = getLessonMastery(lesson, progress);
               const masteredPct = total > 0 ? (mastered / total) * 100 : 0;
               const learningPct = total > 0 ? (learning / total) * 100 : 0;
@@ -171,7 +195,10 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
                   <div className={`lcc-number ${allDone ? 'lcc-number-done' : ''}`}>
                     {allDone ? '✓' : lesson.number > 0 ? lesson.number : '★'}
                   </div>
-                  <div className="lcc-theme">{lesson.theme}</div>
+                  <div className="lcc-body">
+                    <div className="lcc-theme">{lesson.theme}</div>
+                    <div className="lcc-date">{lesson.dateDisplay}</div>
+                  </div>
                   {total > 0 && (
                     <div className="mastery-bar lcc-bar">
                       <div className="mastery-mastered" style={{ width: `${masteredPct}%` }} />
@@ -225,7 +252,15 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
         {tab === 'grammatica' && (
           <div className="grammar-tab">
             {GRAMMAR_CATS.map(cat => {
-              const rules = allGrammar.filter(g => g.category === cat.key);
+              const rules = allGrammar
+                .filter(g => g.category === cat.key)
+                .sort((a, b) => {
+                  const la = lessons.find(l => l.id === a.lessonId);
+                  const lb = lessons.find(l => l.id === b.lessonId);
+                  const na = la ? (la.number === 0 ? 999 : la.number) : 999;
+                  const nb = lb ? (lb.number === 0 ? 999 : lb.number) : 999;
+                  return na - nb;
+                });
               if (rules.length === 0) return null;
               const open = openGramCat === cat.key;
               return (

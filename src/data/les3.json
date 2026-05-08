@@ -118,22 +118,22 @@
       "examples": [
         {
           "dutch": "Ik hou van rockmuziek.",
-          "translation": "Me gusta la música rock.",
+          "translation": "I like rock music.",
           "highlight": "van + substantief (GEEN ervan om te)"
         },
         {
           "dutch": "Ik hou van fietsen.",
-          "translation": "Me gusta ir en bicicleta.",
+          "translation": "I like cycling.",
           "highlight": "van + werkwoord"
         },
         {
           "dutch": "Ik hou ervan om te fietsen.",
-          "translation": "Me gusta (lo de) ir en bicicleta.",
+          "translation": "I like (the idea of) cycling.",
           "highlight": "ervan om te + werkwoord"
         },
         {
           "dutch": "Ik hou ervan om met het hele gezin te kamperen.",
-          "translation": "Me gusta ir de camping con toda la familia.",
+          "translation": "I like camping with the whole family.",
           "highlight": "ervan om ... te + lange groep"
         }
       ],
@@ -148,22 +148,22 @@
       "examples": [
         {
           "dutch": "Mijn favoriete stad is Parijs. Het is de hoofdstad van Frankrijk.",
-          "translation": "Mi ciudad favorita es París. Es la capital de Francia.",
+          "translation": "My favourite city is Paris. It is the capital of France.",
           "highlight": "het = Parijs"
         },
         {
           "dutch": "Je kan er de Eiffeltoren bezoeken.",
-          "translation": "Puedes visitar allí la Torre Eiffel.",
+          "translation": "You can visit the Eiffel Tower there.",
           "highlight": "er = in Parijs"
         },
         {
           "dutch": "Ik vind het een prachtige stad.",
-          "translation": "La encuentro una ciudad preciosa.",
+          "translation": "I find it a beautiful city.",
           "highlight": "het = Parijs (object)"
         },
         {
           "dutch": "Daar wil ik naartoe gaan. (NIET: Er wil ik naartoe gaan.)",
-          "translation": "Allí quiero ir. (NO: Er wil ik...)",
+          "translation": "There I want to go. (NOT: Er wil ik...)",
           "highlight": "NOOIT er op positie 1"
         }
       ],
@@ -229,23 +229,23 @@
       "pairs": [
         {
           "left": "de trektocht",
-          "right": "la caminata larga"
+          "right": "the long hike"
         },
         {
           "left": "de strandvakantie",
-          "right": "las vacaciones en la playa"
+          "right": "beach holiday"
         },
         {
           "left": "de citytrip",
-          "right": "el viaje cultural"
+          "right": "city trip"
         },
         {
           "left": "avontuurlijk",
-          "right": "aventurero"
+          "right": "adventurous"
         },
         {
           "left": "verkiezen",
-          "right": "preferir"
+          "right": "to prefer"
         }
       ],
       "lessonId": "les3"

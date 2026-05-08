@@ -119,22 +119,22 @@
       "examples": [
         {
           "dutch": "Nadat hij zijn diploma had gehaald, ging hij op wereldreis.",
-          "translation": "Después de obtener su diploma, se fue a viajar.",
+          "translation": "After getting her diploma, she went travelling.",
           "highlight": "had gehaald"
         },
         {
           "dutch": "Ze zei dat ze een auto had gekocht.",
-          "translation": "Dijo que había comprado un coche.",
+          "translation": "She said she had bought a car.",
           "highlight": "had gekocht"
         },
         {
           "dutch": "Tijdens de nieuwjaarsperiode hadden we een kamer geboekt.",
-          "translation": "Durante Año Nuevo, habíamos reservado una habitación.",
+          "translation": "During New Year, we had booked a room.",
           "highlight": "hadden geboekt"
         },
         {
           "dutch": "Zij had ons niet goed geïnformeerd.",
-          "translation": "Ella no nos había informado bien.",
+          "translation": "She had not informed us properly.",
           "highlight": "had geïnformeerd"
         }
       ],
@@ -149,17 +149,17 @@
       "examples": [
         {
           "dutch": "Je kan er de Eiffeltoren bezoeken.",
-          "translation": "Puedes visitar allí la Torre Eiffel.",
+          "translation": "You can visit the Eiffel Tower there.",
           "highlight": "er (= in Parijs)"
         },
         {
           "dutch": "Daar wil ik naar een standbeeld kijken.",
-          "translation": "Allí quiero mirar una estatua.",
+          "translation": "There I want to look at a statue.",
           "highlight": "Daar (op positie 1, NIET er)"
         },
         {
           "dutch": "FOUT: Er wil ik naartoe gaan.",
-          "translation": "INCORRECTO: Allí quiero ir.",
+          "translation": "INCORRECT: There I want to go.",
           "highlight": "NOOIT er op positie 1"
         }
       ],
@@ -225,23 +225,23 @@
       "pairs": [
         {
           "left": "een klacht",
-          "right": "una queja"
+          "right": "a complaint"
         },
         {
           "left": "het verblijf",
-          "right": "la estancia"
+          "right": "the stay"
         },
         {
           "left": "opgeruimd",
-          "right": "ordenado"
+          "right": "tidy"
         },
         {
           "left": "overtuigen",
-          "right": "convencer"
+          "right": "to convince"
         },
         {
           "left": "aangetekend",
-          "right": "certificado"
+          "right": "registered (mail)"
         }
       ],
       "lessonId": "les5"

@@ -141,22 +141,22 @@
       "examples": [
         {
           "dutch": "Mijn enige band met de natuur waren de safaridocumentaires waarvan ik hield.",
-          "translation": "Mi único vínculo con la naturaleza eran los documentales de safari de los que disfrutaba.",
+          "translation": "My only connection with nature were the safari documentaries I enjoyed.",
           "highlight": "waarvan = van + ding (documentaires)"
         },
         {
           "dutch": "Lia is de vrouw van wie hij hield.",
-          "translation": "Lia es la mujer de quien él estaba enamorado.",
+          "translation": "Lia is the woman he was in love with.",
           "highlight": "van wie = van + persoon (vrouw)"
         },
         {
           "dutch": "Dit is het initiatief waaraan ik deelneem.",
-          "translation": "Esta es la iniciativa en la que participo.",
+          "translation": "This is the initiative I participate in.",
           "highlight": "waaraan = aan + ding (initiatief)"
         },
         {
           "dutch": "De vriend aan wie ik alles vertel, is heel betrouwbaar.",
-          "translation": "El amigo a quien le cuento todo es muy fiable.",
+          "translation": "The friend I tell everything to is very reliable.",
           "highlight": "aan wie = aan + persoon (vriend)"
         }
       ],
@@ -171,22 +171,22 @@
       "examples": [
         {
           "dutch": "Heb je kamerplanten? Ja, ik heb er enkele.",
-          "translation": "¿Tienes plantas de interior? Sí, tengo algunas.",
+          "translation": "Do you have houseplants? Yes, I have some.",
           "highlight": "er + enkele → hoeveelheid"
         },
         {
           "dutch": "Heb je een hond? Nee, ik heb er geen.",
-          "translation": "¿Tienes un perro? No, no tengo.",
+          "translation": "Do you have a dog? No, I don't have one.",
           "highlight": "er + geen → hoeveelheid (ontkenning)"
         },
         {
           "dutch": "Ik kijk ernaar uit om te wandelen.",
-          "translation": "Tengo muchas ganas de caminar.",
+          "translation": "I'm looking forward to going for a walk.",
           "highlight": "uitkijken naar → Ik kijk er + naar + uit"
         },
         {
           "dutch": "Ik geniet er elke keer van. (= van het wandelen met 'Buur en natuur')",
-          "translation": "Lo disfruto cada vez.",
+          "translation": "I enjoy it every time.",
           "highlight": "er + van → direct na subject+verbum (3de positie)"
         }
       ],
@@ -301,11 +301,11 @@
         },
         {
           "left": "de overstroming",
-          "right": "la inundación / flood"
+          "right": "flood"
         },
         {
           "left": "duurzaam",
-          "right": "sostenible / sustainable"
+          "right": "sustainable"
         }
       ],
       "lessonId": "les11"

@@ -295,3 +295,41 @@ Priority-ordered list of learning science + UX gaps to implement.
   removed the "ga naar de les" placeholder entirely.
 - [x] **Audio pronunciation** — 🔊 button on every flashcard front calls Web Speech API
   (`nl-NL`, rate 0.85). Gracefully no-ops if browser doesn't support `speechSynthesis`.
+
+### P5 — Done
+
+- [x] **Lesson sorting by number** — `ALL_LESSONS` in `data/index.ts` is ordered 1–11 then
+  conjuncties (number=0) last. Dashboard Lessen tab sorts client-side too (number 0 → end).
+- [x] **Lesson date on card** — each lesson card in the Lessen tab shows `dateDisplay` below
+  the theme name (`.lcc-date` style). Extra/conjuncties shows its own dateDisplay.
+- [x] **Grammar sorted by lesson number** — rules inside each grammar category in the
+  Grammatica tab are sorted by lesson number (conjuncties/extra sorts last, number 0 → 999).
+- [x] **Theme cards as study launchers** — Thema's tab cards show the bundle name only
+  (no lesson-specific topics). Clicking a card launches a Mix session for that bundle's
+  lesson IDs. Lesson topics remain exclusively in the Lessen tab.
+- [x] **All Spanish removed** — every `translation` field across all 12 JSON files is now
+  English only. Grammar examples, matching pairs, vocabulary, hints all fixed.
+
+### P6 — Done
+
+- [x] **Agenda from Google Drive** — `src/data/agenda.json` contains the full parsed agenda
+  (lessons 1–17, dates, topics, homework per lesson) fetched from Google Doc
+  `17T82cnJedobIDPOjl21nGT4CLDzyZf9m3nbBPiD5KR0` (teacher: Astrid De Beukelaer,
+  CVO Groeipunt 2.4 schriftelijk, period 05/02/2026 – 25/06/2026).
+- [x] **Homework card on Dashboard** — yellow card appears above the tabs showing homework
+  due for the next lesson (`agendaData.nextLesson.homework[]`), plus a notice when there
+  is no class the week before.
+
+### P7 — TODO (next session)
+
+- [ ] **Scheduled Friday agenda refresh** — set up a Claude Code `/schedule` agent that
+  runs every Friday morning, re-reads the Google Doc (`17T82cnJedobIDPOjl21nGT4CLDzyZf9m3nbBPiD5KR0`)
+  via Google Drive MCP, parses the latest homework + any new lesson notes, and overwrites
+  `src/data/agenda.json`. The agent should also check if a new lesson notes doc is
+  available (linked from the agenda table) and if so attempt to generate a new `lesN.json`.
+- [ ] **Auto-generate lesN.json from lesson notes** — when the Friday agent finds a newly
+  completed lesson whose notes Google Doc is available, read that doc, extract vocabulary
+  + grammar + exercises, and write `src/data/lesN.json` + update `src/data/index.ts`.
+  Lesson notes docs are linked in the agenda table as e.g. "Les 12" Google Doc links.
+- [ ] **Homework done-state persistence** — `hw-item` checkboxes saved to localStorage so
+  the student can tick off completed homework tasks. Key: `dutch-game-homework`.
