@@ -1,4 +1,4 @@
-export type GameType = 'flashcard' | 'multiple-choice' | 'fill-in-blank' | 'matching' | 'word-order';
+export type GameType = 'flashcard' | 'multiple-choice' | 'fill-in-blank' | 'matching' | 'word-order' | 'listening';
 
 export interface VocabularyItem {
   id: string;

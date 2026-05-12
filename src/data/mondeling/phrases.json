@@ -1,0 +1,76 @@
+{
+  "id": "mond-zinnen",
+  "number": 104,
+  "date": "2026-02-03",
+  "dateDisplay": "3/2",
+  "theme": "Spreken: Zinnen & Emoties",
+  "subtheme": "Communicatiestrategieën voor het mondeling examen",
+  "topics": [
+    "Zinnen om tijd te winnen",
+    "Opinie en reactie uitdrukken",
+    "Emoties benoemen",
+    "Verwarring vragen / verduidelijken"
+  ],
+  "vocabulary": [
+    { "id": "mv-nadenken", "dutch": "Laat me even nadenken.", "translation": "Let me think for a moment.", "example": "Laat me even nadenken ... ik denk dat dat een goed idee is.", "exampleTranslation": "Let me think for a moment ... I think that's a good idea.", "category": "tijdwinnen", "lessonId": "mond-zinnen" },
+    { "id": "mv-interessant", "dutch": "Da's een interessante vraag!", "translation": "That's an interesting question!", "example": "Da's een interessante vraag! Ik heb er nog nooit over nagedacht.", "exampleTranslation": "That's an interesting question! I've never thought about it.", "category": "tijdwinnen", "lessonId": "mond-zinnen" },
+    { "id": "mv-bedoelje", "dutch": "Wat bedoel je juist?", "translation": "What exactly do you mean?", "example": "Wat bedoel je juist? Kan je dat iets duidelijker uitleggen?", "exampleTranslation": "What exactly do you mean? Can you explain that a bit more clearly?", "category": "tijdwinnen", "lessonId": "mond-zinnen" },
+    { "id": "mv-herhalen", "dutch": "Sorry, kan je dat herhalen?", "translation": "Sorry, can you repeat that?", "example": "Sorry, kan je dat herhalen? Ik heb het niet goed verstaan.", "exampleTranslation": "Sorry, can you repeat that? I didn't understand it well.", "category": "tijdwinnen", "lessonId": "mond-zinnen" },
+    { "id": "mv-zeggen", "dutch": "Hoe moet ik dat zeggen?", "translation": "How should I say that?", "example": "Hoe moet ik dat zeggen ... ik bedoel dat het een moeilijke situatie is.", "exampleTranslation": "How should I say that ... I mean it's a difficult situation.", "category": "tijdwinnen", "lessonId": "mond-zinnen" },
+    { "id": "mv-vindvanjawel", "dutch": "Ik vind van wel.", "translation": "I think so. / I believe so.", "example": "Vind jij dat? - Ik vind van wel, ja.", "exampleTranslation": "Do you think so? - I think so, yes.", "category": "opinie", "lessonId": "mond-zinnen" },
+    { "id": "mv-vindvanniet", "dutch": "Ik vind van niet.", "translation": "I don't think so. / I disagree.", "example": "Is dat een goed idee? - Nee, ik vind van niet.", "exampleTranslation": "Is that a good idea? - No, I don't think so.", "category": "opinie", "lessonId": "mond-zinnen" },
+    { "id": "mv-denk-dat", "dutch": "Ik denk dat ...", "translation": "I think that ...", "example": "Ik denk dat de overheid meer moet doen voor het milieu.", "exampleTranslation": "I think that the government should do more for the environment.", "category": "opinie", "lessonId": "mond-zinnen" },
+    { "id": "mv-naar-mijn-mening", "dutch": "Naar mijn mening ...", "translation": "In my opinion ...", "example": "Naar mijn mening is duurzaamheid heel belangrijk voor de toekomst.", "exampleTranslation": "In my opinion, sustainability is very important for the future.", "category": "opinie", "lessonId": "mond-zinnen" },
+    { "id": "mv-goedgezind", "dutch": "goedgezind", "translation": "in a good mood", "example": "Ik ben goedgezind vandaag omdat de zon schijnt.", "exampleTranslation": "I'm in a good mood today because the sun is shining.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-slechtgezind", "dutch": "slechtgezind", "translation": "in a bad mood", "example": "Hij is slechtgezind omdat hij maar 3 uur geslapen heeft.", "exampleTranslation": "He's in a bad mood because he only slept 3 hours.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-trots", "dutch": "trots", "translation": "proud", "example": "Ze is trots op haar kinderen omdat ze goed studeren.", "exampleTranslation": "She is proud of her children because they study well.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-verveeld", "dutch": "verveeld / zich vervelen", "translation": "bored / to be bored", "example": "Ik verveel me wanneer er niets te doen is op zondag.", "exampleTranslation": "I get bored when there's nothing to do on Sunday.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-gestresseerd", "dutch": "gestresseerd / het druk hebben", "translation": "stressed / to be busy", "example": "Ik ben gestresseerd want ik heb het druk met het examen.", "exampleTranslation": "I'm stressed because I'm busy with the exam.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-geirriteerd", "dutch": "geïrriteerd", "translation": "irritated", "example": "Hij is geïrriteerd door het lawaai van de buren.", "exampleTranslation": "He is irritated by the noise from the neighbours.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-gefrustreerd", "dutch": "gefrustreerd", "translation": "frustrated", "example": "Ik ben gefrustreerd omdat Nederlands zo moeilijk is.", "exampleTranslation": "I'm frustrated because Dutch is so difficult.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-ontgoocheld", "dutch": "ontgoocheld / teleurgesteld", "translation": "disappointed", "example": "Ze was ontgoocheld over haar resultaat op het examen.", "exampleTranslation": "She was disappointed about her result on the exam.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-opgelucht", "dutch": "opgelucht", "translation": "relieved", "example": "Ik was opgelucht toen de dokter zei dat alles goed was.", "exampleTranslation": "I was relieved when the doctor said everything was fine.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-ontroerd", "dutch": "ontroerd", "translation": "moved / touched (emotionally)", "example": "Ze was ontroerd door de mooie woorden van haar vriendin.", "exampleTranslation": "She was moved by the beautiful words of her friend.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-geschrokken", "dutch": "geschrokken", "translation": "startled / shocked", "example": "Ik was geschrokken van het slechte nieuws over de aardbeving.", "exampleTranslation": "I was shocked by the bad news about the earthquake.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-opgelucht2", "dutch": "opgelucht zijn", "translation": "to feel relieved", "example": "Ik ben opgelucht dat het examen bijna voorbij is.", "exampleTranslation": "I'm relieved that the exam is almost over.", "category": "emoties", "lessonId": "mond-zinnen" },
+    { "id": "mv-nochtans", "dutch": "nochtans", "translation": "nevertheless / yet (formal)", "example": "Ik heb veel gestudeerd. Nochtans heb ik een slechte score gehaald.", "exampleTranslation": "I studied a lot. Nevertheless I got a bad score.", "category": "contrast", "lessonId": "mond-zinnen" }
+  ],
+  "grammar": [
+    {
+      "id": "mg-tijdwinnen",
+      "title": "Zinnen om tijd te winnen (time-buying phrases)",
+      "explanation": "In the speaking exam, use these phrases when you need a moment to think. They sound natural and give you time without silence.",
+      "rule": "Use these to avoid silence: Laat me even nadenken / Da's een interessante vraag / Wat bedoel je juist?",
+      "examples": [
+        { "dutch": "Laat me even nadenken ...", "translation": "Let me think for a moment ...", "highlight": "Laat me even nadenken" },
+        { "dutch": "Da's een interessante vraag!", "translation": "That's an interesting question!", "highlight": "interessante vraag" },
+        { "dutch": "Wat bedoel je juist?", "translation": "What exactly do you mean?", "highlight": "Wat bedoel je juist" },
+        { "dutch": "Hoe moet ik dat zeggen ...", "translation": "How should I say that ...", "highlight": "Hoe moet ik" }
+      ],
+      "lessonId": "mond-zinnen",
+      "category": "grammar"
+    },
+    {
+      "id": "mg-emoties-zinnen",
+      "title": "Emoties beschrijven: oorzaak uitdrukken",
+      "explanation": "To explain why you feel a certain emotion, use 'omdat' (reason you caused) or 'toen' (when it happened). Use 'ik heb het druk' for busy/stressed (NOT 'ik ben druk').",
+      "rule": "Ik ben [emotie] omdat / want / toen + bijzin | Ik heb het druk (= I am busy/stressed)",
+      "examples": [
+        { "dutch": "Ik ben geïrriteerd wanneer de bus te laat komt.", "translation": "I get irritated when the bus is late.", "highlight": "geïrriteerd wanneer" },
+        { "dutch": "Ik was opgelucht toen het examen voorbij was.", "translation": "I was relieved when the exam was over.", "highlight": "opgelucht toen" },
+        { "dutch": "Ik heb het druk vandaag.", "translation": "I'm busy today.", "highlight": "Ik heb het druk" },
+        { "dutch": "Ik verveel me als er niets te doen is.", "translation": "I get bored when there's nothing to do.", "highlight": "Ik verveel me" }
+      ],
+      "lessonId": "mond-zinnen",
+      "category": "grammar"
+    }
+  ],
+  "exercises": [
+    { "id": "mze2-mc1", "type": "multiple-choice", "question": "Welke zin gebruik je om tijd te winnen?", "options": ["Ik vind van niet.", "Da's een interessante vraag!", "Het is een goed idee.", "Ik ben gestresseerd."], "answer": "Da's een interessante vraag!", "explanation": "'Da's een interessante vraag!' = a time-buying phrase that sounds natural.", "lessonId": "mond-zinnen" },
+    { "id": "mze2-mc2", "type": "multiple-choice", "question": "Wat betekent 'opgelucht'?", "options": ["stressed", "irritated", "relieved", "disappointed"], "answer": "relieved", "explanation": "Opgelucht = relieved. Bv. Ik was opgelucht toen de dokter zei dat alles goed was.", "lessonId": "mond-zinnen" },
+    { "id": "mze2-mc3", "type": "multiple-choice", "question": "Hoe zeg je 'I'm busy' in het Nederlands?", "options": ["Ik ben druk.", "Ik heb het druk.", "Ik ben gestresseerd.", "Ik verveel me."], "answer": "Ik heb het druk.", "explanation": "Ik heb het druk = I'm busy. NOT 'ik ben druk' (dat is raar in het Nederlands).", "lessonId": "mond-zinnen" },
+    { "id": "mze2-fib1", "type": "fill-in-blank", "sentence": "___ mijn mening is duurzaamheid heel belangrijk.", "blank": "Naar", "hint": "In my opinion = Naar mijn mening", "explanation": "Naar mijn mening = In my opinion. Formele manier om opinie te geven.", "lessonId": "mond-zinnen" },
+    { "id": "mze2-fib2", "type": "fill-in-blank", "sentence": "Laat me even ___. Ik denk dat dat een goed idee is.", "blank": "nadenken", "hint": "Laat me even ... (time-buying phrase)", "explanation": "Laat me even nadenken = Let me think for a moment.", "lessonId": "mond-zinnen" },
+    { "id": "mze2-matching1", "type": "matching", "pairs": [{ "left": "goedgezind", "right": "in a good mood" }, { "left": "ontgoocheld", "right": "disappointed" }, { "left": "opgelucht", "right": "relieved" }, { "left": "ontroerd", "right": "moved / touched" }], "lessonId": "mond-zinnen" }
+  ]
+}

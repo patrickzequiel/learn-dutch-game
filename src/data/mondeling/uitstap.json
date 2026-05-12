@@ -1,0 +1,69 @@
+{
+  "id": "mond-uitstap",
+  "number": 103,
+  "date": "2026-02-03",
+  "dateDisplay": "3/2",
+  "theme": "Op uitstap & reizen",
+  "subtheme": "Mondeling — toeristische activiteiten, voorkeur, klachten",
+  "topics": [
+    "Toeristische activiteiten beschrijven",
+    "Reisvoorkeur uitdrukken",
+    "Een probleem melden op reis",
+    "Plusquamperfectum: iets navertellen",
+    "Er als verwijswoord bij uitstap"
+  ],
+  "vocabulary": [
+    { "id": "mv-uitstap", "dutch": "de uitstap", "translation": "the day trip / excursion", "example": "We maken een uitstap naar Gent om de stad te ontdekken.", "exampleTranslation": "We are going on a day trip to Ghent to discover the city.", "category": "reizen", "lessonId": "mond-uitstap" },
+    { "id": "mv-slenteren", "dutch": "slenteren", "translation": "to stroll / to amble", "example": "We hebben een uur geslentered door het centrum van Brugge.", "exampleTranslation": "We strolled through the center of Bruges for an hour.", "category": "activiteiten", "lessonId": "mond-uitstap" },
+    { "id": "mv-bewonderen", "dutch": "bewonderen", "translation": "to admire", "example": "We bewonderden de middeleeuwse gebouwen in de stad.", "exampleTranslation": "We admired the medieval buildings in the city.", "category": "activiteiten", "lessonId": "mond-uitstap" },
+    { "id": "mv-ontdekken", "dutch": "ontdekken", "translation": "to discover", "example": "Ze ontdekken de stad te voet via een wandelroute.", "exampleTranslation": "They discover the city on foot via a walking route.", "category": "activiteiten", "lessonId": "mond-uitstap" },
+    { "id": "mv-avontuurlijk", "dutch": "avontuurlijk", "translation": "adventurous", "example": "Hij heeft een avontuurlijke geest en wil altijd nieuwe dingen proberen.", "exampleTranslation": "He has an adventurous spirit and always wants to try new things.", "category": "karakter", "lessonId": "mond-uitstap" },
+    { "id": "mv-pittoresk", "dutch": "pittoresk", "translation": "picturesque", "example": "Het is een pittoresk stadje met oude gebouwen en smalle straatjes.", "exampleTranslation": "It is a picturesque small town with old buildings and narrow streets.", "category": "beschrijving", "lessonId": "mond-uitstap" },
+    { "id": "mv-verkiezen", "dutch": "verkiezen", "translation": "to prefer", "example": "Ik verkies een rustige vakantie boven een drukke citytrip.", "exampleTranslation": "I prefer a quiet holiday over a busy city trip.", "category": "voorkeur", "lessonId": "mond-uitstap" },
+    { "id": "mv-voorkeur", "dutch": "de voorkeur geven aan", "translation": "to give preference to / to prefer", "example": "Ze geeft de voorkeur aan cultuurreizen boven avontuurlijke trips.", "exampleTranslation": "She gives preference to cultural trips over adventurous ones.", "category": "voorkeur", "lessonId": "mond-uitstap" },
+    { "id": "mv-genieten", "dutch": "ervan genieten", "translation": "to enjoy it", "example": "We hebben er enorm van genoten tijdens onze uitstap naar Dinant.", "exampleTranslation": "We enjoyed it enormously during our trip to Dinant.", "category": "voorkeur", "lessonId": "mond-uitstap" },
+    { "id": "mv-uitkijknaar", "dutch": "ernaar uitkijken", "translation": "to look forward to it", "example": "Ik kijk er al heel erg naar uit om Parijs te bezoeken.", "exampleTranslation": "I'm really looking forward to visiting Paris.", "category": "voorkeur", "lessonId": "mond-uitstap" },
+    { "id": "mv-citytrip", "dutch": "de citytrip", "translation": "the city trip", "example": "We plannen een citytrip naar Amsterdam voor het weekend.", "exampleTranslation": "We're planning a city trip to Amsterdam for the weekend.", "category": "reizen", "lessonId": "mond-uitstap" },
+    { "id": "mv-uitzicht", "dutch": "het uitzicht", "translation": "the view / the outlook", "example": "Het uitzicht op de zee vanuit het hotel was prachtig.", "exampleTranslation": "The view of the sea from the hotel was beautiful.", "category": "beschrijving", "lessonId": "mond-uitstap" },
+    { "id": "mv-terrasje", "dutch": "een terrasje doen", "translation": "to sit at a terrace / to have drinks outside", "example": "Na het bezoek hebben we een terrasje gedaan in het centrum.", "exampleTranslation": "After the visit we had drinks at a terrace in the center.", "category": "activiteiten", "lessonId": "mond-uitstap" },
+    { "id": "mv-plezier", "dutch": "plezier beleven aan", "translation": "to enjoy / to get pleasure from", "example": "Ik beleef veel plezier aan wandelen in de natuur.", "exampleTranslation": "I really enjoy walking in nature.", "category": "voorkeur", "lessonId": "mond-uitstap" },
+    { "id": "mv-tegenslag", "dutch": "de tegenslag", "translation": "the setback / the mishap", "example": "Toen ik naar school fietste, had ik een tegenslag: een platte band.", "exampleTranslation": "When I was cycling to school, I had a setback: a flat tire.", "category": "problemen", "lessonId": "mond-uitstap" }
+  ],
+  "grammar": [
+    {
+      "id": "mg-er-verwijzing",
+      "title": "'Er' als verwijswoord bij reizen",
+      "explanation": "When referring to a place or activity already mentioned, use 'er' + preposition. The preposition combines with 'er': er+van=ervan, er+naar=ernaar, er+in=erin.",
+      "rule": "S + V + er + rest + prepositie → ernaar / ervan / erin / erop",
+      "examples": [
+        { "dutch": "Ik kijk ernaar uit.", "translation": "I'm looking forward to it.", "highlight": "ernaar" },
+        { "dutch": "Ik heb er zin in.", "translation": "I feel like it / I'm looking forward to it.", "highlight": "er zin in" },
+        { "dutch": "We hebben er enorm van genoten.", "translation": "We enjoyed it enormously.", "highlight": "er van genoten" },
+        { "dutch": "Ik heb er al één keer naartoe geboekt.", "translation": "I've already booked a trip there once.", "highlight": "er naartoe" }
+      ],
+      "lessonId": "mond-uitstap",
+      "category": "grammar"
+    },
+    {
+      "id": "mg-plusquam-verhaal",
+      "title": "Plusquamperfectum: een uitstap navertellen",
+      "explanation": "Use plusquamperfectum to describe what had happened BEFORE the main event. It uses had/hadden (non-movement) or was/waren (movement/change) + past participle.",
+      "rule": "had/hadden + VD (niet-beweging) OF was/waren + VD (beweging/verandering)",
+      "examples": [
+        { "dutch": "Hij had zijn wekker niet gezet, dus hij had zich overslapen.", "translation": "He hadn't set his alarm, so he had overslept.", "highlight": "had gezet / had overslapen" },
+        { "dutch": "Ze was haar identiteitskaart thuis vergeten.", "translation": "She had forgotten her ID card at home.", "highlight": "was vergeten" },
+        { "dutch": "Voordat we vertrokken, hadden we al ingecheckt.", "translation": "Before we left, we had already checked in.", "highlight": "hadden ingecheckt" }
+      ],
+      "lessonId": "mond-uitstap",
+      "category": "tense"
+    }
+  ],
+  "exercises": [
+    { "id": "mue-mc1", "type": "multiple-choice", "question": "Wat betekent 'pittoresk'?", "options": ["adventurous", "picturesque", "crowded", "historic"], "answer": "picturesque", "explanation": "Pittoresk = schilderachtig, mooi om naar te kijken. Bv. een pittoresk stadje.", "lessonId": "mond-uitstap" },
+    { "id": "mue-mc2", "type": "multiple-choice", "question": "Hoe zeg je 'I'm looking forward to it' in het Nederlands?", "options": ["Ik heb er zin in.", "Ik kijk ernaar uit.", "Ik geniet ervan.", "Ik denk eraan."], "answer": "Ik kijk ernaar uit.", "explanation": "Ernaar uitkijken = to look forward to it. Ik kijk ernaar uit!", "lessonId": "mond-uitstap" },
+    { "id": "mue-mc3", "type": "multiple-choice", "question": "Welk woord betekent 'to prefer'?", "options": ["bewonderen", "slenteren", "verkiezen", "ontdekken"], "answer": "verkiezen", "explanation": "Verkiezen = to prefer. Ook: de voorkeur geven aan = to give preference to.", "lessonId": "mond-uitstap" },
+    { "id": "mue-fib1", "type": "fill-in-blank", "sentence": "We hebben ___ enorm van genoten tijdens onze citytrip.", "blank": "er", "hint": "er als verwijswoord: S + V + er + rest + prepositie", "explanation": "Er verwijst naar de citytrip: We hebben er (= de citytrip) enorm van genoten.", "lessonId": "mond-uitstap" },
+    { "id": "mue-fib2", "type": "fill-in-blank", "sentence": "Hij ___ zijn wekker niet gezet, dus hij heeft de trein gemist.", "blank": "had", "hint": "plusquamperfectum: had/hadden + VD", "explanation": "Plusquamperfectum: had gezet = had set. Actie vóór de andere verleden actie.", "lessonId": "mond-uitstap" },
+    { "id": "mue-matching1", "type": "matching", "pairs": [{ "left": "slenteren", "right": "to stroll" }, { "left": "bewonderen", "right": "to admire" }, { "left": "ontdekken", "right": "to discover" }, { "left": "de tegenslag", "right": "the setback" }], "lessonId": "mond-uitstap" }
+  ]
+}

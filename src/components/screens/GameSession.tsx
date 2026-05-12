@@ -7,6 +7,7 @@ import { FillInBlank } from '../games/FillInBlank';
 import { MatchingGame } from '../games/MatchingGame';
 import { ProductionCard } from '../games/ProductionCard';
 import { WordOrder } from '../games/WordOrder';
+import { ListeningCard } from '../games/ListeningCard';
 
 interface SessionError {
   label: string;
@@ -24,9 +25,11 @@ interface Props {
 }
 
 export function GameSession({ lesson, gameType, onComplete, onBack, onRate, cards }: Props) {
-  const isVocabGame = gameType === 'flashcard' || gameType === 'word-order';
+  const isVocabGame = gameType === 'flashcard' || gameType === 'word-order' || gameType === 'listening';
   const baseItems: (VocabularyItem | Exercise)[] = isVocabGame
-    ? lesson.vocabulary.filter(v => v.example && v.example.split(/\s+/).length >= 3)
+    ? gameType === 'listening'
+      ? lesson.vocabulary
+      : lesson.vocabulary.filter(v => v.example && v.example.split(/\s+/).length >= 3)
     : lesson.exercises.filter(e => e.type === gameType);
 
   const [retryItems, setRetryItems] = useState<(VocabularyItem | Exercise)[] | null>(null);
@@ -146,20 +149,23 @@ export function GameSession({ lesson, gameType, onComplete, onBack, onRate, card
 
       {gameType === 'flashcard' && (
         useProduction
-          ? <ProductionCard item={vocabItem} onRate={rating => { onRate(vocabItem.id, rating, 'vocabulary'); next(rating >= 3, current); }} />
-          : <FlashCard item={vocabItem} srsCard={srsCard} onRate={rating => { onRate(vocabItem.id, rating, 'vocabulary'); next(rating >= 3, current); }} />
+          ? <ProductionCard key={vocabItem.id} item={vocabItem} onRate={rating => { onRate(vocabItem.id, rating, 'vocabulary'); next(rating >= 3, current); }} />
+          : <FlashCard key={vocabItem.id} item={vocabItem} srsCard={srsCard} onRate={rating => { onRate(vocabItem.id, rating, 'vocabulary'); next(rating >= 3, current); }} />
       )}
       {gameType === 'word-order' && (
-        <WordOrder item={vocabItem} onComplete={correct => { onRate(vocabItem.id, correct ? 3 : 1, 'vocabulary'); next(correct, current); }} />
+        <WordOrder key={vocabItem.id} item={vocabItem} onComplete={correct => { onRate(vocabItem.id, correct ? 3 : 1, 'vocabulary'); next(correct, current); }} />
       )}
       {gameType === 'multiple-choice' && (
-        <MultipleChoice exercise={exerciseItem as Extract<Exercise, { type: 'multiple-choice' }>} onComplete={correct => { onRate(exerciseItem.id, correct ? 4 : 1, 'exercise'); next(correct, current); }} />
+        <MultipleChoice key={exerciseItem.id} exercise={exerciseItem as Extract<Exercise, { type: 'multiple-choice' }>} onComplete={correct => { onRate(exerciseItem.id, correct ? 4 : 1, 'exercise'); next(correct, current); }} />
       )}
       {gameType === 'fill-in-blank' && (
-        <FillInBlank exercise={exerciseItem as Extract<Exercise, { type: 'fill-in-blank' }>} onComplete={correct => { onRate(exerciseItem.id, correct ? 4 : 1, 'exercise'); next(correct, current); }} />
+        <FillInBlank key={exerciseItem.id} exercise={exerciseItem as Extract<Exercise, { type: 'fill-in-blank' }>} onComplete={correct => { onRate(exerciseItem.id, correct ? 4 : 1, 'exercise'); next(correct, current); }} />
       )}
       {gameType === 'matching' && (
-        <MatchingGame exercise={exerciseItem as Extract<Exercise, { type: 'matching' }>} onComplete={allCorrect => { onRate(exerciseItem.id, allCorrect ? 4 : 2, 'exercise'); next(allCorrect, current); }} />
+        <MatchingGame key={exerciseItem.id} exercise={exerciseItem as Extract<Exercise, { type: 'matching' }>} onComplete={allCorrect => { onRate(exerciseItem.id, allCorrect ? 4 : 2, 'exercise'); next(allCorrect, current); }} />
+      )}
+      {gameType === 'listening' && (
+        <ListeningCard key={vocabItem.id} item={vocabItem} allItems={lesson.vocabulary} onComplete={correct => { onRate(vocabItem.id, correct ? 3 : 1, 'vocabulary'); next(correct, current); }} />
       )}
     </div>
   );

@@ -1,0 +1,99 @@
+{
+  "id": "mond-natuur",
+  "number": 101,
+  "date": "2026-05-05",
+  "dateDisplay": "5/5",
+  "theme": "Natuur, milieu en omgeving",
+  "subtheme": "Mondeling — evaluatie 12 mei",
+  "topics": [
+    "Natuurfenomenen en -rampen",
+    "Milieuproblemen",
+    "Repair Café & ecologische voetafdruk",
+    "Praten over ernstige gebeurtenissen",
+    "Opinie uitdrukken"
+  ],
+  "vocabulary": [
+    { "id": "mv-overstroming", "dutch": "de overstroming", "translation": "the flood", "example": "De overstroming heeft veel huizen beschadigd in het zuiden.", "exampleTranslation": "The flood damaged many houses in the south.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-droogte", "dutch": "de droogte", "translation": "the drought", "example": "Door de lange droogte is de oogst mislukt.", "exampleTranslation": "Due to the long drought, the harvest failed.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-onweer", "dutch": "het onweer", "translation": "the thunderstorm", "example": "Vannacht is er onweer met zware regen verwacht.", "exampleTranslation": "Tonight a thunderstorm with heavy rain is expected.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-aardbeving", "dutch": "de aardbeving", "translation": "the earthquake", "example": "De aardbeving heeft veel gebouwen beschadigd en er zijn twintig slachtoffers.", "exampleTranslation": "The earthquake damaged many buildings and there are twenty victims.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-bosbrand", "dutch": "de bosbrand", "translation": "the wildfire / forest fire", "example": "De bosbrand verwoestte duizenden hectaren bos in de buurt van de stad.", "exampleTranslation": "The wildfire destroyed thousands of hectares of forest near the city.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-tsunami", "dutch": "de tsunami", "translation": "the tsunami", "example": "De tsunami trof de kustgebieden heel zwaar.", "exampleTranslation": "The tsunami hit the coastal areas very hard.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-klimaatverandering", "dutch": "de klimaatverandering", "translation": "climate change", "example": "De klimaatverandering zorgt voor extremere weersomstandigheden.", "exampleTranslation": "Climate change causes more extreme weather conditions.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-vervuiling", "dutch": "de milieuvervuiling", "translation": "environmental pollution", "example": "Milieuvervuiling is een groot probleem voor de volksgezondheid.", "exampleTranslation": "Environmental pollution is a major problem for public health.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-duurzaam", "dutch": "duurzaam", "translation": "sustainable", "example": "We moeten duurzamer leven om de aarde te beschermen.", "exampleTranslation": "We need to live more sustainably to protect the earth.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-ontbossing", "dutch": "de ontbossing", "translation": "deforestation", "example": "Ontbossing vermindert de biodiversiteit en verergert de klimaatverandering.", "exampleTranslation": "Deforestation reduces biodiversity and worsens climate change.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-biodiversiteit", "dutch": "de biodiversiteit", "translation": "biodiversity", "example": "We moeten de biodiversiteit beschermen door geen bedreigde dieren te kopen.", "exampleTranslation": "We must protect biodiversity by not buying endangered animals.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-sluikstorten", "dutch": "sluikstorten", "translation": "illegal dumping (of waste)", "example": "Sluikstorten is verboden en je kan een boete van 350 euro krijgen.", "exampleTranslation": "Illegal dumping is forbidden and you can get a fine of 350 euros.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-voetafdruk", "dutch": "de ecologische voetafdruk", "translation": "the ecological footprint", "example": "Mijn ecologische voetafdruk is te groot door mijn vliegreizen.", "exampleTranslation": "My ecological footprint is too large because of my frequent flights.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-verwoesten", "dutch": "verwoesten / vernietigen", "translation": "to destroy / to devastate", "example": "De orkaan heeft het hele dorp verwoest en alles vernietigd.", "exampleTranslation": "The hurricane devastated the entire village and destroyed everything.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-afval", "dutch": "het afval", "translation": "waste / garbage", "example": "Sorteer je afval correct in de juiste zakken.", "exampleTranslation": "Sort your waste correctly in the right bags.", "category": "milieu", "lessonId": "mond-natuur" },
+    { "id": "mv-vrijwilliger", "dutch": "de vrijwilliger", "translation": "the volunteer", "example": "Vrijwilligers van Repair Café herstellen gratis kapotte toestellen.", "exampleTranslation": "Volunteers at Repair Café repair broken devices for free.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-herstellen", "dutch": "herstellen", "translation": "to repair / to fix", "example": "Ze herstellen kapotte elektronica in plaats van ze weg te gooien.", "exampleTranslation": "They repair broken electronics instead of throwing them away.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-aanmoedigen", "dutch": "aanmoedigen", "translation": "to encourage", "example": "De overheid moedigt mensen aan om te fietsen in de stad.", "exampleTranslation": "The government encourages people to cycle in the city.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-verbieden", "dutch": "verbieden", "translation": "to forbid / to ban", "example": "De burgemeester kan betogingen op de Grote Markt verbieden.", "exampleTranslation": "The mayor can forbid protests on the main square.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-verplichten", "dutch": "verplichten", "translation": "to make mandatory / to require", "example": "De wet verplicht bedrijven om afval te sorteren.", "exampleTranslation": "The law requires companies to sort their waste.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-ontmoedigen", "dutch": "ontmoedigen", "translation": "to discourage", "example": "Hoge parkeertarieven ontmoedigen autogebruik in de stad.", "exampleTranslation": "High parking fees discourage car use in the city.", "category": "acties", "lessonId": "mond-natuur" },
+    { "id": "mv-slachtoffer", "dutch": "het slachtoffer", "translation": "the victim", "example": "Er waren twintig slachtoffers na de aardbeving in Turkije.", "exampleTranslation": "There were twenty victims after the earthquake in Turkey.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-vreselijk", "dutch": "vreselijk / verschrikkelijk", "translation": "terrible / horrifying", "example": "Dat is vreselijk nieuws. Wat erg voor die mensen!", "exampleTranslation": "That is terrible news. How awful for those people!", "category": "ernst", "lessonId": "mond-natuur" },
+    { "id": "mv-omvangrijk", "dutch": "omvangrijk", "translation": "extensive / massive / large-scale", "example": "De brand was omvangrijk en duurde drie dagen.", "exampleTranslation": "The fire was massive and lasted three days.", "category": "natuur", "lessonId": "mond-natuur" },
+    { "id": "mv-overheid", "dutch": "de overheid", "translation": "the government / the authorities", "example": "De overheid neemt maatregelen tegen klimaatverandering.", "exampleTranslation": "The government is taking measures against climate change.", "category": "acties", "lessonId": "mond-natuur" }
+  ],
+  "grammar": [
+    {
+      "id": "mg-ernst",
+      "title": "Praten over ernstige gebeurtenissen",
+      "explanation": "When talking about disasters or serious news, use these empathy expressions. Intensity increases: erg → heel erg → vreselijk → verschrikkelijk.",
+      "rule": "Dat is (heel) erg. / Vreselijk / Verschrikkelijk! / Wat erg voor die mensen!",
+      "examples": [
+        { "dutch": "Dat is erg.", "translation": "That is bad/sad.", "highlight": "erg" },
+        { "dutch": "Dat vind ik heel erg.", "translation": "I find that very sad.", "highlight": "heel erg" },
+        { "dutch": "Wat vreselijk voor die mensen!", "translation": "How terrible for those people!", "highlight": "vreselijk" },
+        { "dutch": "Dat is verschrikkelijk nieuws.", "translation": "That is horrifying news.", "highlight": "verschrikkelijk" }
+      ],
+      "lessonId": "mond-natuur",
+      "category": "grammar"
+    },
+    {
+      "id": "mg-opinie",
+      "title": "Opinie uitdrukken (expressing opinions)",
+      "explanation": "Use these phrases to give your opinion in the speaking exam. Always follow with 'dat + bijzin' or a noun phrase.",
+      "rule": "Ik vind (dat)... / Ik denk dat... / Naar mijn mening... / Ik vind het een goed/slecht idee",
+      "examples": [
+        { "dutch": "Ik vind dat duurzaamheid heel belangrijk is.", "translation": "I think sustainability is very important.", "highlight": "Ik vind dat" },
+        { "dutch": "Ik denk dat de overheid meer moet doen.", "translation": "I think the government should do more.", "highlight": "Ik denk dat" },
+        { "dutch": "Naar mijn mening is sluikstorten onaanvaardbaar.", "translation": "In my opinion, illegal dumping is unacceptable.", "highlight": "Naar mijn mening" },
+        { "dutch": "Ik vind het een goed idee om camera's te plaatsen.", "translation": "I think it's a good idea to install cameras.", "highlight": "Ik vind het een goed idee" }
+      ],
+      "lessonId": "mond-natuur",
+      "category": "grammar"
+    },
+    {
+      "id": "mg-conjuncties-doel",
+      "title": "Conjuncties: zodat / zolang / voordat / zodra",
+      "explanation": "These conjunctions express purpose and time. The verb goes to the END of the clause.",
+      "rule": "zodat = so that | zolang = as long as | voordat = before | zodra = as soon as",
+      "examples": [
+        { "dutch": "We sorteren afval zodat het gerecycleerd kan worden.", "translation": "We sort waste so that it can be recycled.", "highlight": "zodat" },
+        { "dutch": "Zolang we fossiele brandstoffen gebruiken, vervuilen we het milieu.", "translation": "As long as we use fossil fuels, we pollute the environment.", "highlight": "Zolang" },
+        { "dutch": "Voordat het te laat is, moeten we actie ondernemen.", "translation": "Before it's too late, we must take action.", "highlight": "Voordat" },
+        { "dutch": "Zodra de brand uitbrak, belden ze 112.", "translation": "As soon as the fire broke out, they called 112.", "highlight": "Zodra" }
+      ],
+      "lessonId": "mond-natuur",
+      "category": "conjunctie"
+    }
+  ],
+  "exercises": [
+    { "id": "me-mc1", "type": "multiple-choice", "question": "Wat betekent 'sluikstorten'?", "options": ["afval correct sorteren", "illegaal afval dumpen", "afval verbranden", "afval recyclen"], "answer": "illegaal afval dumpen", "explanation": "Sluikstorten = illegaal afval dumpen op een verboden plaats. Boete: 350 euro.", "lessonId": "mond-natuur" },
+    { "id": "me-mc2", "type": "multiple-choice", "question": "Welk woord betekent 'drought'?", "options": ["de overstroming", "de aardbeving", "de droogte", "het onweer"], "answer": "de droogte", "explanation": "De droogte = een lange periode zonder genoeg regen.", "lessonId": "mond-natuur" },
+    { "id": "me-mc3", "type": "multiple-choice", "question": "Welke zin drukt opinie uit?", "options": ["De overstroming begon gisteren.", "Naar mijn mening moet de overheid meer doen.", "De brand duurde drie dagen.", "Er zijn vijftig slachtoffers."], "answer": "Naar mijn mening moet de overheid meer doen.", "explanation": "'Naar mijn mening' = In my opinion — een standaard opiniezin voor het mondeling.", "lessonId": "mond-natuur" },
+    { "id": "me-mc4", "type": "multiple-choice", "question": "Wat betekent 'de vrijwilliger'?", "options": ["the victim", "the volunteer", "the government", "the disaster"], "answer": "the volunteer", "explanation": "Een vrijwilliger werkt gratis voor een goed doel, zoals Repair Café.", "lessonId": "mond-natuur" },
+    { "id": "me-mc5", "type": "multiple-choice", "question": "Welke conjunctie betekent 'so that' (doel)?", "options": ["zolang", "voordat", "zodat", "zodra"], "answer": "zodat", "explanation": "Zodat = so that. Bv. 'Ik sorteer afval zodat het gerecycleerd kan worden.'", "lessonId": "mond-natuur" },
+    { "id": "me-mc6", "type": "multiple-choice", "question": "Hoe reageer je als je ernstig nieuws hoort?", "options": ["Da's interessant!", "Wat vreselijk voor die mensen!", "Goed nieuws!", "Dat is saai."], "answer": "Wat vreselijk voor die mensen!", "explanation": "Vreselijk/verschrikkelijk gebruik je voor ernstige gebeurtenissen zoals rampen.", "lessonId": "mond-natuur" },
+    { "id": "me-fib1", "type": "fill-in-blank", "sentence": "We moeten ___ leven om de aarde te beschermen.", "blank": "duurzamer", "hint": "duurzaam → comparatief", "explanation": "Duurzamer = more sustainable. Comparative of duurzaam.", "lessonId": "mond-natuur" },
+    { "id": "me-fib2", "type": "fill-in-blank", "sentence": "Dat is ___ nieuws. Wat erg voor die mensen!", "blank": "verschrikkelijk", "hint": "terrible / horrifying", "explanation": "Verschrikkelijk = terrible. Used to react to serious news.", "lessonId": "mond-natuur" },
+    { "id": "me-fib3", "type": "fill-in-blank", "sentence": "De overheid moedigt mensen ___ om te fietsen in de stad.", "blank": "aan", "hint": "aanmoedigen is a separable verb: moedigt ... aan", "explanation": "Aanmoedigen is a separable verb: moedigt + aan. The prefix 'aan' goes to the end.", "lessonId": "mond-natuur" },
+    { "id": "me-matching1", "type": "matching", "pairs": [{ "left": "de overstroming", "right": "the flood" }, { "left": "de droogte", "right": "the drought" }, { "left": "de aardbeving", "right": "the earthquake" }, { "left": "de bosbrand", "right": "the wildfire" }], "lessonId": "mond-natuur" },
+    { "id": "me-matching2", "type": "matching", "pairs": [{ "left": "aanmoedigen", "right": "to encourage" }, { "left": "verbieden", "right": "to forbid" }, { "left": "verplichten", "right": "to make mandatory" }, { "left": "ontmoedigen", "right": "to discourage" }], "lessonId": "mond-natuur" }
+  ]
+}

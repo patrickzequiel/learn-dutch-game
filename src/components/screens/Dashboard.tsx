@@ -42,9 +42,10 @@ interface Props {
   onStartReview: () => void;
   onStartMix: (lessonIds?: string[]) => void;
   onStartWeakWords: () => void;
+  onChangeMode?: () => void;
 }
 
-export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, onStartMix, onStartWeakWords }: Props) {
+export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, onStartMix, onStartWeakWords, onChangeMode }: Props) {
   const [tab, setTab] = useState<DashTab>('lessen');
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
@@ -87,6 +88,11 @@ export function Dashboard({ lessons, progress, onSelectLesson, onStartReview, on
             <span className="badge badge-streak">🔥 {progress.streak}</span>
             <span className="badge badge-xp">⭐ {progress.totalXP} XP</span>
           </div>
+          {onChangeMode && (
+            <button className="mode-switch-btn" onClick={onChangeMode} title="Wissel naar Mondeling">
+              🎙️
+            </button>
+          )}
           <button className="search-toggle" onClick={() => { setSearchOpen(o => !o); setSearchQuery(''); }}>
             {searchOpen ? '✕' : '🔍'}
           </button>
