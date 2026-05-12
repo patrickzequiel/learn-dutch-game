@@ -6,31 +6,44 @@
   "theme": "We zorgen voor elkaar",
   "subtheme": "Mondeling — opvoeding, mantelzorg, dankbaarheid",
   "topics": [
-    "Opvoeding: regels en straffen",
-    "Mantelzorg en zorgzame mensen",
-    "Dankbaarheid uitdrukken",
-    "Spijt en jammer",
-    "Contrast: hoewel / ook al / maar toch"
+    "Opvoeding: regels, straffen en belonen",
+    "Zorgen voor elkaar (mantelzorg, wzc)",
+    "Kindertijd en tienertijd herinneren",
+    "Spijt / jammer / te laat kritiek",
+    "Contrast: hoewel / ook al / maar toch",
+    "Laten + infinitief (permissie)"
   ],
   "vocabulary": [
     { "id": "mv-zorgzaam", "dutch": "zorgzaam", "translation": "caring / nurturing", "example": "Ze is heel zorgzaam voor haar kinderen en haar ouders.", "exampleTranslation": "She is very caring towards her children and her parents.", "category": "zorg", "lessonId": "mond-zorgen" },
     { "id": "mv-mantelzorg", "dutch": "de mantelzorg", "translation": "informal care (caring for a family member)", "example": "Mantelzorg betekent dat je zorgt voor een ziek of oud familielid.", "exampleTranslation": "Informal care means that you take care of a sick or elderly family member.", "category": "zorg", "lessonId": "mond-zorgen" },
+    { "id": "mv-woonzorgcentrum", "dutch": "het woonzorgcentrum (wzc)", "translation": "the care home / nursing home", "example": "Mijn oma woont in een woonzorgcentrum omdat ze hulp nodig heeft.", "exampleTranslation": "My grandmother lives in a care home because she needs help.", "category": "zorg", "lessonId": "mond-zorgen" },
     { "id": "mv-opvoedingstip", "dutch": "de opvoedingstip", "translation": "parenting tip / child-rearing advice", "example": "Dat is een goede opvoedingstip: geef zelf het goede voorbeeld.", "exampleTranslation": "That's a good parenting tip: set a good example yourself.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-straffen", "dutch": "straffen", "translation": "to punish", "example": "Je mag kinderen niet slaan als straf, maar je kunt ze ook anders straffen.", "exampleTranslation": "You may not hit children as punishment, but you can punish them in other ways.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-belonen", "dutch": "belonen", "translation": "to reward", "example": "Je kan kinderen belonen met complimenten als ze iets goed doen.", "exampleTranslation": "You can reward children with compliments when they do something well.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-straf", "dutch": "de straf", "translation": "the punishment", "example": "Hij heeft een straf gekregen omdat hij te laat thuis was.", "exampleTranslation": "He received a punishment because he came home too late.", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-straffen", "dutch": "straffen", "translation": "to punish", "example": "Je mag kinderen niet slaan als straf, maar je kunt ze wel naar hun kamer sturen.", "exampleTranslation": "You may not hit children as punishment, but you can send them to their room.", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-belonen", "dutch": "belonen / prijzen", "translation": "to reward / to praise", "example": "Je kan kinderen belonen met complimentjes als ze iets goed doen.", "exampleTranslation": "You can reward children with compliments when they do something well.", "category": "opvoeding", "lessonId": "mond-zorgen" },
     { "id": "mv-berispen", "dutch": "berispen", "translation": "to scold / to reprimand", "example": "De leraar heeft hem berispt omdat hij zijn huiswerk niet had gemaakt.", "exampleTranslation": "The teacher scolded him because he hadn't done his homework.", "category": "opvoeding", "lessonId": "mond-zorgen" },
     { "id": "mv-verwennen", "dutch": "verwennen", "translation": "to spoil (a child)", "example": "Je moet je kinderen niet te veel verwennen, want dan worden ze niet zelfstandig.", "exampleTranslation": "You shouldn't spoil your children too much, because then they won't become independent.", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-straf", "dutch": "de straf", "translation": "the punishment", "example": "Welke straf zou jij geven aan dit kind?", "exampleTranslation": "What punishment would you give to this child?", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-braaf", "dutch": "braaf / gehoorzaam", "translation": "well-behaved / obedient", "example": "Was je een braaf kind of was je soms stout?", "exampleTranslation": "Were you a well-behaved child or were you sometimes naughty?", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-stout", "dutch": "stout", "translation": "naughty / misbehaving", "example": "Als je stout bent, krijg je een straf.", "exampleTranslation": "If you are naughty, you get a punishment.", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-koppig", "dutch": "koppig", "translation": "stubborn", "example": "Als kind was ik heel koppig en wilde ik altijd mijn zin.", "exampleTranslation": "As a child I was very stubborn and always wanted my own way.", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-stiekem", "dutch": "stiekem / in het geheim", "translation": "secretly / on the sly", "example": "Welke dingen deed je stiekem als kind, zonder dat je ouders het wisten?", "exampleTranslation": "What did you do secretly as a child, without your parents knowing?", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-opgroeien", "dutch": "opgroeien", "translation": "to grow up", "example": "Ik ben opgegroeid in een klein dorp met veel natuur.", "exampleTranslation": "I grew up in a small village with a lot of nature.", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-puber", "dutch": "de puber / de tiener", "translation": "the teenager / adolescent", "example": "Als puber had ik veel ruzie met mijn ouders over de regels thuis.", "exampleTranslation": "As a teenager I had a lot of arguments with my parents about the rules at home.", "category": "kindertijd", "lessonId": "mond-zorgen" },
+    { "id": "mv-troosten", "dutch": "troosten", "translation": "to comfort / to console", "example": "Ze troostte haar kind nadat het gevallen was.", "exampleTranslation": "She comforted her child after it had fallen.", "category": "emoties", "lessonId": "mond-zorgen" },
+    { "id": "mv-huilen", "dutch": "huilen", "translation": "to cry", "example": "Het kind huilde omdat hij zijn speelgoed kwijt was.", "exampleTranslation": "The child was crying because he had lost his toy.", "category": "emoties", "lessonId": "mond-zorgen" },
+    { "id": "mv-zelfvertrouwen", "dutch": "het zelfvertrouwen", "translation": "self-confidence / self-esteem", "example": "Complimentjes geven helpt om het zelfvertrouwen van kinderen te versterken.", "exampleTranslation": "Giving compliments helps to strengthen children's self-confidence.", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-gedrag", "dutch": "het gedrag", "translation": "the behaviour", "example": "Als een kind zich goed gedraagt, kan je het belonen.", "exampleTranslation": "If a child behaves well, you can reward it.", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-presteren", "dutch": "presteren", "translation": "to perform / to achieve (at school)", "example": "Is het een goed idee om je kind te straffen als het slecht presteert op school?", "exampleTranslation": "Is it a good idea to punish your child if it performs poorly at school?", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-complimentje", "dutch": "een complimentje geven", "translation": "to give a compliment", "example": "Welk complimentje heeft jou ooit blij gemaakt?", "exampleTranslation": "Which compliment has ever made you happy?", "category": "emoties", "lessonId": "mond-zorgen" },
     { "id": "mv-opkijkennaar", "dutch": "opkijken naar", "translation": "to look up to / to admire", "example": "Ik kijk op naar mijn moeder omdat ze altijd voor ons gezorgd heeft.", "exampleTranslation": "I look up to my mother because she always took care of us.", "category": "dankbaar", "lessonId": "mond-zorgen" },
     { "id": "mv-dankbaar", "dutch": "dankbaar", "translation": "grateful / thankful", "example": "Ik ben heel dankbaar voor alles wat mijn ouders voor mij gedaan hebben.", "exampleTranslation": "I am very grateful for everything my parents have done for me.", "category": "dankbaar", "lessonId": "mond-zorgen" },
     { "id": "mv-dankzij", "dutch": "dankzij", "translation": "thanks to (always positive!)", "example": "Dankzij haar heb ik veel geleerd over het leven.", "exampleTranslation": "Thanks to her, I learned a lot about life.", "category": "dankbaar", "lessonId": "mond-zorgen" },
     { "id": "mv-zelfstandig", "dutch": "zelfstandig", "translation": "independent / self-reliant", "example": "Het is belangrijk dat kinderen leren om zelfstandig te zijn.", "exampleTranslation": "It is important that children learn to be independent.", "category": "opvoeding", "lessonId": "mond-zorgen" },
     { "id": "mv-verantwoordelijk", "dutch": "verantwoordelijk", "translation": "responsible", "example": "Ouders zijn verantwoordelijk voor de opvoeding van hun kinderen.", "exampleTranslation": "Parents are responsible for the upbringing of their children.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-spijt", "dutch": "spijt hebben van", "translation": "to regret (own decision)", "example": "Ik heb spijt dat ik geen muziekles gevolgd heb als kind.", "exampleTranslation": "I regret that I didn't take music lessons as a child.", "category": "spijt", "lessonId": "mond-zorgen" },
-    { "id": "mv-jammer", "dutch": "iets jammer vinden", "translation": "to find something a pity (not your fault)", "example": "Ik vind het jammer dat ik geen muziekles kon volgen in mijn dorp.", "exampleTranslation": "I find it a pity that I couldn't take music lessons in my village.", "category": "spijt", "lessonId": "mond-zorgen" },
-    { "id": "mv-qualitytime", "dutch": "quality time", "translation": "quality time (meaningful time together)", "example": "Het is belangrijk om voldoende quality time te hebben met je kinderen.", "exampleTranslation": "It is important to have enough quality time with your children.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-conflictsituatie", "dutch": "de conflictsituatie", "translation": "the conflict situation", "example": "Kinderen moeten leren om conflictsituaties op een goede manier op te lossen.", "exampleTranslation": "Children must learn to resolve conflict situations in a good way.", "category": "opvoeding", "lessonId": "mond-zorgen" },
-    { "id": "mv-woonzorgcentrum", "dutch": "het woonzorgcentrum", "translation": "the care home / nursing home", "example": "Mijn oma woont in een woonzorgcentrum omdat ze hulp nodig heeft.", "exampleTranslation": "My grandmother lives in a care home because she needs help.", "category": "zorg", "lessonId": "mond-zorgen" }
+    { "id": "mv-spijt", "dutch": "spijt hebben van", "translation": "to regret (own decision)", "example": "Ik heb spijt dat ik na één jaar pianoles gestopt ben.", "exampleTranslation": "I regret that I stopped piano lessons after one year.", "category": "spijt", "lessonId": "mond-zorgen" },
+    { "id": "mv-jammer", "dutch": "iets jammer / spijtig vinden", "translation": "to find something a pity (not your fault)", "example": "Ik vind het jammer dat ik geen Engelse les kon volgen in mijn land.", "exampleTranslation": "I find it a pity that I couldn't take English lessons in my country.", "category": "spijt", "lessonId": "mond-zorgen" },
+    { "id": "mv-vrijheid", "dutch": "de vrijheid", "translation": "freedom / liberty", "example": "Hoeveel vrijheid geef jij jouw kind?", "exampleTranslation": "How much freedom do you give your child?", "category": "opvoeding", "lessonId": "mond-zorgen" },
+    { "id": "mv-zorgsector", "dutch": "de zorgsector", "translation": "the care sector / healthcare sector", "example": "Zou je graag een job doen in de zorgsector? Waarom wel of niet?", "exampleTranslation": "Would you like to work in the care sector? Why or why not?", "category": "zorg", "lessonId": "mond-zorgen" }
   ],
   "grammar": [
     {
@@ -50,24 +63,42 @@
     {
       "id": "mg-te-laat-kritiek",
       "title": "Te laat advies / kritiek (past modal critique)",
-      "explanation": "To criticize a past decision: had (niet) + moeten/mogen + infinitive. This is the 'conditional perfect' for advice.",
-      "rule": "Subject + had (niet) + moeten/mogen + infinitief",
+      "explanation": "To criticize a past decision — yours or someone else's. Use: had (niet) + moeten/mogen + infinitive. This is called the PlusquamPerfectum with a modal verb.",
+      "rule": "Subject + had (niet) + moeten/mogen/kunnen/willen + infinitief",
       "examples": [
-        { "dutch": "Je had meer moeten studeren.", "translation": "You should have studied more.", "highlight": "had moeten studeren" },
-        { "dutch": "Ze had haar identiteitskaart niet thuis mogen laten.", "translation": "She shouldn't have left her ID at home.", "highlight": "had niet mogen laten" },
-        { "dutch": "Hij had eerder naar de dokter moeten gaan.", "translation": "He should have gone to the doctor sooner.", "highlight": "had moeten gaan" }
+        { "dutch": "Je had meer moeten studeren.", "translation": "You should have studied more.", "highlight": "had moeten" },
+        { "dutch": "Mijn ouders hadden me meer vrijheid moeten geven.", "translation": "My parents should have given me more freedom.", "highlight": "hadden moeten geven" },
+        { "dutch": "Ik had niet zo snel met pianoles mogen stoppen.", "translation": "I shouldn't have stopped piano lessons so quickly.", "highlight": "had niet mogen stoppen" },
+        { "dutch": "Mijn lerares had niet zo vaak aan mijn oren mogen trekken.", "translation": "My teacher shouldn't have pulled my ears so often.", "highlight": "had niet mogen trekken" }
       ],
       "lessonId": "mond-zorgen",
       "category": "tense"
+    },
+    {
+      "id": "mg-laten-permissie",
+      "title": "Laten + infinitief (permissie geven)",
+      "explanation": "Use 'laten' to express that you allow or permit something. Combine with 'als' (if) or 'tenzij' (unless = als ... niet).",
+      "rule": "Ik laat hem/haar ... (+ infinitief) als ... / tenzij ...",
+      "examples": [
+        { "dutch": "Ik laat mijn kind alleen naar school gaan als het groot genoeg is.", "translation": "I let my child go to school alone if it's old enough.", "highlight": "laat ... gaan als" },
+        { "dutch": "Ik laat hem niet surfen op het internet tenzij het voor school is.", "translation": "I don't let him surf the internet unless it's for school.", "highlight": "laat niet ... tenzij" },
+        { "dutch": "Mijn ouders lieten mij niet uitgaan als het te laat was.", "translation": "My parents didn't let me go out if it was too late.", "highlight": "lieten niet ... als" }
+      ],
+      "lessonId": "mond-zorgen",
+      "category": "grammar"
     }
   ],
   "exercises": [
-    { "id": "mze-mc1", "type": "multiple-choice", "question": "Wat betekent 'verwennen'?", "options": ["to punish", "to spoil", "to reward", "to scold"], "answer": "to spoil", "explanation": "Verwennen = to spoil (a child) — te veel geven zodat het kind niet zelfstandig wordt.", "lessonId": "mond-zorgen" },
-    { "id": "mze-mc2", "type": "multiple-choice", "question": "Wat is het verschil tussen 'spijt hebben van' en 'iets jammer vinden'?", "options": ["Er is geen verschil", "Spijt = eigen beslissing, jammer = niet jouw schuld", "Jammer = eigen beslissing, spijt = niet jouw schuld", "Beide betekenen 'regret'"], "answer": "Spijt = eigen beslissing, jammer = niet jouw schuld", "explanation": "Spijt: Ik heb spijt dat ik gestopt ben (eigen keuze). Jammer: Ik vind het jammer dat ik niet kon (niet jouw keuze).", "lessonId": "mond-zorgen" },
+    { "id": "mze-mc1", "type": "multiple-choice", "question": "Wat betekent 'verwennen'?", "options": ["to punish", "to spoil", "to reward", "to scold"], "answer": "to spoil", "explanation": "Verwennen = to spoil — te veel geven zodat het kind niet zelfstandig wordt.", "lessonId": "mond-zorgen" },
+    { "id": "mze-mc2", "type": "multiple-choice", "question": "Wat is het verschil tussen 'spijt hebben van' en 'iets jammer vinden'?", "options": ["Er is geen verschil", "Spijt = eigen beslissing, jammer = niet jouw schuld", "Jammer = eigen beslissing, spijt = niet jouw schuld", "Beide zijn hetzelfde als 'regret'"], "answer": "Spijt = eigen beslissing, jammer = niet jouw schuld", "explanation": "Spijt: Ik heb spijt dat ik gestopt ben (eigen keuze). Jammer: Ik vind het jammer dat ik niet kon (buiten jouw controle).", "lessonId": "mond-zorgen" },
     { "id": "mze-mc3", "type": "multiple-choice", "question": "Welke zin gebruikt 'dankzij' correct?", "options": ["Dankzij het slechte weer zijn we thuis gebleven.", "Dankzij haar heb ik leren rijden.", "Dankzij de ziekte ben ik naar de dokter gegaan.", "Dankzij mijn fout heb ik de bus gemist."], "answer": "Dankzij haar heb ik leren rijden.", "explanation": "Dankzij = thanks to — ALTIJD positief! Gebruik 'door' voor negatieve oorzaken.", "lessonId": "mond-zorgen" },
-    { "id": "mze-fib1", "type": "fill-in-blank", "sentence": "___ ik moe ben, ga ik toch sporten.", "blank": "Hoewel", "hint": "although — contrast conjunctie + bijzin", "explanation": "Hoewel + bijzin. De hoofdzin volgt: Hoewel ik moe ben, GA ik toch sporten (inversie).", "lessonId": "mond-zorgen" },
-    { "id": "mze-fib2", "type": "fill-in-blank", "sentence": "Je ___ meer moeten studeren voor het examen.", "blank": "had", "hint": "te laat kritiek: had + moeten/mogen + infinitief", "explanation": "Te laat kritiek: Je had meer moeten studeren. = You should have studied more.", "lessonId": "mond-zorgen" },
-    { "id": "mze-matching1", "type": "matching", "pairs": [{ "left": "zorgzaam", "right": "caring / nurturing" }, { "left": "dankbaar", "right": "grateful" }, { "left": "zelfstandig", "right": "independent" }, { "left": "verantwoordelijk", "right": "responsible" }], "lessonId": "mond-zorgen" },
-    { "id": "mze-matching2", "type": "matching", "pairs": [{ "left": "straffen", "right": "to punish" }, { "left": "belonen", "right": "to reward" }, { "left": "berispen", "right": "to scold" }, { "left": "verwennen", "right": "to spoil" }], "lessonId": "mond-zorgen" }
+    { "id": "mze-mc4", "type": "multiple-choice", "question": "Hoe zeg je 'to grow up' in het Nederlands?", "options": ["verwennen", "opgroeien", "opkijken naar", "presteren"], "answer": "opgroeien", "explanation": "Opgroeien = to grow up. Bv. Ik ben opgegroeid in een klein dorp.", "lessonId": "mond-zorgen" },
+    { "id": "mze-mc5", "type": "multiple-choice", "question": "Hoe gebruik je 'laten' voor permissie?", "options": ["Ik laat hem niet gaan.", "Ik laat hem niet.", "Ik laat dat hij gaat.", "Hij laat gaan."], "answer": "Ik laat hem niet gaan.", "explanation": "Laten + infinitief: Ik laat hem (niet) gaan. = I (don't) let him go.", "lessonId": "mond-zorgen" },
+    { "id": "mze-fib1", "type": "fill-in-blank", "sentence": "___ ik moe ben, ga ik toch sporten.", "blank": "Hoewel", "hint": "although — contrast conjunctie + bijzin", "explanation": "Hoewel + bijzin, dan hoofdzin met inversie.", "lessonId": "mond-zorgen" },
+    { "id": "mze-fib2", "type": "fill-in-blank", "sentence": "Mijn ouders hadden me meer vrijheid moeten ___.", "blank": "geven", "hint": "had/hadden + moeten + infinitief (te laat kritiek)", "explanation": "Te laat kritiek: hadden moeten geven = should have given.", "lessonId": "mond-zorgen" },
+    { "id": "mze-fib3", "type": "fill-in-blank", "sentence": "Ik laat mijn kind niet uitgaan ___ het te laat is.", "blank": "als", "hint": "als = if (voorwaarde)", "explanation": "Laten + infinitief + als (if) of tenzij (unless = als...niet).", "lessonId": "mond-zorgen" },
+    { "id": "mze-matching1", "type": "matching", "pairs": [{ "left": "zorgzaam", "right": "caring" }, { "left": "dankbaar", "right": "grateful" }, { "left": "koppig", "right": "stubborn" }, { "left": "stiekem", "right": "secretly" }], "lessonId": "mond-zorgen" },
+    { "id": "mze-matching2", "type": "matching", "pairs": [{ "left": "straffen", "right": "to punish" }, { "left": "belonen", "right": "to reward" }, { "left": "troosten", "right": "to comfort" }, { "left": "huilen", "right": "to cry" }], "lessonId": "mond-zorgen" },
+    { "id": "mze-matching3", "type": "matching", "pairs": [{ "left": "het gedrag", "right": "the behaviour" }, { "left": "het zelfvertrouwen", "right": "self-confidence" }, { "left": "de vrijheid", "right": "freedom" }, { "left": "de zorgsector", "right": "the care sector" }], "lessonId": "mond-zorgen" }
   ]
 }

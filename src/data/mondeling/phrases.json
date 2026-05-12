@@ -63,6 +63,20 @@
       ],
       "lessonId": "mond-zinnen",
       "category": "grammar"
+    },
+    {
+      "id": "mg-emoties-nu-vroeger",
+      "title": "Emoties: Nu vs. Vroeger (heden / imperfectum)",
+      "explanation": "For the speaking exam you need to describe emotions in the PRESENT (nu) and PAST (vroeger). Some emotions use 'zijn + adjective', others use 'zich voelen + adjective', and some are reflexive verbs.",
+      "rule": "Nu: Ik ben/voel me [emotie]. | Vroeger: Ik was/voelde me [emotie]. | Reflexief: Ik verveel me → Ik verveelde me.",
+      "examples": [
+        { "dutch": "Nu: Ik ben goedgezind. → Vroeger: Ik was goedgezind.", "translation": "Now: I'm in a good mood. → Before: I was in a good mood.", "highlight": "ben / was" },
+        { "dutch": "Nu: Ik voel me trots. → Vroeger: Ik voelde me trots.", "translation": "Now: I feel proud. → Before: I felt proud.", "highlight": "voel me / voelde me" },
+        { "dutch": "Nu: Ik verveel me. → Vroeger: Ik verveelde me.", "translation": "Now: I'm bored. → Before: I was bored.", "highlight": "verveel / verveelde" },
+        { "dutch": "Nu: Ik schrik. / Ik ben geschrokken. → Vroeger: Ik schrok. / Ik was geschrokken.", "translation": "Now: I'm startled / shocked. → Before: I was shocked.", "highlight": "schrik / schrok" }
+      ],
+      "lessonId": "mond-zinnen",
+      "category": "grammar"
     }
   ],
   "exercises": [

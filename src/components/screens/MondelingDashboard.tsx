@@ -196,15 +196,45 @@ export function MondelingDashboard({ lessons, progress, onSelectLesson, onStartG
           </div>
 
           <div className="card exam-info-card">
+            <h3>Voorbeeldvragen — Spreekexamen</h3>
+            <p className="exam-info-note" style={{ marginBottom: '0.75rem' }}>Alledaags gesprek</p>
+            <ul className="exam-topics-list">
+              <li>Wat heb je gisteren gedaan? En vandaag? En in het weekend?</li>
+              <li>Hoe voel je je?</li>
+              <li>Welk weer is het?</li>
+            </ul>
+            <p className="exam-info-note" style={{ margin: '0.75rem 0' }}>We zorgen voor elkaar</p>
+            <ul className="exam-topics-list">
+              <li>Wat herinner jij je van je kindertijd?</li>
+              <li>Welke problemen had jij als tiener / puber?</li>
+              <li>Zou je graag een job doen in de zorgsector? Waarom wel / niet?</li>
+              <li>Hoeveel vrijheid geef jij jouw kind? Of hoeveel vrijheid zou jij geven?</li>
+              <li>Welke straf zou je geven aan dit kind?</li>
+              <li>Wat vind je van de pedagogische tik of een kind slaan?</li>
+              <li>Wat waren de regels thuis? Wat mocht je doen / niet doen?</li>
+              <li>Waar heb je spijt van (als je terugdenkt aan je kindertijd)?</li>
+              <li>Wat hadden jouw ouders anders kunnen doen?</li>
+              <li>Vertel over een mooie jeugdherinnering.</li>
+              <li>Ben je tevreden over jouw opvoeding?</li>
+            </ul>
+            <p className="exam-info-note" style={{ margin: '0.75rem 0' }}>Op uitstap (p. 2, 3 en 20)</p>
+            <ul className="exam-topics-list">
+              <li>Hoe voelde jij je op jouw vorige uitstap of reis?</li>
+              <li>Bekijk de foto's. Wat is het verschil tussen vroeger en nu?</li>
+            </ul>
+          </div>
+
+          <div className="card exam-info-card">
             <h3>Wat moet je studeren?</h3>
             <ul className="exam-topics-list">
+              <li>We zorgen voor elkaar (opvoeding, mantelzorg, dankbaarheid)</li>
               <li>Natuur, milieu en omgeving (bosbrand, overstroming, klimaatverandering...)</li>
               <li>Praten over ernstige gebeurtenissen (erg / vreselijk / verschrikkelijk)</li>
               <li>Opinie uitdrukken (Naar mijn mening... / Ik denk dat...)</li>
-              <li>Conjuncties: zodat / zolang / voordat / zodra</li>
-              <li>We zorgen voor elkaar (opvoeding, mantelzorg, dankbaarheid)</li>
               <li>Zinnen om tijd te winnen (Laat me even nadenken...)</li>
-              <li>Emoties benoemen (goedgezind, opgelucht, ontgoocheld...)</li>
+              <li>Emoties nu &amp; vroeger (goedgezind, opgelucht, ontgoocheld...)</li>
+              <li>Te laat kritiek: had (niet) moeten/mogen + infinitief</li>
+              <li>Contrast: hoewel / ondanks / ook al / (maar) toch</li>
             </ul>
             <button className="btn btn-primary" style={{ width: '100%' }} onClick={() => setTab('lessen')}>
               Begin te studeren →
