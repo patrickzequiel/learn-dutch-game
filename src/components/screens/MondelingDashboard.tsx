@@ -145,9 +145,9 @@ export function MondelingDashboard({ lessons, progress, onSelectLesson, onStartG
                     </button>
                   </div>
                 </div>
-                <div className="mastery-bar">
-                  <div className="mastery-fill mastery-fill--done" style={{ width: `${masteredPct}%` }} />
-                  <div className="mastery-fill mastery-fill--learning" style={{ width: `${learningPct}%` }} />
+                <div className="mastery-bar lcc-bar">
+                  <div className="mastery-mastered" style={{ width: `${masteredPct}%` }} />
+                  <div className="mastery-learning" style={{ width: `${learningPct}%` }} />
                 </div>
                 <div className="lcc-stats">
                   <span className="lcc-stat lcc-stat--done">{mastered} geleerd</span>
