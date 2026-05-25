@@ -11,6 +11,7 @@ import les8 from './les8.json';
 import les9 from './les9.json';
 import les10 from './les10.json';
 import les11 from './les11.json';
+import les12 from './les12.json';
 
 export const ALL_LESSONS: Lesson[] = [
   les1 as unknown as Lesson,
@@ -24,6 +25,7 @@ export const ALL_LESSONS: Lesson[] = [
   les9 as unknown as Lesson,
   les10 as unknown as Lesson,
   les11 as unknown as Lesson,
+  les12 as unknown as Lesson,
   conjuncties as unknown as Lesson,
 ];
 

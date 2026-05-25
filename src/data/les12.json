@@ -1,0 +1,339 @@
+{
+  "id": "les12",
+  "number": 12,
+  "date": "2026-05-21",
+  "dateDisplay": "donderdag 21 mei",
+  "theme": "Natuur, milieu en omgeving",
+  "subtheme": "De imperatief + het passief",
+  "topics": [
+    "De imperatief: ik-vorm, geen subject, zijn → wees",
+    "Het passief: worden/werd/zijn + participium, modaal + participium + worden",
+    "'Er' als subject in passieve zinnen",
+    "Thema: duurzaam winkelen, sluikstorten, milieuproblemen"
+  ],
+  "vocabulary": [
+    {
+      "id": "l12-duurzaam",
+      "dutch": "duurzaam",
+      "translation": "sustainable / eco-friendly",
+      "example": "Duurzaam winkelen betekent bewuste keuzes maken voor het milieu.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-herbruikbare-tas",
+      "dutch": "de herbruikbare tas",
+      "translation": "reusable bag",
+      "example": "Gebruik een herbruikbare tas in plaats van een plastic zakje.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-seizoensproducten",
+      "dutch": "de seizoensproducten",
+      "translation": "seasonal products",
+      "example": "Koop seizoensproducten: ze zijn verser en goedkoper.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-verpakkingsvrije-winkel",
+      "dutch": "de verpakkingsvrije winkel",
+      "translation": "package-free store / zero-waste shop",
+      "example": "In een verpakkingsvrije winkel breng je je eigen dozen en zakjes mee.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-sluikstorten",
+      "dutch": "sluikstorten",
+      "translation": "to illegally dump waste",
+      "example": "Er wordt te veel gesluikstort in onze gemeente.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-zwerfvuil",
+      "dutch": "het zwerfvuil",
+      "translation": "litter / waste",
+      "example": "Sluikstorten creëert zwerfvuil in onze omgeving.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-opruimactie",
+      "dutch": "de opruimactie",
+      "translation": "cleanup campaign",
+      "example": "We nemen deel aan een opruimactie in het park.",
+      "category": "milieu",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-verbieden",
+      "dutch": "verbieden",
+      "translation": "to forbid / to prohibit",
+      "example": "De overheid verbiedt sluikstorten met hoge boetes.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-verplichten",
+      "dutch": "verplichten",
+      "translation": "to oblige / to force (to do something)",
+      "example": "Men kan iedereen verplichten om correct te sorteren.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-aanmoedigen",
+      "dutch": "aanmoedigen",
+      "translation": "to encourage",
+      "example": "De lerares moedigt de cursisten aan om actief deel te nemen.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-ontmoedigen",
+      "dutch": "ontmoedigen",
+      "translation": "to discourage",
+      "example": "Hoge boetes ontmoedigen mensen om afval te dumpen.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-promoten",
+      "dutch": "promoten",
+      "translation": "to promote (to advertise something)",
+      "example": "De gemeente promoot de recyclageparken via sociale media.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-bestraffen",
+      "dutch": "bestraffen",
+      "translation": "to punish",
+      "example": "Sluikstorters worden bestraft met hoge boetes.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-premie",
+      "dutch": "een premie geven aan",
+      "translation": "to give a bonus / reward to",
+      "example": "De overheid geeft een premie aan mensen die zwerfvuil opruimen.",
+      "category": "beleid",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-rekenen-op",
+      "dutch": "rekenen op",
+      "translation": "to count on / to rely on",
+      "example": "Ik reken op jou om te helpen met de opruimactie.",
+      "category": "verbs",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-aangeven",
+      "dutch": "aangeven",
+      "translation": "to report (officially)",
+      "example": "Je kan sluikstorters aangeven via de website van de gemeente.",
+      "category": "verbs",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-deelnemen-aan",
+      "dutch": "deelnemen aan",
+      "translation": "to participate in / to take part in",
+      "example": "Deze mensen nemen deel aan een opruimactie.",
+      "category": "verbs",
+      "lessonId": "les12"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "l12-imperatief",
+      "title": "De imperatief (gebiedende wijs)",
+      "explanation": "The imperative is used to give commands, instructions, or advice. It is formed using the 'ik-form' of the verb (the stem), placed first in the sentence, with no subject.",
+      "rule": "Verbum (ik-vorm) + rest — geen subject. Uitzondering: zijn → wees. Verzachten met: maar, toch, even, eens.",
+      "examples": [
+        {
+          "dutch": "Gebruik een herbruikbare tas!",
+          "translation": "Use a reusable bag!",
+          "highlight": "Gebruik"
+        },
+        {
+          "dutch": "Koop lokale en seizoensproducten.",
+          "translation": "Buy local and seasonal products.",
+          "highlight": "Koop"
+        },
+        {
+          "dutch": "Kom maar even zitten.",
+          "translation": "Come and have a seat (friendly).",
+          "highlight": "maar even"
+        },
+        {
+          "dutch": "Wees voorzichtig met het milieu.",
+          "translation": "Be careful with the environment.",
+          "highlight": "Wees"
+        }
+      ],
+      "lessonId": "les12",
+      "category": "grammar"
+    },
+    {
+      "id": "l12-passief",
+      "title": "Het passief (passieve zinnen)",
+      "explanation": "The passive voice shifts focus from the doer (actor) to the action or the thing being acted upon. In Dutch, passives are formed with 'worden' (present/past) or 'zijn' (perfect), plus the past participle.",
+      "rule": "Presens: worden + participium | Imperfectum: werd/werden + participium | Perfectum: zijn + participium | Modaal: modaal + participium + worden",
+      "examples": [
+        {
+          "dutch": "De regels worden gerespecteerd.",
+          "translation": "The rules are respected. (presens)",
+          "highlight": "worden gerespecteerd"
+        },
+        {
+          "dutch": "De regels werden gerespecteerd.",
+          "translation": "The rules were respected. (imperfectum)",
+          "highlight": "werden gerespecteerd"
+        },
+        {
+          "dutch": "De regels zijn gerespecteerd.",
+          "translation": "The rules have been respected. (perfectum)",
+          "highlight": "zijn gerespecteerd"
+        },
+        {
+          "dutch": "De regels moeten gerespecteerd worden.",
+          "translation": "The rules must be respected. (modaal)",
+          "highlight": "moeten gerespecteerd worden"
+        }
+      ],
+      "lessonId": "les12",
+      "category": "grammar"
+    },
+    {
+      "id": "l12-passief-er",
+      "title": "'Er' als subject in passieve zinnen",
+      "explanation": "'Er' becomes the subject in a passive sentence when: (a) the active sentence has no object, or (b) the active sentence has an indefinite object ('een' or no article).",
+      "rule": "(a) Geen object → passief subject = 'er'. (b) Onbepaald object ('een'/geen artikel) → ook 'er' als subject.",
+      "examples": [
+        {
+          "dutch": "Er wordt elke donderdag voor het klimaat gedemonstreerd.",
+          "translation": "There are demonstrations for the climate every Thursday.",
+          "highlight": "Er wordt"
+        },
+        {
+          "dutch": "Er is gisterenavond een groot feest gegeven.",
+          "translation": "A big party was given last night.",
+          "highlight": "Er is"
+        },
+        {
+          "dutch": "Er wordt te veel gesluikstort in onze gemeente.",
+          "translation": "There is too much illegal dumping in our municipality.",
+          "highlight": "Er wordt"
+        }
+      ],
+      "lessonId": "les12",
+      "category": "grammar"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "l12-mc1",
+      "type": "multiple-choice",
+      "question": "Welke zin is een correcte imperatief?",
+      "options": [
+        "Jij gebruik een herbruikbare tas.",
+        "Gebruik een herbruikbare tas!",
+        "Je moet een herbruikbare tas gebruiken.",
+        "Een herbruikbare tas wordt gebruikt."
+      ],
+      "answer": "Gebruik een herbruikbare tas!",
+      "explanation": "De imperatief heeft geen subject en begint met het werkwoord (ik-vorm): 'Gebruik'.",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-mc2",
+      "type": "multiple-choice",
+      "question": "Wat betekent 'sluikstorten'?",
+      "options": [
+        "to recycle properly",
+        "to shop sustainably",
+        "to illegally dump waste",
+        "to participate in a cleanup"
+      ],
+      "answer": "to illegally dump waste",
+      "explanation": "Sluikstorten = afval illegaal dumpen/weggooien = zwerfvuil creëren.",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-mc3",
+      "type": "multiple-choice",
+      "question": "Kies de correcte passieve zin in het presens.",
+      "options": [
+        "De regels zijn gerespecteerd.",
+        "De regels werden gerespecteerd.",
+        "De regels worden gerespecteerd.",
+        "De regels moeten gerespecteerd worden."
+      ],
+      "answer": "De regels worden gerespecteerd.",
+      "explanation": "Passief presens = worden + participium.",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-mc4",
+      "type": "multiple-choice",
+      "question": "Wat betekent 'aanmoedigen'?",
+      "options": [
+        "to discourage",
+        "to punish",
+        "to forbid",
+        "to encourage"
+      ],
+      "answer": "to encourage",
+      "explanation": "Aanmoedigen = motiveren = aanraden. Het tegenovergestelde is 'ontmoedigen' (to discourage).",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-fib1",
+      "type": "fill-in-blank",
+      "sentence": "___ voorzichtig met plastic afval.",
+      "blank": "Wees",
+      "hint": "De imperatief van 'zijn' is een uitzondering.",
+      "explanation": "De imperatief van 'zijn' is 'wees', niet 'ben'.",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-fib2",
+      "type": "fill-in-blank",
+      "sentence": "Er ___ elke donderdag voor het klimaat gedemonstreerd.",
+      "blank": "wordt",
+      "hint": "Passief presens zonder specifiek subject → 'er' + ...",
+      "explanation": "Passief presens met 'er' als subject: er + wordt + participium.",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-fib3",
+      "type": "fill-in-blank",
+      "sentence": "De sluikstorters ___ bestraft met hoge boetes.",
+      "blank": "worden",
+      "hint": "Passief presens: worden/werd/zijn + participium.",
+      "explanation": "Passief presens = worden + participium (bestraft).",
+      "lessonId": "les12"
+    },
+    {
+      "id": "l12-matching",
+      "type": "matching",
+      "pairs": [
+        { "left": "aanmoedigen", "right": "to encourage" },
+        { "left": "ontmoedigen", "right": "to discourage" },
+        { "left": "verbieden", "right": "to forbid" },
+        { "left": "bestraffen", "right": "to punish" },
+        { "left": "promoten", "right": "to promote" },
+        { "left": "deelnemen aan", "right": "to participate in" },
+        { "left": "sluikstorten", "right": "to illegally dump waste" },
+        { "left": "rekenen op", "right": "to count on" }
+      ],
+      "lessonId": "les12"
+    }
+  ]
+}

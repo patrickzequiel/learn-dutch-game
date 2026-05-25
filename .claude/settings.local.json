@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(python3 -c \"import pikepdf; print\\('pikepdf ok'\\)\")",
+      "Bash(python3 -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(python \"/c/Users/PCZCJ55/AppData/Local/Programs/Python/Python313/python.exe\" -c \"import pikepdf; print\\('pikepdf ok'\\)\")",
+      "Bash(python \"/c/Users/PCZCJ55/AppData/Local/Programs/Python/Python313/python.exe\" -c \"import fitz; print\\('pymupdf ok'\\)\")",
+      "Bash(cmd.exe /c \"\\\\\"C:\\\\\\\\Users\\\\\\\\PCZCJ55\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\Python\\\\\\\\Python313\\\\\\\\python.exe\\\\\" -c \\\\\"import pikepdf; print\\('pikepdf ok'\\)\\\\\" 2>&1\")",
+      "Bash(cmd.exe /c \"\\\\\"C:\\\\\\\\Users\\\\\\\\PCZCJ55\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Programs\\\\\\\\Python\\\\\\\\Python313\\\\\\\\python.exe\\\\\" -c \\\\\"import fitz; print\\('pymupdf ok'\\)\\\\\" 2>&1\")",
+      "Bash(cmd.exe *)",
+      "Bash(/c/Users/PCZCJ55/AppData/Local/Programs/Python/Python313/python.exe *)",
+      "Bash(npm install *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(node -e ' *)",
+      "Bash(node -e 'const d=require\\('\\\\''./src/data/__TRACKED_VAR__.json'\\\\''\\); console.log\\('\\\\''id:'\\\\'', d.id, '\\\\''| number:'\\\\'', d.number, '\\\\''| date:'\\\\'', d.date, '\\\\''| dateDisplay:'\\\\'', d.dateDisplay\\)')",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "Bash(python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(d.get\\('repository','no repo field'\\)\\)\")",
+      "Bash(git commit *)",
+      "Bash(python -c \"import pypdf; print\\('pypdf ok'\\)\")",
+      "Bash(python -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\")",
+      "Bash(python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python *)",
+      "Bash(git remote *)",
+      "Bash(gh auth *)",
+      "Bash(ssh-keygen -t ed25519 -C patrickezequielscruz@gmail.com -f __TRACKED_VAR__/.ssh/id_ed25519_github -N '')"
+    ]
+  }
+}
