@@ -6,6 +6,7 @@ import { useProgress } from './hooks/useProgress';
 import { ModeSelect } from './components/screens/ModeSelect';
 import { Dashboard } from './components/screens/Dashboard';
 import { MondelingDashboard } from './components/screens/MondelingDashboard';
+import { ExamTrainer } from './components/screens/ExamTrainer';
 import { LessonView } from './components/screens/LessonView';
 import { GameSession } from './components/screens/GameSession';
 import { ReviewSession } from './components/screens/ReviewSession';
@@ -17,6 +18,7 @@ type View =
   | { screen: 'lesson'; lessonId: string }
   | { screen: 'game'; lessonId: string; gameType: GameType }
   | { screen: 'game-custom'; lesson: Lesson; gameType: GameType }
+  | { screen: 'exam-trainer' }
   | { screen: 'review' };
 
 function shuffle<T>(arr: T[]): T[] {
@@ -59,6 +61,7 @@ export default function App() {
             onBack={() => setMode(null)}
             onSelectLesson={id => { initCardsForLesson(id); setView({ screen: 'lesson', lessonId: id }); }}
             onStartGame={(lessonId, type) => setView({ screen: 'game', lessonId, gameType: type })}
+            onStartExam={() => setView({ screen: 'exam-trainer' })}
             onStartMix={type => {
               const vocab = shuffle(getAllMondelingVocabulary());
               const syntheticLesson: Lesson = {
@@ -69,6 +72,14 @@ export default function App() {
               setView({ screen: 'game-custom', lesson: syntheticLesson, gameType: type });
             }}
           />
+        </div>
+      );
+    }
+
+    if (view.screen === 'exam-trainer') {
+      return (
+        <div className="app">
+          <ExamTrainer onBack={goToDashboard} />
         </div>
       );
     }

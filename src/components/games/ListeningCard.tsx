@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { VocabularyItem } from '../../types';
+import { speakDutch } from '../../lib/speech';
 
 interface Props {
   item: VocabularyItem;
@@ -8,12 +9,7 @@ interface Props {
 }
 
 function speak(text: string) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = 'nl-NL';
-  utt.rate = 0.8;
-  window.speechSynthesis.speak(utt);
+  speakDutch(text, 0.8);
 }
 
 function buildOptions(item: VocabularyItem, allItems: VocabularyItem[]): VocabularyItem[] {

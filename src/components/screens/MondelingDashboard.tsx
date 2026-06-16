@@ -36,10 +36,11 @@ interface Props {
   onSelectLesson: (id: string) => void;
   onStartGame: (lessonId: string, type: GameType) => void;
   onStartMix: (type: GameType) => void;
+  onStartExam: () => void;
   onBack: () => void;
 }
 
-export function MondelingDashboard({ lessons, progress, onSelectLesson, onStartGame, onStartMix, onBack }: Props) {
+export function MondelingDashboard({ lessons, progress, onSelectLesson, onStartGame, onStartMix, onStartExam, onBack }: Props) {
   const today = new Date().toISOString().split('T')[0];
   const isExamToday = today === EXAM_DATE;
 
@@ -87,6 +88,15 @@ export function MondelingDashboard({ lessons, progress, onSelectLesson, onStartG
           </button>
         </div>
       )}
+
+      <button className="exam-studio-cta" onClick={onStartExam}>
+        <span className="exam-studio-cta-icon">🎤</span>
+        <span className="exam-studio-cta-body">
+          <strong>Spreekexamen-studio</strong>
+          <small>Oefen hardop · neem op · luister terug · 16 juni</small>
+        </span>
+        <span className="exam-studio-cta-arrow">→</span>
+      </button>
 
       <div className="quick-actions">
         <button className="quick-btn quick-btn--listen" onClick={() => onStartMix('listening')}>

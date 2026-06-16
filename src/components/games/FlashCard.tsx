@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { VocabularyItem, SRSRating, SRSCard } from '../../types';
 import { updateCard } from '../../lib/srs';
+import { speakDutch } from '../../lib/speech';
 
 interface Props {
   item: VocabularyItem;
@@ -20,12 +21,7 @@ function scheduleLabel(card: SRSCard | undefined, rating: SRSRating): string {
 }
 
 function speak(text: string) {
-  if (!window.speechSynthesis) return;
-  window.speechSynthesis.cancel();
-  const utt = new SpeechSynthesisUtterance(text);
-  utt.lang = 'nl-NL';
-  utt.rate = 0.85;
-  window.speechSynthesis.speak(utt);
+  speakDutch(text, 0.85);
 }
 
 const RATING_CONFIG: Array<{ label: string; cls: string; rating: SRSRating }> = [
